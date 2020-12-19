@@ -4,8 +4,8 @@
   "description": "This is a placeholder temporary website. Not much to see here, except a tailwind 2, webpack, postcss, sass and typescript setup.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env NODE_ENV=production webpack",
-    "start": "cross-env NODE_ENV=development concurrently -k \"webpack\" \"sleep 10 && node liveserver.js\""
+    "build": "./node_modules/.bin/cross-env NODE_ENV=production webpack",
+    "start": "./node_modules/.bin/cross-env NODE_ENV=development concurrently -k \"webpack\" \"sleep 10 && node liveserver.js\""
   },
   "repository": {
     "type": "git",
