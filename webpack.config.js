@@ -17,7 +17,7 @@ let htmlPlugins = pages.map(e => {
   return new HtmlWebpackPlugin({
     inject: false,
     chunks: [e],
-    filename: `dist/pages/${e}/index.html`,
+    filename: `dist/${e}.html`,
     template: `src/pages/${e}/${e}.html`
   });
 });
@@ -27,11 +27,7 @@ module.exports = {
   entry: entryPrep,
   output: {
     path: __dirname,
-    filename: 'dist/pages/[name]/bundle.js'
-  },
-  devServer: {
-    contentBase: './dist/pages/corp',
-    hot: true
+    filename: 'dist/[name].js'
   },
   plugins: [
     new CopyPlugin({
