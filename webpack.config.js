@@ -30,9 +30,8 @@ module.exports = {
     filename: 'dist/pages/[name]/bundle.js'
   },
   devServer: {
-    contentBase: './dist',
-    hot: true,
-    writeToDisk: true
+    contentBase: './dist/pages/corp',
+    hot: true
   },
   plugins: [
     new CopyPlugin({
@@ -48,34 +47,27 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: [
-          { loader: 'style-loader' },
-          {
-            loader: 'css-loader',
-            options: {
-              sourceMap: true,
-              modules: true,
-              localIdentName: '[local]_[hash:base64:5]'
-            }
-          },
-          {
-            loader: 'postcss-loader',
-            options: {
-              sourceMap: true,
-              config: {
-                path: 'postcss.config.js'
-              }
-            }
-          },
-          {
-            loader: 'sass-loader',
-            options: { sourceMap: true }
-          }
-        ]
+        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader', 'postcss-loader']
       }
     ]
   },
   resolve: {
     extensions: ['.ts', '.js']
+  },
+  watch: true,
+  watchOptions: {
+    aggregateTimeout: 600,
+    ignored: [
+      'dist/**',
+      'node_modules/**',
+      'package.json',
+      'package-lock.json',
+      'README.md',
+      'webpack.config.js'
+    ]
   }
 };
