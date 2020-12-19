@@ -4,8 +4,10 @@
   "description": "This is a placeholder temporary website. Not much to see here, except a tailwind 2, webpack, postcss, sass and typescript setup.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/cross-env NODE_ENV=production webpack",
-    "start": "./node_modules/.bin/cross-env NODE_ENV=development concurrently -k \"webpack\" \"sleep 10 && node liveserver.js\""
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "cross-env NODE_ENV=development concurrently -k \"webpack\" \"sleep 10 && node liveserver.js\"",
+    "predeploy": "cross-env NODE_ENV=production webpack",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "copy-webpack-plugin": "^7.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^5.0.1",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.5.0",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^1.3.3",
