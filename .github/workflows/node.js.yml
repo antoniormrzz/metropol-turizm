@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-
+    name: build
     runs-on: ubuntu-latest
 
     strategy:
@@ -28,7 +28,7 @@ jobs:
     - run: npm run build
       
   deploy:
-
+    needs: [build]
     runs-on: ubuntu-latest  
     
     steps:
