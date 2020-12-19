@@ -58,7 +58,7 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js']
   },
-  watch: true,
+  watch: (process.env.NODE_ENV === 'development'),
   watchOptions: {
     aggregateTimeout: 600,
     ignored: [

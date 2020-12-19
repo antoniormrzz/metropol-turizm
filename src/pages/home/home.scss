@@ -1,4 +1,5 @@
-body {
-  @apply bg-red-500;
-  color: blue;
-}
+// you can use tailwind here, e.g. @apply
+
+// you can import global styles too
+@import '../../global/styles/global';
+
