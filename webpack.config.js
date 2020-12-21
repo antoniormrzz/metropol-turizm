@@ -31,12 +31,27 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin({
-      patterns: [{ from: 'src/assets', to: 'dist/assets', noErrorOnMissing: true }]
+      patterns: [
+        {
+          from: 'src/assets',
+          to: 'dist/assets',
+          noErrorOnMissing: true,
+          globOptions: { ignore: ['**/nc-*'] }
+        }
+      ]
     }),
     ...htmlPlugins
   ],
   module: {
     rules: [
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          outputPath: 'dist/assets/img',
+          publicPath: 'assets/img/'
+        }
+      },
       {
         test: /\.ts$/,
         loader: 'babel-loader'
@@ -54,7 +69,7 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js']
   },
-  watch: (process.env.NODE_ENV === 'development'),
+  watch: process.env.NODE_ENV === 'development',
   watchOptions: {
     aggregateTimeout: 600,
     ignored: [
