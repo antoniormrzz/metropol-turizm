@@ -2,6 +2,7 @@ const path = require('path');
 const { readdirSync } = require('fs');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const getDirectories = source =>
   readdirSync(source, { withFileTypes: true })
@@ -30,6 +31,7 @@ module.exports = {
     filename: 'dist/[name].js'
   },
   plugins: [
+    new MiniCssExtractPlugin({filename:'dist/[name].css'}),
     new CopyPlugin({
       patterns: [
         {
@@ -58,11 +60,11 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader']
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader']
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
       }
     ]
   },
