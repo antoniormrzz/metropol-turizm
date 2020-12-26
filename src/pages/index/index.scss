@@ -44,6 +44,34 @@
   }
 }
 
+.mobile__slider{
+  &1 {
+    > div {
+      background-image: url('../../assets/img/nc-item1.jpg');
+    }
+  }
+  &2 {
+    > div {
+      background-image: url('../../assets/img/nc-item2.jpg');
+    }
+  }
+  &3 {
+    > div {
+      background-image: url('../../assets/img/nc-item3.jpg');
+    }
+  }
+  &4 {
+    > div {
+      background-image: url('../../assets/img/nc-item4.jpg');
+    }
+  }
+  &5 {
+    > div {
+      background-image: url('../../assets/img/nc-item5.jpg');
+    }
+  }
+}
+
 .home__plane {
   margin-top: 30px;
   margin-bottom: 20px;

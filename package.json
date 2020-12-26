@@ -60,6 +60,7 @@
     "last 3 iOS versions"
   ],
   "dependencies": {
+    "@splidejs/splide": "^2.4.21",
     "lottie-web": "^5.7.5",
     "tailwindcss": "^2.0.2"
   }
