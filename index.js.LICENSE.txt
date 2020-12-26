@@ -1,4 +1,11 @@
 /*!
+ * Splide.js
+ * Version  : 2.4.20
+ * License  : MIT
+ * Copyright: 2020 Naotoshi Fujita
+ */
+
+/*!
  Transformation Matrix v2.0
  (c) Epistemex 2014-2015
  www.epistemex.com
