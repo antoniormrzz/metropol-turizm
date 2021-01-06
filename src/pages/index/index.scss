@@ -12,44 +12,42 @@
     height: 500px;
     position: relative;
 
+    &:hover {
+      .image_after {
+        width: 33%;
+      }
+      .image_before {
+        width: 33%;
+      }
+    }
+
+    .image_after {
+      position: absolute;
+      background-size: cover;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      z-index: 9;
+      transition: all 2s ease-in;
+    }
+    .image_before {
+      @extend .image_after;
+      right: 0;
+    }
+
     &1 {
       > div {
         background-image: url("../../assets/img/Balkans/nc-balkan3.jpg");
       }
 
-
-      &:hover {
-        .image_after {
-          width: 33%;
-        }
-        .image_before {
-          width: 33%;
-        }
-      }
-
       .image_after {
-        position: absolute;
-        background-size: cover;
-        background-position-x: -106px;
-        top: 0;
-        left: 0;
-        width: 0;
         background-image: url("../../assets/img/Balkans/nc-balkan1.jpg");
-        height: 100%;
-        z-index: 9;
-        transition: all 2s ease-in;
+        background-position-x: -106px;
       }
       .image_before {
-        position: absolute;
-        background-size: cover;
-        background-position-x: -100px;
-        top: 0;
-        right: 0;
-        width: 0;
         background-image: url("../../assets/img/Balkans/nc-balkan2.jpg");
-        height: 100%;
-        z-index: 9;
-        transition: all 2s ease-in;
+        background-position-x: -100px;
       }
     }
     &2 {
