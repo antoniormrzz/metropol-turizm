@@ -1,12 +1,12 @@
 // you can use tailwind here, e.g. @apply
 
 // you can import global styles too
-@import '../../global/styles/global';
+@import "../../global/styles/global";
 
 .home__banner {
   overflow: hidden;
   max-width: 100%;
-  
+
   &-item {
     width: calc(20% - 5px);
     height: 500px;
@@ -14,28 +14,69 @@
 
     &1 {
       > div {
-        background-image: url('../../assets/img/nc-item1.jpg');
+        background-image: url("../../assets/img/Balkans/nc-balkan3.jpg");
+      }
+
+
+      &:hover {
+        .image_after {
+          width: 33%;
+        }
+        .image_before {
+          width: 33%;
+        }
+      }
+
+      .image_after {
+        position: absolute;
+        background-size: cover;
+        background-position-x: -106px;
+        top: 0;
+        left: 0;
+        width: 0;
+        background-image: url("../../assets/img/Balkans/nc-balkan1.jpg");
+        height: 100%;
+        z-index: 9;
+        transition: all 2s ease-in;
+      }
+      .image_before {
+        position: absolute;
+        background-size: cover;
+        background-position-x: -100px;
+        top: 0;
+        right: 0;
+        width: 0;
+        background-image: url("../../assets/img/Balkans/nc-balkan2.jpg");
+        height: 100%;
+        z-index: 9;
+        transition: all 2s ease-in;
       }
     }
     &2 {
       > div {
-        background-image: url('../../assets/img/nc-item2.jpg');
+        background-image: url("../../assets/img/nc-item2.jpg");
       }
     }
     &3 {
       > div {
-        background-image: url('../../assets/img/nc-item3.jpg');
+        background-image: url("../../assets/img/nc-item3.jpg");
       }
     }
     &4 {
       > div {
-        background-image: url('../../assets/img/nc-item4.jpg');
+        background-image: url("../../assets/img/nc-item4.jpg");
       }
     }
     &5 {
       > div {
-        background-image: url('../../assets/img/nc-item5.jpg');
+        background-image: url("../../assets/img/nc-item5.jpg");
       }
+    }
+
+    &_band {
+      display: flex;
+      align-items: center;
+      height: 80px;
     }
 
     @media only screen and (max-width: 767px) {
@@ -44,30 +85,30 @@
   }
 }
 
-.mobile__slider{
+.mobile__slider {
   &1 {
     > div {
-      background-image: url('../../assets/img/nc-item1.jpg');
+      background-image: url("../../assets/img/nc-item1.jpg");
     }
   }
   &2 {
     > div {
-      background-image: url('../../assets/img/nc-item2.jpg');
+      background-image: url("../../assets/img/nc-item2.jpg");
     }
   }
   &3 {
     > div {
-      background-image: url('../../assets/img/nc-item3.jpg');
+      background-image: url("../../assets/img/nc-item3.jpg");
     }
   }
   &4 {
     > div {
-      background-image: url('../../assets/img/nc-item4.jpg');
+      background-image: url("../../assets/img/nc-item4.jpg");
     }
   }
   &5 {
     > div {
-      background-image: url('../../assets/img/nc-item5.jpg');
+      background-image: url("../../assets/img/nc-item5.jpg");
     }
   }
 }
