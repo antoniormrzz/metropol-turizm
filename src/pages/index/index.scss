@@ -11,6 +11,8 @@
     width: calc(20% - 5px);
     height: 500px;
     position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
 
     &:hover {
       .image_after {
@@ -111,7 +113,12 @@
     &_band {
       display: flex;
       align-items: center;
-      height: 60px;
+      height: 40px;
+      width: 100%;
+
+      img {
+        width: 75px;
+      }
     }
 
     @media only screen and (max-width: 767px) {
