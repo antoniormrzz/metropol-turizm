@@ -220,18 +220,37 @@
 
       <div class="container mx-auto mt-12 mb-12 px-4">
         <div class="grid md:grid-cols-2 sm:grid-cols-1">
-          <div class="px-6 space-y-5 pb-10 h-auto">
-            <input class="border border-gray-400 w-full" type="text" />
-            <input class="border border-gray-400 w-full" type="text" />
-            <select name="cars" id="cars">
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
-              <option value="mercedes">Mercedes</option>
-              <option value="audi">Audi</option>
-            </select>
-            <textarea class="border border-gray-400 w-full" id="textarea1" name="textarea1" rows="6" cols="50">
-              </textarea>
-            <button class="ml-auto border border-gray-400 px-5">Buton</button>
+          <div class="px-6 space-y-4 pb-10 h-auto">
+            <div>
+              <label for="" class="text-xs font-semibold px-1 text-gray-700">Name</label>
+              <div class="flex">
+                <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
+                <input type="text" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="John Wick">
+              </div>
+            </div>
+            <div>
+              <label for="" class="text-xs font-semibold px-1 text-gray-700">Email</label>
+              <div class="flex">
+                  <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
+                  <input type="text" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="example@example.com">
+              </div>
+            </div>
+            <div>
+              <label class="text-xs font-semibold px-1 text-gray-700">About</label>
+              <select class="w-full py-2 px-2 bg-white rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500">
+                <option value="tour">Tour</option>
+                <option value="dmc">DMC</option>
+                <option value="mice">Mice</option>
+                <option value="corparition">Corparition</option>
+                <option value="balkans">Balkans</option>
+              </select>
+            </div>
+            <div>
+              <label for="" class="text-xs font-semibold px-1 text-gray-700">Message</label>
+              <textarea placeholder="Your message in here..." class="w-full py-2 px-2 bg-white rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" rows="6">
+                </textarea>
+            </div>
+            <button class="ml-auto w-1/5 max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">Send</button>
           </div>
           <div class="px-6">
             <p>
