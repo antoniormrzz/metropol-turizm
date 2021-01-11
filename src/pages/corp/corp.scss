@@ -1,2 +1,12 @@
-@import '../../global/styles/global';
+@import "../../global/styles/global";
 
+.corp-main-img {
+  background-image: url("../../assets/img/Corp/nc-corp2.jpg");
+}
+
+.glide__slide {
+  border: 1px solid black;
+  line-height: 100px;
+  margin: 0;
+  text-align: center;
+}
