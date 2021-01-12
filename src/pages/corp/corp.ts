@@ -7,8 +7,8 @@ import '@glidejs/glide/dist/css/glide.theme.min.css';
 
 var glideMulti1 = new Glide('.multi1', {
     type: 'carousel',
-    autoplay: 3500,
-    perView: 3
+    autoplay: 2000,
+    perView: 6
   });
 
 
