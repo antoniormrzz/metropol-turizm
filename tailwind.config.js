@@ -11,7 +11,8 @@ module.exports = {
     },
     fontSize: {
       content: ["20px", "32px"],
-      title: ["60px", "72px"]
+      title: ["60px", "72px"],
+      titlemobile: ["40px", "52px"]
     },
   },
   variants: {
