@@ -1,254 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
 
-  <body>
-    <div class="h-full w-full">
-      <div class="container mx-auto">
-        <div class="w-full flex flex-row items-center px-1">
-          <a class="flex flex-row items-center py-2" href="/">
-            <img src="assets/img/logo.jpg" class="w-16" alt="Logo" />
-            <div class="font-bold text-2xl pl-2">VENNTOUR</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/img/venntourlogo.png" type="image/x-icon">
+  <title>VennTour</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="h-full w-full">
+    <div class="w-full border-t-0 border-r-0 border-left-0 ">
+      <div class="h-12">
+      </div>
+      <div class="absolute top-0 left-0 w-full ">
+        <div class="w-full fixed z-20 bg-white shadow">
+          <div class="container relative mx-auto">
+            <div class="flex flex-row justify-end md:p-5 p-6">
+              <div>
+                <!-- <a class="hidden md:inline-block mx-2 font-semibold" href="#">Anasayfa</a> -->
+                <a class="hidden md:inline-block mx-2 font-semibold" href="#">Hakkımızda</a>
+                <a class="hidden md:inline-block mx-2 font-semibold" href="#">İletişim</a>
+                <div id="mobilemenu" class="z-40"><img class="block md:hidden w-6" src="assets/img/mobilemenu.svg"
+                    alt="mobile menu"></div>
+              </div>
+            </div>
+            <div class="absolute flex flex-row justify-center w-full left-0 top-12">
+              <div class="-mt-6">
+                <img class="w-24 shadow" src="assets/img/venntourlogo.png" alt="venntour logo">
+              </div>
+            </div>
+            <div id="mobilemenu-container" style="opacity: 0;overflow: hidden;"
+              class="absolute flex flex-col items-center px-14 py-2 top-16 z-30 right-0 bg-red-50 md:hidden border-red-500 border-l-2">
+              <!-- <a href="" class="inline-block my-3 font-semibold border-red-300 border-b-2"></a> -->
+              <a href="#" class="block my-6 font-semibold border-red-300 border-b-2">Hakkımızda</a>
+              <a href="#" class="block my-6 font-semibold border-red-300 border-b-2">İletişim</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container mx-auto mt-12 md:hidden">
+      <div id="splide" class="md:hidden splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="home__banner-item home__banner-item1 grow-main overflow-hidden md:mt-5 mt-1">
+                <div class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0">
+                  <a class="w-full h-full block z-20" href="tour.html">
+                    <div
+                      class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+                      <span class="bg-white px-5 py-2 text-lg font-bold md:mb-10"><img class="w-1/4 mx-auto"
+                          src="assets/img/venntour.png" alt="" /></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="home__banner-item home__banner-item2 grow-main overflow-hidden md:mt-5 mt-1">
+                <div class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0">
+                  <a class="w-full h-full block z-20" href="dmc.html">
+                    <div
+                      class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+                      <span class="bg-white px-5 py-2 text-lg font-bold md:mb-10"><img class="w-1/4 mx-auto"
+                          src="assets/img/venndmc.png" alt="" /></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="home__banner-item home__banner-item3 grow-main overflow-hidden md:mt-5 mt-1">
+                <div class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0">
+                  <a class="w-full h-full block z-20" href="mice.html">
+                    <div
+                      class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+                      <span class="bg-white px-5 py-2 text-lg font-bold md:mb-10"><img class="w-1/4 mx-auto"
+                          src="assets/img/vennmice.png" alt="" /></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="home__banner-item home__banner-item4 grow-main overflow-hidden md:mt-5 mt-1">
+                <div class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0">
+                  <a class="w-full h-full block z-20" href="/corp.html">
+                    <div
+                      class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+                      <span class="bg-white px-5 py-2 text-lg font-bold md:mb-10"><img class="w-1/4 mx-auto"
+                          src="assets/img/venncorp.png" alt="" /></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="home__banner-item home__banner-item5 grow-main overflow-hidden md:mt-5 mt-1">
+                <div class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0">
+                  <a class="w-full h-full block z-20" href="balkans.html">
+                    <div
+                      class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+                      <span class="bg-white px-5 py-2 text-lg font-bold md:mb-10"><img class="w-1/4 mx-auto"
+                          src="assets/img/vennbalkans.png" alt="" /></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full hidden md:flex flex-col home__banner md:justify-between md:flex-row mt-4">
+      <div class="home__banner-item home__banner-item1 grow-main overflow-hidden">
+        <!-- <div class="image_before"></div>
+          <div class="image_after"></div> -->
+        <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
+          <a class="w-full h-full block z-20" href="tour.html">
+            <div
+              class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-yellow-400 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+              
+              <span class="white-hollow px-5 py-2 text-lg font-bold md:mb-0 home__banner-item_band bg-opacity-70">
+                <img class="w-1/4 mx-auto" src="assets/img/venntour.png" alt="" />
+              </span>
+            </div>
           </a>
         </div>
-        <div id="splide" class="md:hidden splide">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide">
-                <div
-                  class="home__banner-item home__banner-item1 grow-main overflow-hidden md:mt-5 mt-1"
-                >
-                  <div
-                    class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0"
-                  >
-                    <a class="w-full h-full block z-20" href="tour.html">
-                      <div
-                        class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-                      >
-                        <span
-                          class="bg-white px-5 py-2 text-lg font-bold md:mb-10"
-                          ><img
-                            class="w-1/4 mx-auto"
-                            src="assets/img/venntour.png"
-                            alt=""
-                        /></span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div
-                  class="home__banner-item home__banner-item2 grow-main overflow-hidden md:mt-5 mt-1"
-                >
-                  <div
-                    class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0"
-                  >
-                    <a class="w-full h-full block z-20" href="dmc.html">
-                      <div
-                        class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-                      >
-                        <span
-                          class="bg-white px-5 py-2 text-lg font-bold md:mb-10"
-                          ><img
-                            class="w-1/4 mx-auto"
-                            src="assets/img/venndmc.png"
-                            alt=""
-                        /></span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div
-                  class="home__banner-item home__banner-item3 grow-main overflow-hidden md:mt-5 mt-1"
-                >
-                  <div
-                    class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0"
-                  >
-                    <a class="w-full h-full block z-20" href="mice.html">
-                      <div
-                        class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-                      >
-                        <span
-                          class="bg-white px-5 py-2 text-lg font-bold md:mb-10"
-                          ><img
-                            class="w-1/4 mx-auto"
-                            src="assets/img/vennmice.png"
-                            alt=""
-                        /></span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div
-                  class="home__banner-item home__banner-item4 grow-main overflow-hidden md:mt-5 mt-1"
-                >
-                  <div
-                    class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0"
-                  >
-                    <a class="w-full h-full block z-20" href="/corp.html">
-                      <div
-                        class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-                      >
-                        <span
-                          class="bg-white px-5 py-2 text-lg font-bold md:mb-10"
-                          ><img
-                            class="w-1/4 mx-auto"
-                            src="assets/img/venncorp.png"
-                            alt=""
-                        /></span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <div
-                  class="home__banner-item home__banner-item5 grow-main overflow-hidden md:mt-5 mt-1"
-                >
-                  <div
-                    class="w-full h-full hvr-grow object-fill bg-cover absolute top-0 left-0"
-                  >
-                    <a class="w-full h-full block z-20" href="balkans.html">
-                      <div
-                        class="w-full h-full absolute top-0 md:hover:bg-opacity-40 md:hover:opacity-80 left-0 md:opacity-0 bg-opacity-30 opacity-75 bg-black home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-                      >
-                        <span
-                          class="bg-white px-5 py-2 text-lg font-bold md:mb-10"
-                          ><img
-                            class="w-1/4 mx-auto"
-                            src="assets/img/vennbalkans.png"
-                            alt=""
-                        /></span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
+      </div>
+
+      <div class="home__banner-item home__banner-item2 grow-main overflow-hidden md:mt-5 mt-1">
+        <!-- <div class="image_before"></div>
+          <div class="image_after"></div> -->
+        <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
+          <a class="w-full h-full block z-20" href="dmc.html">
+            <div
+              class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-blue-900 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+              <span class="white-hollow  px-5 py-2 text-lg font-bold md:mb-0 home__banner-item_band bg-opacity-70"><img
+                  class="w-1/4 mx-auto" src="assets/img/venndmc.png" alt="" /></span>
+            </div>
+          </a>
         </div>
       </div>
 
-      <div
-        class="w-full mt-3 hidden md:flex flex-col home__banner md:justify-between md:flex-row"
-      >
-        <div
-          class="home__banner-item home__banner-item1 grow-main overflow-hidden"
-        >
-          <!-- <div class="image_before"></div>
+      <div class="home__banner-item home__banner-item3 grow-main overflow-hidden md:mt-10 mt-1">
+        <!-- <div class="image_before"></div>
           <div class="image_after"></div> -->
-          <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
-            <a class="w-full h-full block z-20" href="tour.html">
-              <div
-                class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-yellow-400 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-              >
-                <span
-                  class="bg-white px-5 py-2 text-lg font-bold md:mb-14 home__banner-item_band bg-opacity-70"
-                  ><img
-                    class="w-1/4 mx-auto"
-                    src="assets/img/venntour.png"
-                    alt=""
-                /></span>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div
-          class="home__banner-item home__banner-item2 grow-main overflow-hidden md:mt-5 mt-1"
-        >
-          <!-- <div class="image_before"></div>
-          <div class="image_after"></div> -->
-          <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
-            <a class="w-full h-full block z-20" href="dmc.html">
-              <div
-                class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-blue-900 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-              >
-                <span
-                  class="bg-white px-5 py-2 text-lg font-bold md:mb-14 home__banner-item_band bg-opacity-70"
-                  ><img
-                    class="w-1/4 mx-auto"
-                    src="assets/img/venndmc.png"
-                    alt=""
-                /></span>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div
-          class="home__banner-item home__banner-item3 grow-main overflow-hidden md:mt-0 mt-1"
-        >
-          <!-- <div class="image_before"></div>
-          <div class="image_after"></div> -->
-          <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
-            <a class="w-full h-full block z-20" href="mice.html">
-              <div
-                class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-yellow-500 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-              >
-                <span
-                  class="bg-white px-5 py-2 text-lg font-bold md:mb-14 home__banner-item_band bg-opacity-70"
-                  ><img
-                    class="w-1/4 mx-auto"
-                    src="assets/img/vennmice.png"
-                    alt=""
-                /></span>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div
-          class="home__banner-item home__banner-item4 grow-main overflow-hidden md:mt-5 mt-1"
-        >
-          <!-- <div class="image_before"></div>
-          <div class="image_after"></div> -->
-          <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
-            <a class="w-full h-full block z-20" href="corp.html">
-              <div
-                class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-red-500 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-              >
-                <span
-                  class="bg-white px-5 py-2 text-lg font-bold md:mb-14 home__banner-item_band bg-opacity-70"
-                  ><img class="mx-auto" src="assets/img/venncorp.png" alt=""
-                /></span>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div
-          class="home__banner-item home__banner-item5 grow-main overflow-hidden md:mt-0 mt-1"
-        >
-          <!-- <div class="image_before"></div>
-          <div class="image_after"></div> -->
-          <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
-            <a class="w-full h-full block z-20" href="balkans.html">
-              <div
-                class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-green-900 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10"
-              >
-                <span
-                  class="bg-white px-5 py-2 text-lg font-bold md:mb-14 home__banner-item_band bg-opacity-70"
-                  ><img
-                    class="w-1/4 mx-auto"
-                    src="assets/img/vennbalkans.png"
-                    alt=""
-                /></span>
-              </div>
-            </a>
-          </div>
+        <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
+          <a class="w-full h-full block z-20" href="mice.html">
+            <div
+              class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-yellow-500 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+              <span class="white-hollow  px-5 py-2 text-lg font-bold md:mb-0 home__banner-item_band bg-opacity-70"><img
+                  class="w-1/4 mx-auto" src="assets/img/vennmice.png" alt="" /></span>
+            </div>
+          </a>
         </div>
       </div>
+
+      <div class="home__banner-item home__banner-item4 grow-main overflow-hidden md:mt-5 mt-1">
+        <!-- <div class="image_before"></div>
+          <div class="image_after"></div> -->
+        <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
+          <a class="w-full h-full block z-20" href="corp.html">
+            <div
+              class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-red-500 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+              <span class="white-hollow  px-5 py-2 text-lg font-bold md:mb-0 home__banner-item_band bg-opacity-70"><img
+                  class="mx-auto" src="assets/img/venncorp.png" alt="" /></span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="home__banner-item home__banner-item5 grow-main overflow-hidden md:mt-0 mt-1">
+        <!-- <div class="image_before"></div>
+          <div class="image_after"></div> -->
+        <div class="w-full h-full object-fill bg-cover absolute top-0 left-0">
+          <a class="w-full h-full block z-20" href="balkans.html">
+            <div
+              class="w-full h-full absolute top-0 md:hover:bg-opacity-30 left-0 md:opacity-100 bg-opacity-0 bg-green-900 home__banner-item__overlay flex flex-col md:justify-end justify-center items-center z-10">
+              <span class="white-hollow  px-5 py-2 text-lg font-bold md:mb-0 home__banner-item_band bg-opacity-70"><img
+                  class="w-1/4 mx-auto" src="assets/img/vennbalkans.png" alt="" /></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
 
       <div class="container mx-auto px-2 md:px-0" style="margin-top:160px">
 
@@ -315,13 +255,17 @@
             <div>
               <label for="" class="text-xs font-semibold px-1 text-gray-700">Email</label>
               <div class="flex">
-                  <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
-                  <input type="text" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="example@example.com">
+                <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i
+                    class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
+                <input type="text"
+                  class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
+                  placeholder="example@example.com">
               </div>
             </div>
             <div>
-              <label class="text-xs font-semibold px-1 text-gray-700">Konu</label>
-              <select class="w-full py-2 px-2 bg-white rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500">
+              <label class="text-xs font-semibold px-1 text-gray-700">About</label>
+              <select
+                class="w-full py-2 px-2 bg-white rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500">
                 <option value="tour">Tour</option>
                 <option value="dmc">DMC</option>
                 <option value="mice">Mice</option>
@@ -330,10 +274,13 @@
               </select>
             </div>
             <div>
-              <label for="" class="text-xs font-semibold px-1 text-gray-700">Mesaj</label>
-              <textarea class="w-full py-2 px-2 bg-white rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" rows="6"></textarea>
+              <label for="" class="text-xs font-semibold px-1 text-gray-700">Message</label>
+              <textarea
+                class="w-full py-2 px-2 bg-white rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
+                rows="6"></textarea>
             </div>
-            <button class="ml-auto w-1/5 max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">Send</button>
+            <button
+              class="ml-auto w-1/5 max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">Send</button>
           </div>
           <div class="px-6 flex items-center">
             <p class="pl-6 w-3/4 text-content pt-6 md:pt-0">
@@ -343,20 +290,20 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class="container mx-auto flex items-center justify-between">
+    <footer class="footer py-5 md:py-5">
+      <div class="container mx-auto flex items-center justify-between flex-col md:flex-row px-5 md:px-0">
         <div class="social-media-icons">
-          <a href="#">
+          <a href="https://www.instagram.com/venntourtr/">
             <img src="assets/img/instagram.svg" alt="Instagram" />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/venntourtr">
             <img src="assets/img/twitter.svg" alt="Twitter"/>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/company/venntourturkey">
             <img src="assets/img/linkedin.svg" alt="Linkedin"/>
           </a>
         </div>
-        <a href="#">
+        <a href="https://www.tursab.org.tr" class="py-3 md:py-0">
           <img src="assets/img/turksab.png" alt="Turksab" />
         </a>
         <p class="address">
@@ -367,5 +314,6 @@
 
     <!-- injection is off, all modules need to inject their own js file -->
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>

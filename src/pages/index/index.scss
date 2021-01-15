@@ -113,7 +113,7 @@
     &_band {
       display: flex;
       align-items: center;
-      height: 40px;
+      height: 200px;
       width: 100%;
 
       img {
@@ -199,24 +199,9 @@
     width: 50%;
     z-index: 5;
   }
+}
 
-  .footer {
-    display: flex;
-    align-items: center;
-    height: 130px;
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
-
-    .social-media-icons {
-      display: flex;
-
-      a {
-        margin-right: 20px;
-      }
-    }
-
-    .address {
-      color: #808080;
-      font-size: 18px;
-    }
-  }
+.white-hollow{
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 27%, rgba(255,255,255,0) 92%);
 }
