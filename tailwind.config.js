@@ -9,6 +9,10 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
     },
+    fontSize: {
+      content: ['20px', '32px'],
+      title: ['60px', '72px']
+    }
   },
   variants: {
     extend: {},
