@@ -166,6 +166,27 @@
   flex-direction: row;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  min-height: 130px;
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+}
+
+.social-media-icons {
+  display: flex;
+  flex-wrap: nowrap;
+
+  a {
+    margin-right: 20px;
+  }
+}
+
+.address {
+  color: #808080;
+  font-size: 18px;
+}
+
 @media only screen and (min-width: 768px) {
   /* Grow */
   .hvr-grow {
@@ -198,25 +219,5 @@
   .grow-main:active {
     width: 50%;
     z-index: 5;
-  }
-
-  .footer {
-    display: flex;
-    align-items: center;
-    height: 130px;
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
-
-    .social-media-icons {
-      display: flex;
-
-      a {
-        margin-right: 20px;
-      }
-    }
-
-    .address {
-      color: #808080;
-      font-size: 18px;
-    }
   }
 }
