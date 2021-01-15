@@ -8,27 +8,83 @@
   </head>
 
   <body>
-    <header class="shadow">
-      <div class="container mx-auto px-4 md:px-0">
-        <a class="flex flex-row items-center py-2" href="/">
-          <img src="https://via.placeholder.com/50" alt="Logo" />
-          <div class="font-bold text-lg pl-2">Kardeşler Turizim</div>
-        </a>
+    <div class="w-full border-t-0 border-r-0 border-left-0">
+      <div class="h-12"></div>
+      <div class="absolute top-0 left-0 w-full">
+        <div class="w-full fixed z-20 bg-white shadow">
+          <div class="container relative mx-auto">
+            <div class="flex flex-row justify-end md:p-5 p-6">
+              <div>
+                <a
+                  class="hidden md:inline-block mx-2 font-semibold"
+                  href="/metropol-turizm"
+                  >Anasayfa</a
+                >
+                <a class="hidden md:inline-block mx-2 font-semibold" href="#"
+                  >Hakkımızda</a
+                >
+                <a class="hidden md:inline-block mx-2 font-semibold" href="#"
+                  >İletişim</a
+                >
+                <div id="mobilemenu" class="z-40">
+                  <img
+                    class="block md:hidden w-6"
+                    src="assets/img/mobilemenu.svg"
+                    alt="mobile menu"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute flex flex-row justify-center w-full left-0 top-12"
+            >
+              <div class="-mt-6">
+                <img
+                  class="w-24 shadow"
+                  src="assets/img/venntourlogo.png"
+                  alt="venntour logo"
+                />
+              </div>
+            </div>
+            <div
+              id="mobilemenu-container"
+              style="opacity: 0; overflow: hidden"
+              class="absolute flex flex-col items-center px-14 py-2 top-16 z-30 right-0 bg-red-50 md:hidden border-red-500 border-l-2"
+            >
+              <a
+                href="/metropol-turizm"
+                class="block my-3 font-semibold border-red-300 border-b-2"
+                >Anasayfa</a
+              >
+              <a
+                href="#"
+                class="block my-6 font-semibold border-red-300 border-b-2"
+                >Hakkımızda</a
+              >
+              <a
+                href="#"
+                class="block my-6 font-semibold border-red-300 border-b-2"
+                >İletişim</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-    </header>
+    </div>
     <main>
-      <div class="container mx-auto mt-12 mb-12">
+      <div class="mt-4">
         <div
-          class="relative bg-cover bg-center bg-no-repeat h-96"
-          style="
-            background-image: url(assets/img/6313005bcdac4e2d4a91daeaf24ef477.jpg);
-          "
+          class="relative bg-cover bg-center bg-no-repeat"
+          style="height: 510px; background-image: url(assets/img/dmc-cover.png)"
         >
-          <button
-            class="absolute bottom-10 left-10 transition duration-500 ease-in-out bg-blue-500 hover:bg-blue-600 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-md"
-          >
-            Bilgi Al
-          </button>
+          <div class="absolute bottom-6 flex justify-center w-full">
+            <button
+              class="transition duration-500 ease-in-out hover:bg-red-500 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-full"
+              style="background-color: #ee2930"
+            >
+              Bilgi Al
+            </button>
+          </div>
         </div>
       </div>
 
@@ -134,6 +190,6 @@
       </div>
     </main>
 
-    <script src="corp.js"></script>
+    <script src="dmc.js"></script>
   </body>
 </html>
