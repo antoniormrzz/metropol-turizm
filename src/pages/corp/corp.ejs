@@ -4,20 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Corp</title>
-    <link rel="stylesheet" href="corp.css" />
   </head>
 
   <body>
-    <header class="shadow">
-      <div class="container mx-auto px-4 md:px-0">
-        <a class="flex flex-row items-center py-2" href="/">
-          <img src="https://via.placeholder.com/50" alt="Logo" />
-          <div class="font-bold text-lg pl-2">Kardeşler Turizim</div>
-        </a>
-      </div>
-    </header>
+    <%- include('../../views/header_sub'); %>
     <main>
-      <div class="container mx-auto mt-12 mb-12">
+      <div>
         <div
           class="relative bg-cover bg-center bg-no-repeat h-96 corp-main-img"
         >
@@ -187,7 +179,6 @@
       </div>
 
     </main>
-
-    <script src="corp.js"></script>
+    <%- include('../../views/footer'); %>
   </body>
 </html>
