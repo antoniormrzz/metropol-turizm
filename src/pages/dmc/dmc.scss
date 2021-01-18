@@ -1,2 +1,35 @@
-@import '../../global/styles/global';
+@import "../../global/styles/global";
 
+.bg-dmc {
+  height: 510px;
+  background-image: url("../../assets/img/nc-dmc-cover.png");
+}
+
+.bg-balloon {
+  background-image: url("../../assets/img/bg-patterns/nc-hot-air-balloon.png");
+  background-repeat: no-repeat;
+  background-position-x: -100px;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
+
+.bg-travel {
+  background-image: url("../../assets/img/bg-patterns/nc-travel.png");
+  background-repeat: no-repeat;
+  background-position-x: 1460px;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
+
+.bg-bus {
+  background-image: url("../../assets/img/bg-patterns/nc-bus.png");
+  background-repeat: no-repeat;
+  background-position-x: -150px;
+  background-position-y: -50px;
+  background-size: 50%;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
