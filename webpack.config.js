@@ -55,6 +55,14 @@ module.exports = {
         }
       },
       {
+        test: /\.(woff2?)$/i,
+        loader: 'file-loader',
+        options: {
+          outputPath: 'dist/assets/fonts',
+          publicPath: 'assets/fonts/'
+        }
+      },
+      {
         test: /\.ts$/,
         loader: 'babel-loader'
       },
