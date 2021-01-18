@@ -16,10 +16,10 @@ pages.forEach(e => {
 });
 let htmlPlugins = pages.map(e => {
   return new HtmlWebpackPlugin({
-    inject: false,
+    inject: true,
     chunks: [e],
-    filename: `dist/${e}.html`,
-    template: `src/pages/${e}/${e}.html`
+    filename: `${e}.html`,
+    template: `src/pages/${e}/${e}.ejs`
   });
 });
 
@@ -27,16 +27,16 @@ module.exports = {
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   entry: entryPrep,
   output: {
-    path: __dirname,
-    filename: 'dist/[name].js'
+    path: path.join(__dirname,'dist'),
+    filename: '[name].[contenthash].js'
   },
   plugins: [
-    new MiniCssExtractPlugin({filename:'dist/[name].css'}),
+    new MiniCssExtractPlugin({filename:'[name].[contenthash].css'}),
     new CopyPlugin({
       patterns: [
         {
           from: 'src/assets',
-          to: 'dist/assets',
+          to: 'assets',
           noErrorOnMissing: true,
           globOptions: { ignore: ['**/nc-*'] }
         }
@@ -47,10 +47,22 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(ejs)$/,
+        use: [{
+          loader: 'render-template-loader',
+          options: {
+            engine: 'ejs',
+            engineOptions: function (info) {
+              return { filename: info.filename }
+            }
+          }
+        }]
+      },
+      {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'file-loader',
         options: {
-          outputPath: 'dist/assets/img',
+          outputPath: 'assets/img',
           publicPath: 'assets/img/'
         }
       },
@@ -58,7 +70,7 @@ module.exports = {
         test: /\.(woff2?)$/i,
         loader: 'file-loader',
         options: {
-          outputPath: 'dist/assets/fonts',
+          outputPath: 'assets/fonts',
           publicPath: 'assets/fonts/'
         }
       },
