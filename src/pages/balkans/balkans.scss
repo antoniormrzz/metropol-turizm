@@ -1,2 +1,52 @@
-@import '../../global/styles/global';
+@import "../../global/styles/global";
 
+.bg-balkans {
+  height: 510px;
+  background-image: url("../../assets/img/nc-balkans-cover.png");
+}
+
+.bg-plane {
+  background-image: url("../../assets/img/bg-patterns/nc-plane.png");
+  background-repeat: no-repeat;
+  background-position-y: 200px;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
+
+.bg-ship {
+  background-image: url("../../assets/img/bg-patterns/nc-ship.png");
+  background-repeat: no-repeat;
+  background-position-x: 1500px;
+  background-position-y: center;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
+.bg-ski {
+  background-image: url("../../assets/img/bg-patterns/nc-ski.png");
+  background-repeat: no-repeat;
+  background-position-x: -250px;
+  background-position-y: center;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
+.bg-skuba {
+  background-image: url("../../assets/img/bg-patterns/nc-scuba.png");
+  background-repeat: no-repeat;
+  background-position-x: 1550px;
+  background-position-y: 200px;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
+.bg-river {
+  background-image: url("../../assets/img/bg-patterns/nc-river.png");
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+  background-position-y: center;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
