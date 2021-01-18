@@ -195,3 +195,22 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Felipa';
+  src: url('Felipa-Regular.woff2') format('woff2'),
+      url('Felipa-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Abhaya Libre';
+  src: url('AbhayaLibre-Regular.woff2') format('woff2'),
+      url('AbhayaLibre-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
