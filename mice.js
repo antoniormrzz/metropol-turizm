@@ -1,0 +1,1 @@
+!function(){"use strict";var e;e=!1,document.getElementById("mobilemenu").addEventListener("click",(function(){document.getElementById("mobilemenu-container").style.opacity=e?"0":"1",document.getElementById("mobilemenu-container").style.height=e?"0":"unset",e=!e}))}();
