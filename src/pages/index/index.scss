@@ -162,11 +162,17 @@
 }
 
 .quotation {
+  font-family: 'Abhaya Libre';
   &:before,
   &:after {
     content: '"';
     font-size: 80px;
     color: red;
-    font-family: "Alek";
+    font-family: "Abhaya Libre";
   }
+}
+
+.chief-seattle {
+  font-family: 'Felipa';
+  font-size: 48px;
 }
