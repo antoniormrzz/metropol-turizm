@@ -211,9 +211,11 @@
 }
 
 .quotation {
-  &:before,&:after {
+  &:before,
+  &:after {
     content: '"';
-    font-size: 75px;
+    font-size: 80px;
     color: red;
+    font-family: "Alek";
   }
 }

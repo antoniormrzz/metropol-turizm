@@ -20,22 +20,24 @@
             <div class="flex flex-row justify-end md:p-5 p-6">
               <div>
                 <!-- <a class="hidden md:inline-block mx-2 font-semibold" href="#">Anasayfa</a> -->
-                <a class="hidden md:inline-block mx-2 font-semibold" href="#">Hakkımızda</a>
-                <a class="hidden md:inline-block mx-2 font-semibold" href="#">İletişim</a>
+                <a class="hidden md:inline-block mx-2 font-semibold" href="#hakkimizda">Hakkımızda</a>
+                <a class="hidden md:inline-block mx-2 font-semibold" href="#iletisim">İletişim</a>
                 <div id="mobilemenu" class="z-40"><img class="block md:hidden w-6" src="assets/img/mobilemenu.svg"
                     alt="mobile menu"></div>
               </div>
             </div>
             <div class="absolute flex flex-row justify-center w-full left-0 top-12">
               <div class="-mt-6">
+                <a href="/metropol-turizm">
                 <img class="w-24 shadow" src="assets/img/venntourlogo.png" alt="venntour logo">
+              </a>
               </div>
             </div>
             <div id="mobilemenu-container" style="opacity: 0;overflow: hidden;"
               class="absolute flex flex-col items-center px-14 py-2 top-16 z-30 right-0 bg-red-50 md:hidden border-red-500 border-l-2">
               <!-- <a href="" class="inline-block my-3 font-semibold border-red-300 border-b-2"></a> -->
-              <a href="#" class="block my-6 font-semibold border-red-300 border-b-2">Hakkımızda</a>
-              <a href="#" class="block my-6 font-semibold border-red-300 border-b-2">İletişim</a>
+              <a href="#hakkimizda" class="block my-6 font-semibold border-red-300 border-b-2">Hakkımızda</a>
+              <a href="#iletisim" class="block my-6 font-semibold border-red-300 border-b-2">İletişim</a>
             </div>
           </div>
         </div>
@@ -188,11 +190,13 @@
           </a>
         </div>
       </div>
+     
     </div>
-
+    <a id="hakkimizda"></a>
       <div class="container mx-auto px-6 md:px-0" style="margin-top:160px">
 
         <div class="space-y-5 w-full mt-8">
+         
           <p class="text-title quotation">
           Gittiğin yerlerden sadece yeni hatıralar al ve sadece ayak izlerini bırak.
           </p>
@@ -245,20 +249,21 @@
           </div>
           
           
-
+          <a id="iletisim"></a>
       <div class="container mx-auto mt-12 mb-12 px-4 pb-12" style="margin-top:250px">
+       
         <h2 class="md:text-title text-titlemobile font-bold">İletişim</h2>
         <div class="grid md:grid-cols-2 sm:grid-cols-1" style="margin-top: 40px;">
           <div class="px-6 space-y-4 pb-10 h-auto bg-gray-100 pt-10">
             <div>
-              <label for="" class="text-xs font-semibold px-1 text-gray-700">İsim</label>
+              <label for="" class="text-xs font-semibold px-1 text-gray-700">İsim Soyisim</label>
               <div class="flex">
                 <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
-                <input type="text" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="Ahmet Yılmaz">
+                <input type="text" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="İsim Soyisim">
               </div>
             </div>
             <div>
-              <label for="" class="text-xs font-semibold px-1 text-gray-700">Email</label>
+              <label for="" class="text-xs font-semibold px-1 text-gray-700">E-mail</label>
               <div class="flex">
                 <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i
                     class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
