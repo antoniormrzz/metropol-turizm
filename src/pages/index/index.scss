@@ -41,72 +41,27 @@
 
     &1 {
       > div {
-        background-image: url("../../assets/img/Outgoing/nc-outgoing1.jpg");
-      }
-
-      .image_after {
-        background-image: url("../../assets/img/Outgoing/nc-outgoing2.jpg");
-        background-position-x: -106px;
-      }
-      .image_before {
-        background-image: url("../../assets/img/Outgoing/nc-outgoing3.jpg");
-        background-position-x: -100px;
+        background-image: url("../../assets/img/nc-travel-5s.jpg");
       }
     }
     &2 {
       > div {
-        background-image: url("../../assets/img/Incoming/nc-incoming1.jpg");
-      }
-
-      .image_after {
-        background-image: url("../../assets/img/Incoming/nc-incoming2.jpg");
-        background-position-x: -106px;
-      }
-      .image_before {
-        background-image: url("../../assets/img/Incoming/nc-incoming3.jpg");
-        background-position-x: -100px;
+        background-image: url("../../assets/img/nc-dmc-5s.jpg");
       }
     }
     &3 {
       > div {
-        background-image: url("../../assets/img/Mice/nc-mice2.jpg");
-      }
-
-      .image_after {
-        background-image: url("../../assets/img/Mice/nc-mice1.jpg");
-        background-position-x: -106px;
-      }
-      .image_before {
-        background-image: url("../../assets/img/Mice/nc-mice3.jpg");
-        background-position-x: -100px;
+        background-image: url("../../assets/img/nc-mice-5s.jpg");
       }
     }
     &4 {
       > div {
-        background-image: url("../../assets/img/Corp/nc-corp2.jpg");
-      }
-
-      .image_after {
-        background-image: url("../../assets/img/Corp/nc-corp1.jpg");
-        background-position-x: -106px;
-      }
-      .image_before {
-        background-image: url("../../assets/img/Corp/nc-corp3.jpg");
-        background-position-x: -100px;
+        background-image: url("../../assets/img/nc-corp-5s.jpg");
       }
     }
     &5 {
       > div {
-        background-image: url("../../assets/img/Balkans/nc-balkan1.jpg");
-      }
-
-      .image_after {
-        background-image: url("../../assets/img/Balkans/nc-balkan2.jpg");
-        background-position-x: -106px;
-      }
-      .image_before {
-        background-image: url("../../assets/img/Balkans/nc-balkan3.jpg");
-        background-position-x: -100px;
+        background-image: url("../../assets/img/nc-balkans-5s.jpg");
       }
     }
 
@@ -132,27 +87,27 @@
 .mobile__slider {
   &1 {
     > div {
-      background-image: url("../../assets/img/nc-item1.jpg");
+      background-image: url("../../assets/img/nc-travel-5s.jpg");
     }
   }
   &2 {
     > div {
-      background-image: url("../../assets/img/nc-item2.jpg");
+      background-image: url("../../assets/img/nc-dmc-5s.jpg");
     }
   }
   &3 {
     > div {
-      background-image: url("../../assets/img/nc-item3.jpg");
+      background-image: url("../../assets/img/nc-mice-5s.jpg");
     }
   }
   &4 {
     > div {
-      background-image: url("../../assets/img/nc-item4.jpg");
+      background-image: url("../../assets/img/nc-corp-5s.jpg");
     }
   }
   &5 {
     > div {
-      background-image: url("../../assets/img/nc-item5.jpg");
+      background-image: url("../../assets/img/nc-balkans-5s.jpg");
     }
   }
 }
@@ -202,12 +157,9 @@
 }
 
 .white-hollow {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 27%,
-    rgba(255, 255, 255, 0) 92%
-  );
+  background-image: url("../../assets/img/nc-gradient.png");
+  background-size: cover;
+  background-repeat: repeat-x;
 }
 
 .quotation {
