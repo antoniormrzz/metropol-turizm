@@ -9,12 +9,18 @@
   background-image: url("../../assets/img/bg-patterns/nc-hot-air-balloon.png");
   background-repeat: no-repeat;
   background-position-x: -100px;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
 }
 
 .bg-travel {
   background-image: url("../../assets/img/bg-patterns/nc-travel.png");
   background-repeat: no-repeat;
   background-position-x: 1460px;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
 }
 
 .bg-bus {
@@ -23,4 +29,7 @@
   background-position-x: -150px;
   background-position-y: -50px;
   background-size: 50%;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
 }
