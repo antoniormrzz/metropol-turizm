@@ -12,17 +12,18 @@
       <div>
         <div class="relative bg-cover bg-center bg-no-repeat bg-dmc">
           <div class="absolute bottom-6 flex justify-center w-full">
-            <button
+            <a
+              href="mailto:info@dmc.com"
               class="transition duration-500 ease-in-out hover:bg-red-500 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-full"
               style="background-color: #ee2930"
             >
               Bilgi Al
-            </button>
+            </a>
           </div>
         </div>
       </div>
 
-      <div class="container mx-auto mt-12 mb-12 px-4 md:px-0">
+      <div class="container mx-auto mt-12 mb-12">
         <div class="grid gap-6 md:gap-10 grid-cols-2 md:grid-cols-5">
           <div class="flex flex-col items-center">
             <img
@@ -50,7 +51,7 @@
               src="assets/img/customized-tours.png"
               alt="Customized Tours"
             />
-            <h3 class="font-semibold text-icon mt-5 text-center">
+            <h3 class="font-semibold text-icon xl:whitespace-nowrap mt-5 text-center">
               Customized Tours
             </h3>
           </div>
@@ -77,9 +78,11 @@
         </div>
       </div>
 
-      <h1 class="font-bold text-bigTitle text-center mb-36 mt-3">DMC</h1>
+      <div class="pt-10 pb-36 flex items-center justify-center">
+        <img class="w-42" src="assets/img/page_names/venn_tour_dmc.png"/>
+      </div>
       <div class="bg-balloon">
-        <div class="container mx-auto px-4 md:px-0">
+        <div class="container mx-auto px-4">
           <div class="flex flex-wrap items-center justify-between">
             <div class="w-full md:w-1/2 mt-6 md:mt-0">
               <h4
@@ -119,7 +122,7 @@
         </div>
       </div>
       <div class="bg-travel">
-        <div class="container mx-auto px-4 md:px-0">
+        <div class="container mx-auto px-4">
           <div class="flex flex-wrap mb-6 items-center justify-between">
             <div class="w-full md:w-1/2 mt-6 md:mt-0">
               <h4
@@ -159,7 +162,7 @@
         </div>
       </div>
       <div class="bg-bus">
-        <div class="container mx-auto px-4 md:px-0">
+        <div class="container mx-auto px-4">
           <div class="flex flex-wrap mb-6 items-center justify-between">
             <div class="w-full md:w-1/2 mt-6 md:mt-0">
               <h4
@@ -181,6 +184,7 @@
           </div>
         </div>
       </div>
+      <%- include('../../views/get_info', {email: 'info@dmc.com'}); %>
     </main>
     <%- include('../../views/footer'); %>
   </body>

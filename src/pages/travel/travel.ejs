@@ -15,18 +15,21 @@
           style="height: 510px; background-image: url(assets/img/travel-cover.png)"
         >
           <div class="absolute bottom-6 flex justify-center w-full">
-            <button
+            <a
+              href="mailto:info@travel.com"
               class="transition duration-500 ease-in-out hover:bg-red-500 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-full"
               style="background-color: #ee2930"
             >
               Bilgi Al
-            </button>
+            </a>
           </div>
         </div>
       </div>
 
       <div class="container mx-auto mt-24 mb-12 px-4 md:px-0">
-        <h1 class="font-bold text-bigTitle text-center mb-36 mt-3">TRAVEL</h1>
+        <div class="pt-10 pb-36 flex items-center justify-center">
+          <img class="w-48" src="assets/img/page_names/venn_tour_travel.png"/>
+        </div>
         <div class="flex flex-wrap items-center justify-between">
           <div class="w-full md:w-1/2 mt-6 md:mt-0">
             
@@ -81,6 +84,7 @@
         </div>
 
       </div>
+      <%- include('../../views/get_info', {email: 'info@travel.com'}); %>
     </main>
     <%- include('../../views/footer'); %>
   </body>
