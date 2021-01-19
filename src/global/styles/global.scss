@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css");
-@import '../../assets/fonts/stylesheet.css';
+@import "../../assets/fonts/stylesheet.css";
 // Footer
 .footer {
   display: flex;
@@ -22,10 +22,18 @@
   font-size: 18px;
 }
 
-body{
-  font-family: 'Gilroy';
+body {
+  font-family: "Gilroy";
 }
 
-h1,h2,h3,h4,h5 {
-  font-family: 'Inter';
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Inter";
+}
+
+.icon-bg {
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
 }

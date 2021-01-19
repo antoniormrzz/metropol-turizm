@@ -24,5 +24,5 @@ const $image = document.getElementById("circled-icon");
 
 $selectBox.addEventListener("change", (e) => {
   const source = e.target.value;
-  $image.src = `../../assets/img/${source}circled.png`;
+  $image.src = `assets/img/${source}circled.png`;
 });
