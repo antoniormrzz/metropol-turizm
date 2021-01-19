@@ -8,7 +8,7 @@
 .bg-plane {
   background-image: url("../../assets/img/bg-patterns/nc-plane.png");
   background-repeat: no-repeat;
-  background-position-y: 200px;
+  background-position-x: -200px;
   @media (max-width: 1024px) {
     background-image: none;
   }
@@ -17,7 +17,7 @@
 .bg-ship {
   background-image: url("../../assets/img/bg-patterns/nc-ship.png");
   background-repeat: no-repeat;
-  background-position-x: 1500px;
+  background-position-x: 1550px;
   background-position-y: center;
   @media (max-width: 1024px) {
     background-image: none;
