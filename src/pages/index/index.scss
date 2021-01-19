@@ -67,11 +67,12 @@
 
     &_band {
       display: flex;
-      align-items: center;
-      height: 200px;
+      align-items: flex-end;
+      height: 100%;
       width: 100%;
 
       img {
+        margin-bottom: 30px;
         width: 121px;
       }
     }
@@ -158,7 +159,8 @@
 
 .white-hollow {
   background-image: url("../../assets/img/nc-gradient.png");
-  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .quotation {
