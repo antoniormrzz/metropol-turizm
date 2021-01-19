@@ -1,5 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css");
 @import "../../assets/fonts/stylesheet.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
 // Footer
 .footer {
   display: flex;
