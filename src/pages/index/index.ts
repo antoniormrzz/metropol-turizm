@@ -17,3 +17,12 @@ let animation = lottie.loadAnimation({
   autoplay: true,
   path: "assets/animations/plane.json",
 });
+
+// selectBox change event
+const $selectBox = document.getElementById("selectBox");
+const $image = document.getElementById("circled-icon");
+
+$selectBox.addEventListener("change", (e) => {
+  const source = e.target.value;
+  $image.src = `../../assets/img/${source}circled.png`;
+});
