@@ -4,6 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+const rimraf = require('rimraf');
+
 const getDirectories = source =>
   readdirSync(source, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
@@ -22,6 +24,8 @@ let htmlPlugins = pages.map(e => {
     template: `src/pages/${e}/${e}.ejs`
   });
 });
+
+rimraf(path.join(__dirname,'dist'), () => console.log('cleared dist'));
 
 module.exports = {
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',

@@ -4,6 +4,9 @@ import './corp.scss';
 import Glide from '@glidejs/glide';
 import '@glidejs/glide/dist/css/glide.core.min.css';
 import '@glidejs/glide/dist/css/glide.theme.min.css';
+import modalHandler from "../../global/src/modal";
+
+modalHandler();
 
 var glideMulti1 = new Glide('.multi1', {
     type: 'carousel',

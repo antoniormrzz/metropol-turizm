@@ -65,7 +65,9 @@
     "@splidejs/splide": "^2.4.21",
     "ejs": "^3.1.5",
     "lottie-web": "^5.7.5",
+    "micromodal": "^0.4.6",
     "render-template-loader": "^1.2.3",
+    "rimraf": "^3.0.2",
     "tailwindcss": "^2.0.2"
   }
 }

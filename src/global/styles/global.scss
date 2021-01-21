@@ -1,6 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css");
 @import "../../assets/fonts/stylesheet.css";
 
+@import "./privacy-modal";
+
 html {
   scroll-behavior: smooth;
 }
@@ -25,6 +27,16 @@ html {
 .address {
   color: #808080;
   font-size: 18px;
+}
+
+.privacy-policy {
+  color: #808080;
+  font-size: 18px;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 body {

@@ -5,8 +5,10 @@ import "@splidejs/splide/dist/css/splide.min.css";
 import lottie from "lottie-web";
 import Splide from "@splidejs/splide";
 import menuHandler from "../../global/src/menu";
+import modalHandler from "../../global/src/modal";
 
 menuHandler();
+modalHandler();
 
 new Splide("#splide", { type: "loop", autoplay: true }).mount();
 
