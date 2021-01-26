@@ -538,12 +538,6 @@ video {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -823,6 +817,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -831,8 +829,24 @@ video {
   margin-bottom: 3rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-24 {
   margin-top: 6rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
 }
 
 .ml-auto {
@@ -924,6 +938,11 @@ video {
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .py-36 {
@@ -1804,72 +1823,8 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-balkans{
+.bg-travel{
   height:510px;
-  background-image:url(assets/img/66f17710acbf84f71f42d494ae99328f.png)
-}
-
-.bg-plane{
-  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
-  background-repeat:no-repeat;
-  background-position-x:-200px
-}
-
-@media (max-width: 1024px){
-  .bg-plane{
-    background-image:none
-  }
-}
-
-.bg-ship{
-  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
-  background-repeat:no-repeat;
-  background-position-x:1550px;
-  background-position-y:center
-}
-
-@media (max-width: 1024px){
-  .bg-ship{
-    background-image:none
-  }
-}
-
-.bg-ski{
-  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
-  background-repeat:no-repeat;
-  background-position-x:-250px;
-  background-position-y:center
-}
-
-@media (max-width: 1024px){
-  .bg-ski{
-    background-image:none
-  }
-}
-
-.bg-skuba{
-  background-image:url(assets/img/efa571af75d3f21af89e1093e8f67eb9.png);
-  background-repeat:no-repeat;
-  background-position-x:1550px;
-  background-position-y:200px
-}
-
-@media (max-width: 1024px){
-  .bg-skuba{
-    background-image:none
-  }
-}
-
-.bg-river{
-  background-image:url(assets/img/03119d760f12f2403e5d58ac2b4d386c.png);
-  background-repeat:no-repeat;
-  background-position-x:-200px;
-  background-position-y:center
-}
-
-@media (max-width: 1024px){
-  .bg-river{
-    background-image:none
-  }
+  background-image:url(assets/img/47bb01153fcc0c14198849b38c65291b.png)
 }
 
