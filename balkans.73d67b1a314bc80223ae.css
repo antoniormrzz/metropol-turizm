@@ -741,11 +741,6 @@ video {
   line-height: 32px;
 }
 
-.text-title {
-  font-size: 60px;
-  line-height: 72px;
-}
-
 .text-icon {
   font-size: 25px;
   line-height: 32px;
@@ -871,6 +866,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-6 {
@@ -1034,8 +1033,8 @@ video {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
+.text-justify {
+  text-align: justify;
 }
 
 .text-white {
@@ -1805,8 +1804,72 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-travel{
+.bg-balkans{
   height:510px;
-  background-image:url(assets/img/47bb01153fcc0c14198849b38c65291b.png)
+  background-image:url(assets/img/66f17710acbf84f71f42d494ae99328f.png)
+}
+
+.bg-plane{
+  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
+  background-repeat:no-repeat;
+  background-position-x:-200px
+}
+
+@media (max-width: 1024px){
+  .bg-plane{
+    background-image:none
+  }
+}
+
+.bg-ship{
+  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
+  background-repeat:no-repeat;
+  background-position-x:1550px;
+  background-position-y:center
+}
+
+@media (max-width: 1024px){
+  .bg-ship{
+    background-image:none
+  }
+}
+
+.bg-ski{
+  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
+  background-repeat:no-repeat;
+  background-position-x:-250px;
+  background-position-y:center
+}
+
+@media (max-width: 1024px){
+  .bg-ski{
+    background-image:none
+  }
+}
+
+.bg-skuba{
+  background-image:url(assets/img/efa571af75d3f21af89e1093e8f67eb9.png);
+  background-repeat:no-repeat;
+  background-position-x:1550px;
+  background-position-y:200px
+}
+
+@media (max-width: 1024px){
+  .bg-skuba{
+    background-image:none
+  }
+}
+
+.bg-river{
+  background-image:url(assets/img/03119d760f12f2403e5d58ac2b4d386c.png);
+  background-repeat:no-repeat;
+  background-position-x:-200px;
+  background-position-y:center
+}
+
+@media (max-width: 1024px){
+  .bg-river{
+    background-image:none
+  }
 }
 

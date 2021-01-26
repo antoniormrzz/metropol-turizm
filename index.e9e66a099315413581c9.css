@@ -741,11 +741,6 @@ video {
   line-height: 32px;
 }
 
-.text-title {
-  font-size: 60px;
-  line-height: 72px;
-}
-
 .text-icon {
   font-size: 25px;
   line-height: 32px;
@@ -871,6 +866,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-6 {
@@ -1034,8 +1033,8 @@ video {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
+.text-justify {
+  text-align: justify;
 }
 
 .text-white {
@@ -1991,6 +1990,11 @@ h1,h2,h3,h4,h5{
 
 #circled-icon{
   width:200px
+}
+
+#hakkimizda h3{
+  margin-top:50px;
+  margin-bottom:50px
 }
 
 @-webkit-keyframes splide-loading{
