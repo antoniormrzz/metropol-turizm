@@ -6,7 +6,6 @@
 }
 
 .glide__slide {
-  border: 1px solid black;
   line-height: 100px;
   margin: 0;
   text-align: center;
@@ -15,4 +14,36 @@
 .glide_img {
   width: 100%;
   height: 100px;
+}
+
+.bg-balloon {
+  background-image: url("../../assets/img/bg-patterns/nc-hot-air-balloon.png");
+  background-repeat: no-repeat;
+  background-position-x: -250px;
+  background-size: contain;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
+
+.bg-scuba {
+  background-image: url("../../assets/img/bg-patterns/nc-reverse-scuba.png");
+  background-repeat: no-repeat;
+  background-position-x: 1150px;
+  background-position-y: bottom;
+  background-size: 30%;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
+
+.bg-plane {
+  background-image: url("../../assets/img/bg-patterns/nc-skew-plane.png");
+  background-repeat: no-repeat;
+  background-position-x: -150px;
+  background-position-y: top;
+  background-size: contain;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
 }
