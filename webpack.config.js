@@ -79,6 +79,14 @@ module.exports = {
         }
       },
       {
+        test: /\.(php?)$/i,
+        loader: 'file-loader',
+        options: {
+          outputPath: '/',
+          publicPath: '/'
+        }
+      },
+      {
         test: /\.ts$/,
         loader: 'babel-loader'
       },
