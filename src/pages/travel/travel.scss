@@ -1,7 +1,66 @@
-@import '../../global/styles/global';
-
+@import "../../global/styles/global";
 
 .bg-travel {
-    height: 510px;
-    background-image: url("../../assets/img/nc-travel-cover.png");
+  height: 510px;
+  background-image: url("../../assets/img/nc-travel-cover.png");
+}
+
+.travel-text {
+  p {
+    font-size: 24px;
+    line-height: 32px;
   }
+
+  ul {
+    li {
+      font-size: 24px;
+      line-height: 48px;
+      display: flex;
+      align-items: center;
+
+      &:before {
+        content: "";
+        background-color: #c4c4c4;
+        width: 10px;
+        height: 10px;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.bg {
+  &-pattern {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40vw;
+    height: 80vh;
+    @media (max-width: 1024px) {
+      background-image: none;
+    }
+    position: absolute;
+  }
+
+  &-ski {
+    background-image: url("../../assets/img/bg-patterns/nc-ski.png");
+    left: 46vw;
+    top: 136vh;
+    transform: rotate(-45deg);
+    width: 25vw;
+    height: 65vh;
+  }
+
+  &-ship {
+    background-image: url("../../assets/img/bg-patterns/nc-ship.png");
+    left: 79vw;
+    top: 86vh;
+  }
+
+  &-plane {
+    background-image: url("../../assets/img/bg-patterns/nc-plane.png");
+    left: -10vw;
+    top: 86vh;
+  }
+}
