@@ -34,25 +34,25 @@ $("#contact_form").on("submit", function (e) {
   var dataString = $(this).serialize();
 
   console.log(dataString);
-  // $.ajax({
-  //   type: "POST",
-  //   url: "mailer.php",
-  //   data: dataString,
-  //   success: function () {
-  $("#success_message").show();
-  $("#success_message").animate({ right: "16px" }, 500);
+  $.ajax({
+    type: "POST",
+    url: "mailer.php",
+    data: dataString,
+    success: function () {
+      $("#success_message").show();
+      $("#success_message").animate({ right: "16px" }, 500);
 
-  setTimeout(() => {
-    $("#success_message").animate({ right: "-500px" }, 500, () => {
-      $("#success_message").hide();
-    });
-  }, 5000);
-  //     $("#contact-form").trigger("reset");
-  //   },
-  //   error: function () {
-  //     $(".fail_message").show();
-  //   },
-  // });
+      setTimeout(() => {
+        $("#success_message").animate({ right: "-500px" }, 500, () => {
+          $("#success_message").hide();
+        });
+      }, 5000);
+      $("#contact-form").trigger("reset");
+    },
+    error: function () {
+      // $(".fail_message").show();
+    },
+  });
 
   e.preventDefault();
 });
