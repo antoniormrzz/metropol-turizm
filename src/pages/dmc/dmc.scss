@@ -17,18 +17,18 @@
 .bg-travel {
   background-image: url("../../assets/img/bg-patterns/nc-travel.png");
   background-repeat: no-repeat;
-  background-position-x: 1460px;
+  background-position-x: 81vw;
   @media (max-width: 1024px) {
     background-image: none;
   }
 }
 
 .bg-bus {
-  background-image: url("../../assets/img/bg-patterns/nc-bus.png");
+  background-image: url("../../assets/img/bg-patterns/nc-bus-2.png");
   background-repeat: no-repeat;
   background-position-x: -150px;
   background-position-y: -50px;
-  background-size: 50%;
+  background-size: 60%;
   @media (max-width: 1024px) {
     background-image: none;
   }

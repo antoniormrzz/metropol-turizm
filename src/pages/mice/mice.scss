@@ -4,3 +4,33 @@
   height: 510px;
   background-image: url("../../assets/img/nc-mice2.png");
 }
+
+.bg-calendar {
+  background-image: url("../../assets/img/bg-patterns/nc-calendar.png");
+  background-repeat: no-repeat;
+  background-position-x: -8vw;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+  background-position-y: center;
+}
+
+.bg-outline {
+  background-image: url("../../assets/img/bg-patterns/nc-outline.png");
+  background-repeat: no-repeat;
+  background-position-x: 85vw;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+  background-position-y: center;
+}
+
+.bg-prod {
+  background-image: url("../../assets/img/bg-patterns/nc-prod.png");
+  background-repeat: no-repeat;
+  background-position-x: -8vw;
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+  background-position-y: center;
+}

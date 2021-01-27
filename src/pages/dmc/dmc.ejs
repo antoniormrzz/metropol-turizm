@@ -51,7 +51,9 @@
               src="assets/img/customized-tours.png"
               alt="Customized Tours"
             />
-            <h3 class="font-semibold text-icon xl:whitespace-nowrap mt-5 text-center">
+            <h3
+              class="font-semibold text-icon xl:whitespace-nowrap mt-5 text-center"
+            >
               Customized Tours
             </h3>
           </div>
@@ -79,7 +81,7 @@
       </div>
 
       <div class="pt-10 pb-36 flex items-center justify-center">
-        <img class="w-42" src="assets/img/page_names/venn_tour_dmc.png"/>
+        <img class="w-42" src="assets/img/page_names/venn_tour_dmc.png" />
       </div>
       <div class="bg-balloon">
         <div class="container mx-auto px-4">
@@ -183,8 +185,10 @@
             </div>
           </div>
         </div>
+
+        <%- include('../../views/get_info', {email:
+        'info@dmc.com',text:'Information'}); %>
       </div>
-      <%- include('../../views/get_info', {email: 'info@dmc.com',text:'Information'}); %>
     </main>
     <%- include('../../views/footer'); %>
   </body>
