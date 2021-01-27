@@ -10,22 +10,22 @@
     font-size: 24px;
     line-height: 32px;
   }
+}
 
-  ul {
-    li {
-      font-size: 24px;
-      line-height: 48px;
-      display: flex;
-      align-items: center;
+.text-ul {
+  li {
+    font-size: 24px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
 
-      &:before {
-        content: "";
-        background-color: #c4c4c4;
-        width: 10px;
-        height: 10px;
-        border-radius: 20px;
-        margin-right: 10px;
-      }
+    &:before {
+      content: "";
+      background-color: #c4c4c4;
+      width: 10px;
+      height: 10px;
+      border-radius: 20px;
+      margin-right: 10px;
     }
   }
 }
@@ -45,8 +45,8 @@
 
   &-ski {
     background-image: url("../../assets/img/bg-patterns/nc-ski.png");
-    left: 46vw;
-    top: 136vh;
+    left: 56vw;
+    top: 175vh;
     transform: rotate(-45deg);
     width: 25vw;
     height: 65vh;

@@ -64,6 +64,7 @@
     "@glidejs/glide": "^3.4.1",
     "@splidejs/splide": "^2.4.21",
     "ejs": "^3.1.5",
+    "jquery": "^3.5.1",
     "lottie-web": "^5.7.5",
     "micromodal": "^0.4.6",
     "render-template-loader": "^1.2.3",
