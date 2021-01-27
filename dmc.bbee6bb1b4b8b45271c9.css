@@ -1880,7 +1880,7 @@ h1,h2,h3,h4,h5{
 .bg-travel{
   background-image:url(assets/img/0f295ca5499c9593f4cb43500e849900.png);
   background-repeat:no-repeat;
-  background-position-x:1460px
+  background-position-x:81vw
 }
 
 @media (max-width: 1024px){
@@ -1890,11 +1890,11 @@ h1,h2,h3,h4,h5{
 }
 
 .bg-bus{
-  background-image:url(assets/img/e869e73e4392c7abe671514477a3f74b.png);
+  background-image:url(assets/img/d83def139ffbd6a9ea609780cd00e967.png);
   background-repeat:no-repeat;
   background-position-x:-150px;
   background-position-y:-50px;
-  background-size:50%
+  background-size:60%
 }
 
 @media (max-width: 1024px){

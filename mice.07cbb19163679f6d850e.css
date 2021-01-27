@@ -1865,3 +1865,42 @@ h1,h2,h3,h4,h5{
   background-image:url(assets/img/4215967afdf4a2a3cbb42359663d0d7e.png)
 }
 
+.bg-calendar{
+  background-image:url(assets/img/dd934eeb596b3edeb7f6bbba37c08d46.png);
+  background-repeat:no-repeat;
+  background-position-x:-8vw;
+  background-position-y:center
+}
+
+@media (max-width: 1024px){
+  .bg-calendar{
+    background-image:none
+  }
+}
+
+.bg-outline{
+  background-image:url(assets/img/962e3274394a98b1965414342125e850.png);
+  background-repeat:no-repeat;
+  background-position-x:85vw;
+  background-position-y:center
+}
+
+@media (max-width: 1024px){
+  .bg-outline{
+    background-image:none
+  }
+}
+
+.bg-prod{
+  background-image:url(assets/img/324984e5897c65eedb1100bbba6af673.png);
+  background-repeat:no-repeat;
+  background-position-x:-8vw;
+  background-position-y:center
+}
+
+@media (max-width: 1024px){
+  .bg-prod{
+    background-image:none
+  }
+}
+
