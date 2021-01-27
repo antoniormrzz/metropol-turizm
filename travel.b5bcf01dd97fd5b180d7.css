@@ -821,6 +821,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -1826,5 +1830,69 @@ h1,h2,h3,h4,h5{
 .bg-travel{
   height:510px;
   background-image:url(assets/img/47bb01153fcc0c14198849b38c65291b.png)
+}
+
+.travel-text p{
+  font-size:24px;
+  line-height:32px
+}
+
+.travel-text ul li{
+  font-size:24px;
+  line-height:48px;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+      -ms-flex-align:center;
+          align-items:center
+}
+
+.travel-text ul li:before{
+  content:"";
+  background-color:#c4c4c4;
+  width:10px;
+  height:10px;
+  border-radius:20px;
+  margin-right:10px
+}
+
+.bg-pattern{
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+  width:40vw;
+  height:80vh;
+  position:absolute
+}
+
+@media (max-width: 1024px){
+  .bg-pattern{
+    background-image:none
+  }
+}
+
+.bg-ski{
+  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
+  left:46vw;
+  top:136vh;
+  -webkit-transform:rotate(-45deg);
+          transform:rotate(-45deg);
+  width:25vw;
+  height:65vh
+}
+
+.bg-ship{
+  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
+  left:79vw;
+  top:86vh
+}
+
+.bg-plane{
+  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
+  left:-10vw;
+  top:86vh
 }
 
