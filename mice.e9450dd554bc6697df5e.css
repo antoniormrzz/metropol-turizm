@@ -903,10 +903,6 @@ video {
   overflow: hidden;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
@@ -977,6 +973,10 @@ video {
 
 .pl-1 {
   padding-left: 0.25rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .pr-3 {
@@ -1860,71 +1860,46 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-balkans{
+.bg-mice{
   height:510px;
-  background-image:url(assets/img/66f17710acbf84f71f42d494ae99328f.png)
+  background-image:url(assets/img/4215967afdf4a2a3cbb42359663d0d7e.png)
 }
 
-.bg-plane{
-  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
+.bg-calendar{
+  background-image:url(assets/img/dd934eeb596b3edeb7f6bbba37c08d46.png);
   background-repeat:no-repeat;
-  background-position-x:-200px
-}
-
-@media (max-width: 1024px){
-  .bg-plane{
-    background-image:none
-  }
-}
-
-.bg-ship{
-  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
-  background-repeat:no-repeat;
-  background-position-x:1550px;
+  background-position-x:-8vw;
   background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-ship{
+  .bg-calendar{
     background-image:none
   }
 }
 
-.bg-ski{
-  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
+.bg-outline{
+  background-image:url(assets/img/962e3274394a98b1965414342125e850.png);
   background-repeat:no-repeat;
-  background-position-x:-250px;
+  background-position-x:85vw;
   background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-ski{
+  .bg-outline{
     background-image:none
   }
 }
 
-.bg-skuba{
-  background-image:url(assets/img/efa571af75d3f21af89e1093e8f67eb9.png);
+.bg-prod{
+  background-image:url(assets/img/324984e5897c65eedb1100bbba6af673.png);
   background-repeat:no-repeat;
-  background-position-x:1550px;
-  background-position-y:200px
-}
-
-@media (max-width: 1024px){
-  .bg-skuba{
-    background-image:none
-  }
-}
-
-.bg-river{
-  background-image:url(assets/img/03119d760f12f2403e5d58ac2b4d386c.png);
-  background-repeat:no-repeat;
-  background-position-x:-200px;
+  background-position-x:-8vw;
   background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-river{
+  .bg-prod{
     background-image:none
   }
 }
