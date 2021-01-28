@@ -539,6 +539,12 @@ video {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
@@ -773,11 +779,6 @@ video {
   line-height: 32px;
 }
 
-.text-titlemobile {
-  font-size: 40px;
-  line-height: 52px;
-}
-
 .text-lg {
   font-size: 1.125rem;
 }
@@ -886,16 +887,16 @@ video {
   margin-top: 8rem;
 }
 
+.mt-36 {
+  margin-top: 9rem;
+}
+
 .mt-48 {
   margin-top: 12rem;
 }
 
 .mb-52 {
   margin-bottom: 13rem;
-}
-
-.mt-72 {
-  margin-top: 18rem;
 }
 
 .ml-auto {
@@ -1299,13 +1300,8 @@ video {
     justify-content: space-between;
   }
 
-  .md\:text-title {
-    font-size: 60px;
-    line-height: 72px;
-  }
-
   .md\:text-bigTitle {
-    font-size: 64px;
+    font-size: 54px;
     line-height: 72px;
   }
 
@@ -1923,45 +1919,46 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-dmc{
+.bg-mice{
   height:510px;
-  background-image:url(assets/img/c95891ef2db6e223cce593bb4b8795bf.png)
+  background-image:url(assets/img/4215967afdf4a2a3cbb42359663d0d7e.png)
 }
 
-.bg-balloon{
-  background-image:url(assets/img/cf3842fedb89f9ae1480d14f24f9fbba.png);
+.bg-calendar{
+  background-image:url(assets/img/dd934eeb596b3edeb7f6bbba37c08d46.png);
   background-repeat:no-repeat;
-  background-position-x:-100px
+  background-position-x:-8vw;
+  background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-balloon{
+  .bg-calendar{
     background-image:none
   }
 }
 
-.bg-travel{
-  background-image:url(assets/img/0f295ca5499c9593f4cb43500e849900.png);
+.bg-outline{
+  background-image:url(assets/img/962e3274394a98b1965414342125e850.png);
   background-repeat:no-repeat;
-  background-position-x:81vw
+  background-position-x:85vw;
+  background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-travel{
+  .bg-outline{
     background-image:none
   }
 }
 
-.bg-bus{
-  background-image:url(assets/img/d83def139ffbd6a9ea609780cd00e967.png);
+.bg-prod{
+  background-image:url(assets/img/324984e5897c65eedb1100bbba6af673.png);
   background-repeat:no-repeat;
-  background-position-x:-150px;
-  background-position-y:-50px;
-  background-size:60%
+  background-position-x:-8vw;
+  background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-bus{
+  .bg-prod{
     background-image:none
   }
 }
