@@ -36,7 +36,7 @@ $("#contact_form").on("submit", function (e) {
   console.log(dataString);
   $.ajax({
     type: "POST",
-    url: "mailer.php",
+    url: "mail.php",
     data: dataString,
     success: function () {
       $("#success_message").show();
