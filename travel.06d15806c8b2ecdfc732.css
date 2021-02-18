@@ -893,6 +893,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -913,8 +917,16 @@ video {
   margin-top: 4rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mt-24 {
@@ -2033,72 +2045,72 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-balkans{
+.bg-travel{
   height:510px;
-  background-image:url(assets/img/0451279754d28e866f34f507696253ee.png)
+  background-image:url(assets/img/b041fd600ec082e29a0da391559cfb6a.png)
 }
 
-.bg-plane{
-  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
+.travel-text p{
+  font-size:24px;
+  line-height:32px
+}
+
+.text-ul li{
+  font-size:24px;
+  line-height:48px;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+      -ms-flex-align:center;
+          align-items:center
+}
+
+.text-ul li:before{
+  content:"";
+  background-color:#c4c4c4;
+  width:10px;
+  height:10px;
+  border-radius:20px;
+  margin-right:10px
+}
+
+.bg-pattern{
   background-repeat:no-repeat;
-  background-position-x:-200px
+  background-position:center;
+  background-size:contain;
+  width:40vw;
+  height:80vh;
+  position:absolute
 }
 
 @media (max-width: 1024px){
-  .bg-plane{
-    background-image:none
-  }
-}
-
-.bg-ship{
-  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
-  background-repeat:no-repeat;
-  background-position-x:1550px;
-  background-position-y:center
-}
-
-@media (max-width: 1024px){
-  .bg-ship{
+  .bg-pattern{
     background-image:none
   }
 }
 
 .bg-ski{
   background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
-  background-repeat:no-repeat;
-  background-position-x:-250px;
-  background-position-y:center
+  left:56vw;
+  top:175vh;
+  -webkit-transform:rotate(-45deg);
+          transform:rotate(-45deg);
+  width:25vw;
+  height:65vh
 }
 
-@media (max-width: 1024px){
-  .bg-ski{
-    background-image:none
-  }
+.bg-ship{
+  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
+  left:79vw;
+  top:86vh
 }
 
-.bg-skuba{
-  background-image:url(assets/img/efa571af75d3f21af89e1093e8f67eb9.png);
-  background-repeat:no-repeat;
-  background-position-x:1550px;
-  background-position-y:200px
-}
-
-@media (max-width: 1024px){
-  .bg-skuba{
-    background-image:none
-  }
-}
-
-.bg-river{
-  background-image:url(assets/img/03119d760f12f2403e5d58ac2b4d386c.png);
-  background-repeat:no-repeat;
-  background-position-x:-200px;
-  background-position-y:center
-}
-
-@media (max-width: 1024px){
-  .bg-river{
-    background-image:none
-  }
+.bg-plane{
+  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
+  left:-10vw;
+  top:86vh
 }
 
