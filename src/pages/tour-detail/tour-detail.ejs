@@ -106,7 +106,7 @@
             :key="index"
             @click="selectTour(index)"
           >
-            <img class="w-40 md:w-52 object-cover" src="assets/img/balkan-tours/1.png" />
+            <img class="w-40 md:w-52 object-cover" src="assets/img/tour-details/1.png" />
             <div class="px-4 flex flex-col justify-between">
               <h3 class="text-lg md:text-xl font-bold">{{ tour.mainTitle }}</h3>
               <div>
@@ -131,6 +131,7 @@
 
         <div>
           <h1 class="font-bold text-5xl mb-4">{{ selectedTour.mainTitle }}</h1>
+          <h4 class="font-bold text-3xl text-green-500 mb-8">{{ selectedTour.subTitle }}</h1>
           <div v-for="(day, index) in selectedTour.days" :key="index">
             <h2 class="font-bold text-3xl">{{ day.title }}</h2>
             <h4 class="font-bold text-green-500 uppercase">
@@ -141,7 +142,7 @@
 
           <template v-if="selectedTour.includes.length">
             <h4 class="font-bold text-green-500 uppercase mt-4">
-              Dahil Olanlar
+              FİYATA DAHİL OLANLAR
             </h4>
             <ul class="list-inside list-disc ml-1">
               <li
@@ -155,7 +156,7 @@
 
           <template v-if="selectedTour.excludes.length">
             <h4 class="font-bold text-green-500 uppercase mt-4">
-              Dahil Olmayanlar
+              FİYATA DAHİL OLMAYANLAR
             </h4>
             <ul class="list-inside list-disc ml-1">
               <li
@@ -207,21 +208,24 @@
 
           <table
             class="table-fixed border-table text-center w-full md:w-3/4 mt-10 font-bold"
+            v-if="flight_infos.row1 && flight_infos.row2"
           >
             <tbody>
               <tr>
-                <td class="py-2 px-4">TK 1081</td>
-                <td class="py-2 px-4">Turkish Airlines</td>
-                <td class="py-2 px-4">İstanbul (IST)</td>
-                <td class="py-2 px-4">08:20</td>
-                <td class="py-2 px-4">08:00</td>
+                <td class="py-2 px-4">{{ flight_infos.row1.flight_no }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row1.airline }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row1.airport_1 }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row1.airport_2 }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row1.time_1 }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row1.time_2 }}</td>
               </tr>
               <tr>
-                <td class="py-4 px-4">TK 1084</td>
-                <td class="py-4 px-4">Turkish Airlines</td>
-                <td class="py-4 px-4">Belgrad (BEG)</td>
-                <td class="py-4 px-4">20:20</td>
-                <td class="py-4 px-4">00:05+1</td>
+                <td class="py-2 px-4">{{ flight_infos.row2.flight_no }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row2.airline }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row2.airport_1 }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row2.airport_2 }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row2.time_1 }}</td>
+                <td class="py-2 px-4">{{ flight_infos.row2.time_2 }}</td>
               </tr>
             </tbody>
           </table>
@@ -239,13 +243,13 @@
           </template>
 
           <template v-if="selectedTour.months.length">
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap mt-16 mb-16">
               <div
                 class="w-1/2 md:w-1/4"
                 v-for="(month, index) in selectedTour.months"
                 :key="index"
               >
-                <h4 class="font-bold text-green-500 uppercase mt-4">
+                <h4 class="font-bold text-green-500 uppercase">
                   {{ month.title }}
                 </h4>
                 <h5
@@ -261,7 +265,7 @@
 
           <template v-if="selectedTour.covid_preventions.length">
             <h4 class="font-bold text-4xl mt-8">COVID-19 Önlemlerimiz</h4>
-            <ul class="list-inside list-disc ml-1">
+            <ul class="list-inside list-disc ml-1 mb-20">
               <li
                 v-for="(item, index) in selectedTour.covid_preventions"
                 :key="index"

@@ -14,6 +14,9 @@ new Vue({
     cutText: function () {
       return this.selectedTour.days[0].text.substring(0, 116) + "...";
     },
+    flight_infos: function () {
+      return this.selectedTour.flight_infos ;
+    },
   },
   methods: {
     selectTour: function (index) {
