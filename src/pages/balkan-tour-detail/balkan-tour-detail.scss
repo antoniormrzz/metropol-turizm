@@ -9,29 +9,36 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 35px;
-  padding-left: 30px;
-  padding-right: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  p {
+    text-align: justify;
+  }
 
   @media (min-width: 768px) {
     padding-left: 50px;
-    grid-template-columns: 470px 1fr;
+    grid-template-columns: 300px 1fr;
     padding-right: 50px;
     gap: 50px;
   }
 
-  @media (min-width: 1224px) {
-    padding-left: 150px;
-    padding-right: 150px;
-    gap: 135px;
-  }
+  // @media (min-width: 1224px) {
+  //   padding-left: 150px;
+  //   padding-right: 150px;
+  //   gap: 135px;
+  // }
 }
 
 .tour-card {
   height: auto;
+  flex-direction: column;
   overflow: hidden;
   margin-bottom: 30px;
   border-width: 1px;
   opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.5s;
 
   @media (min-width: 768px) {
     min-height: 200px;
@@ -41,6 +48,11 @@
       margin-bottom: 10px;
     }
   }
+
+  &:hover {
+    opacity: 1;
+  }
+  
 }
 
 .border-table {
@@ -67,6 +79,7 @@
 
 .active-tour {
   opacity: 1 !important;
+
 }
 
 @media (min-width: 768px) {

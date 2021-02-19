@@ -16,12 +16,7 @@ new Vue({
     showDrawer: false,
   },
   computed: {
-    cutText: function () {
-      return this.selectedTour.tldr?.substring(0, 116) + "...";
-    },
-    flight_infos: function () {
-      return this.selectedTour.flight_infos;
-    },
+    
   },
   methods: {
     selectTour: function (index) {

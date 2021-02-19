@@ -15,7 +15,6 @@
   <body>
     <%- include('../../views/header_sub'); %>
     <main id="app">
-
       <div>
         <div class="relative bg-cover bg-center bg-no-repeat bg-balkans">
           <div class="absolute bottom-6 flex justify-center w-full">
@@ -103,22 +102,31 @@
       </div>
 
       <div class="tour-detail">
-        <div class="hidden md:block" :class="{ open: showDrawer }" id="left-scroll-div">
+        <div
+          class="hidden md:block"
+          :class="{ open: showDrawer }"
+          id="left-scroll-div"
+        >
           <a
-            class="tour-card flex rounded-lg  border- border-gray-200"
+            class="tour-card flex rounded-lg border- border-gray-200"
             v-for="(tour, index) in tourData"
             :key="index"
             :data-key="index"
             @click="selectTour(index)"
           >
-            <img class="w-40 md:w-52 object-cover" :src="'assets/img/tour-details/balkan_tour_images/' + index + '.png'" />
-            <div class="px-4 flex flex-col justify-between">
+            <img
+              class="w-full object-cover h-24"
+              :src="'assets/img/tour-details/balkan_tour_images/' + index + '.png'"
+            />
+            <div class="p-2 flex flex-col justify-between">
               <h3 class="text-lg md:text-xl font-bold">{{ tour.mainTitle }}</h3>
               <div>
-                <h4 class="text-sm md:text-base font-bold text-green-500 uppercase">
+                <h4
+                  class="text-sm md:text-base font-bold text-balkanGreen uppercase"
+                >
                   {{ tour.location }}
                 </h4>
-                <p class="text-sm md:text-base text-justify">{{ cutText }}</p>
+                <p class="text-sm md:text-base" style="text-align:left !important">{{ tour.tldr }}</p>
               </div>
             </div>
           </a>
@@ -127,26 +135,35 @@
         <div class="md:hidden fixed bottom-5 right-5">
           <button
             @click="toggleDrawer"
-            class="transition duration-500 ease-in-out bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full"
+            class="transition duration-500 ease-in-out bg-balkanGreen hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full"
           >
-            {{showDrawer ? 'Kapat' : 'Diğer Turlar'}}
+            {{ showDrawer ? "Kapat" : "Diğer Turlar" }}
           </button>
         </div>
 
-
         <div>
-          <h1 class="font-bold text-5xl mb-4">{{ selectedTour.mainTitle }}</h1>
-          <h4 class="font-bold text-3xl text-green-500 mb-8">{{ selectedTour.subTitle }}</h4>
-          <div v-if="selectedTour.days.length" v-for="(day, index) in selectedTour.days" :key="index">
+          <h1 class="font-bold text-3xl lg:text-5xl mb-4">
+            {{ selectedTour.mainTitle }}
+          </h1>
+          <h4 class="font-bold text-3xl text-balkanGreen mb-8">
+            {{ selectedTour.subTitle }}
+          </h4>
+          <div
+            v-if="selectedTour.days.length"
+            v-for="(day, index) in selectedTour.days"
+            :key="index"
+          >
             <h2 class="font-bold text-3xl">{{ day.title }}</h2>
-            <h4 class="font-bold text-green-500 uppercase">
+            <h4 class="font-bold text-balkanGreen uppercase">
               {{ day.subTitle }}
             </h4>
             <p class="my-2">{{ day.text }}</p>
           </div>
 
-          <template v-if="selectedTour.includes && selectedTour.includes.length">
-            <h4 class="font-bold text-green-500 uppercase mt-4">
+          <template
+            v-if="selectedTour.includes && selectedTour.includes.length"
+          >
+            <h4 class="font-bold text-balkanGreen uppercase mt-4">
               FİYATA DAHİL OLANLAR
             </h4>
             <ul class="list-inside list-disc ml-1">
@@ -159,8 +176,10 @@
             </ul>
           </template>
 
-          <template v-if="selectedTour.excludes && selectedTour.excludes.length">
-            <h4 class="font-bold text-green-500 uppercase mt-4">
+          <template
+            v-if="selectedTour.excludes && selectedTour.excludes.length"
+          >
+            <h4 class="font-bold text-balkanGreen uppercase mt-4">
               FİYATA DAHİL OLMAYANLAR
             </h4>
             <ul class="list-inside list-disc ml-1">
@@ -174,7 +193,9 @@
           </template>
 
           <div class="flex flex-wrap flex-col">
-            <template v-if="selectedTour.hotel_prices && selectedTour.hotel_prices.length">
+            <template
+              v-if="selectedTour.hotel_prices && selectedTour.hotel_prices.length"
+            >
               <table
                 v-for="(hotel, index) in selectedTour.hotel_prices"
                 :key="index"
@@ -184,16 +205,16 @@
                   <tr>
                     <th
                       colspan="2"
-                      class="font-bold text-green-500 py-2 px-16"
+                      class="font-bold text-balkanGreen py-2 px-16"
                       style="height: auto"
                     >
                       <span class="block">{{ hotel.title }}</span>
                       <span
-                        class="block text-green-400"
+                        class="block text-gray-500"
                         v-for="(subTitle, index) in hotel.subtitles"
                         >{{ subTitle }}</span
                       >
-                      <a :href="hotel.link">{{ hotel.link }}</a>
+                      <a class="text-blue-500 hover:text-blue-600":href="hotel.link">{{ hotel.link }}</a>
                     </th>
                   </tr>
                 </thead>
@@ -211,31 +232,118 @@
             </template>
           </div>
 
-          <table
-            class="table-fixed border-table text-center w-full md:w-3/4 mt-10 font-bold"
-            v-if="flight_infos.row1.length && flight_infos.row2"
-          >
-            <tbody>
-              <tr>
-                <td class="py-2 px-4">{{ flight_infos.row1.flight_no }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row1.airline }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row1.airport_1 }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row1.airport_2 }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row1.time_1 }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row1.time_2 }}</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4">{{ flight_infos.row2.flight_no }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row2.airline }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row2.airport_1 }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row2.airport_2 }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row2.time_1 }}</td>
-                <td class="py-2 px-4">{{ flight_infos.row2.time_2 }}</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="overflow-x-auto">
+            <table
+              class="hidden md:block table-fixed border-table text-center w-full md:w-3/4 mt-10 font-bold"
+              v-if="selectedTour.flight_infos?.row1 && selectedTour.flight_infos?.row2"
+            >
+              <tbody>
+                <tr>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.flight_no }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.airline }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.airport_1 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.airport_2 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.time_1 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.time_2 }}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.flight_no }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.airline }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.airport_1 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.airport_2 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.time_1 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.time_2 }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-          <template v-if="selectedTour.important_infos && selectedTour.important_infos.length">
+            <table
+              class="md:hidden table-fixed border-table text-center w-full md:w-3/4 mt-10 font-bold"
+              v-if="selectedTour.flight_infos?.row1 && selectedTour.flight_infos?.row2"
+            >
+              <tbody>
+                <tr>
+                  <td colspan="4">
+                    {{ selectedTour.flight_infos.row1.flight_no }}
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    {{ selectedTour.flight_infos.row1.airline }}
+                  </td>
+                </tr>
+                <tr class="font-normal text-sm">
+                  <td>
+                    {{ selectedTour.flight_infos.row1.airport_1 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row1.airport_2 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row1.time_1 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row1.time_2 }}
+                  </td>
+                </tr>
+                <tr class="bg-balkanGreen">
+                  <td colspan="4"></td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    {{ selectedTour.flight_infos.row2.flight_no }}
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    {{ selectedTour.flight_infos.row2.airline }}
+                  </td>
+                </tr>
+                <tr class="font-normal text-sm">
+                  <td>
+                    {{ selectedTour.flight_infos.row2.airport_1 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row2.airport_2 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row2.time_1 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row2.time_2 }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <template
+            v-if="selectedTour.important_infos && selectedTour.important_infos.length"
+          >
             <h4 class="font-bold text-4xl mt-8">Önemli Bilgilendirme</h4>
             <ul class="list-inside list-disc ml-1">
               <li
@@ -254,7 +362,7 @@
                 v-for="(month, index) in selectedTour.months"
                 :key="index"
               >
-                <h4 class="font-bold text-green-500 uppercase">
+                <h4 class="font-bold text-balkanGreen uppercase">
                   {{ month.title }}
                 </h4>
                 <h5
@@ -268,7 +376,26 @@
             </div>
           </template>
 
-          <template v-if="selectedTour.covid_preventions && selectedTour.covid_preventions.length">
+          <template
+            v-if="selectedTour.extra_infos && selectedTour.extra_infos.length"
+          >
+            <h4 class="font-bold text-4xl mt-8">Ekstra Tur Bilgileri</h4>
+            <ul class="list-inside ml-1 mb-20 list-none">
+              <li
+                v-for="(item, index) in selectedTour.extra_infos"
+                :key="index"
+              >
+                <h4 class="font-bold text-balkanGreen my-4">
+                  {{ item.title }}
+                </h4>
+                {{ item.description }}
+              </li>
+            </ul>
+          </template>
+
+          <template
+            v-if="selectedTour.covid_preventions && selectedTour.covid_preventions.length"
+          >
             <h4 class="font-bold text-4xl mt-8">COVID-19 Önlemlerimiz</h4>
             <ul class="list-inside list-disc ml-1 mb-20">
               <li
@@ -280,7 +407,6 @@
             </ul>
           </template>
         </div>
-        
       </div>
       <!-- TO DO button click => mailto and title 'll be selected tour title '-->
       <div class="bottom-6 flex justify-end w-full pt-6 pb-16 pr-64">

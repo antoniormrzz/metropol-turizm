@@ -4,6 +4,7 @@ export default [
     mainTitle: "BALKANLARIN BEYAZ ŞEHRİ BELGRAD",
     subTitle: "3 Gece Konaklamalı",
     location: "BELGRAD",
+    tldr: "Tuna ve Sava Nehirlerinin birleştiği nokta, beyaz şehir Belgrad",
     days: [
       {
         title: "1.Gün",
@@ -131,6 +132,7 @@ export default [
     mainTitle: "BUDVA",
     subTitle: "3 Gece Konaklamalı",
     location: "BUDVA",
+    tldr: "Balkanların incisi, Adriyatik’in en güzel sahilleri",
     days: [
       {
         title: "1.Gün",
@@ -257,6 +259,7 @@ export default [
     mainTitle: "SARAYBOSNA",
     subTitle: "3 Gece Konaklamalı",
     location: "SARAYBOSNA",
+    tldr: "Sevdalinka türkülerinin kaynağı, hüzünlü şehir Saraybosna",
     days: [
       {
         title: "1.Gün",
@@ -380,6 +383,11 @@ export default [
   },
   // 3 uçaklı baştanbaşa balkanlar
   {
+    mainTitle: "UÇAKLI BAŞTANBAŞA BALKANLAR",
+    location:
+      "Kuzey Makedonya – Arnavutluk – Karadağ - Bosna Hersek– Sırbistan",
+    subTitle: "7 Gece Konaklamalı - Üsküp gidiş, Belgrad dönüş",
+    tldr: "Türk Hava Yolları’nın direkt uçuşuyla, İstanbul çıkışlı",
     days: [
       {
         title: "1.Gün ",
@@ -472,10 +480,7 @@ export default [
         single_room_price: "120 £",
       },
     ],
-    mainTitle: "UÇAKLI BAŞTANBAŞA BALKANLAR",
-    location:
-      "Kuzey Makedonya – Arnavutluk – Karadağ - Bosna Hersek– Sırbistan",
-    subTitle: "7 Gece Konaklamalı - Üsküp gidiş, Belgrad dönüş",
+
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
       "Tur başlangıcında misafirlerimize içinde maske, dezenfektan ve ıslak mendil bulunan hijyen kitleri dağıtılacaktır.",
@@ -507,6 +512,9 @@ export default [
   },
   // 4 budva dalış turu
   {
+    mainTitle: "BUDVA DALIŞ TURU",
+    subTitle: "4 Gece Konaklamalı - Toplam 6 Dalış",
+    tldr: "5 Günde 6 dalışla keyifli bir deneyim",
     days: [
       {
         title: "1.Gün ",
@@ -539,12 +547,10 @@ export default [
           "Sabah otelde alacağımız kahvaltının ardından serbest zaman. Rehberinizin belirleyeceği saatte havaalanına transfer. Check-in işlemlerin ardından Türk Havayolları’nın TK 1088 tarifeli seferleri ile saat 20.30’da İstanbul'a hareket ediyoruz. Yerel saat ile 23.20’de İstanbul'a varış. Turumuzun ve hizmetlerimizin sonu.",
       },
     ],
-    flight_infos: { row1: {}, row2: {} },
     months: [],
     location: "BUDVA",
     hotel_prices: [],
-    mainTitle: "BUDVA DALIŞ TURU",
-    subTitle: "4 Gece Konaklamalı - Toplam 6 Dalış",
+
     includes: [
       "Türk havayolları ile İstanbul (IST) – Podgorica(TGD) - İstanbul (IST) gidiş-dönüş ekonomi sınıf uçak bileti",
       "Havaalanı – otel – havaalanı transferleri",
@@ -570,6 +576,11 @@ export default [
   },
   // 5 GOT
   {
+    mainTitle: "HIRVATİSTAN & SARAYBOSNA TURU",
+    subTitle: "6 Gece Konaklamalı",
+    location:
+      "Zagreb – Zadar – Šibenik – Split – Kliss – Neum - Dubrovnik – Trebinje – Mostar- Saraybosna",
+    tldr: "Türk Hava Yolları ile Zagreb gidiş, Saraybosna dönüş",
     days: [
       {
         title: "1.Gün ",
@@ -614,13 +625,9 @@ export default [
           "Sabah otelimizde alınacak kahvaltı sonrasında rehberimizin belirleyeceği saatte Saraybosna Havaalanı’na hareket ediyoruz. Bilet, bagaj ve pasaport işlemlerinin ardından, Türk Havayolları’nın TK 1024 sefer sayılı uçağı ile saat 14.15’de İstanbul’a hareket. Yerel saat ile 17.10’da varış ve turumuzun sonu.",
       },
     ],
-    flight_infos: { row1: {}, row2: {} },
     months: [],
     hotel_prices: [],
-    mainTitle: "HIRVATİSTAN & SARAYBOSNA TURU",
-    subTitle: "6 Gece Konaklamalı",
-    location:
-      "Zagreb – Zadar – Šibenik – Split – Kliss – Neum - Dubrovnik – Trebinje – Mostar- Saraybosna",
+
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
       "Tur başlangıcında misafirlerimize içinde maske, dezenfektan ve ıslak mendil bulunan hijyen kitleri dağıtılacaktır.",
@@ -650,6 +657,9 @@ export default [
   },
   // 6 jahorina kayak
   {
+    mainTitle: "JAHORİNA KAYAK TURU",
+    subTitle: "3 Gece konaklamalı",
+    tldr: " Olimpiyat pistlerinde kayak keyfi",
     days: [
       {
         title: "1.Gün ",
@@ -676,8 +686,12 @@ export default [
           "Sabah otelde alacağımız kahvaltının ardından serbest zaman. Rehberinizin belirleyeceği saatte havaalanına transfer. Check-in işlemlerin ardından Türk Havayollarının TK 1024 tarifeli seferleri ile saat 14.15’de İstanbul'a hareket ediyoruz. Yerel saat ile 17.10’da İstanbul'a varış. Turumuzun ve hizmetlerimizin sonu. ",
       },
     ],
-    flight_infos: { row1: {}, row2: {} },
     extra_infos: [
+      {
+        title: "Jahorina Kayak Merkezi Hakkında",
+        description:
+          "Jahorina, Saraybosna Havalimanı’na 35 km mesafededir. 1984 yılında Jahorina 14. Kış Olimpiyatlarına ev sahipliği yapmış ve hala Balkanların en büyük kayak ve kış turizm merkezidir. Dağın en yüksek zirveleri Ogorjelica 1916 m, Sjendiste 1910 m, Kosuta 1907 m ve Crni Vrh 1788 m rakımlarındadır. Kış sezonunda Jahorina dağında kar kalınlığı ortalama 170 gün boyunca 3 metreye kadar yükselmektedir. 20 kilometre uzunluğunda mükemmel kayak pistine ve saatte 10,000 kişi taşıma kapasiteli 9 adet teleferik sistemine sahip Jahorina sizleri eşsiz kayak keyfine davet etmektedir. Jahorina Dağı Ekim ayından başlayarak Mayıs ayına kadar yıllık ortalama 170 gün boyunca kar altındadır. On yıllık ortalama kar yüksekliği 106 cm’dir. Kayak Pistleri: Günümüzde 20 km üzerindeki kayak pistleri, 5 asansör ve iki modern telesiyej ile saatte 10.000 kayakçıyı ağırlayabilmektedir.",
+      },
       {
         title: "Boşnak Gecesi",
         description:
@@ -696,8 +710,7 @@ export default [
     ],
     months: [],
     hotel_prices: [],
-    mainTitle: "JAHORİNA KAYAK TURU",
-    subTitle: "3 Gece konaklamalı",
+
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
       "Tur başlangıcında misafirlerimize içinde maske, dezenfektan ve ıslak mendil bulunan hijyen kitleri dağıtılacaktır.",
@@ -783,12 +796,12 @@ export default [
           "Sabah otelde alacağımız kahvaltının ardından dönüş yolculuğumuza başlıyoruz. Yaklaşık 2 saatlik bir yolculuk ardından Deve Bayır sınır kapısında pasaport ve gümrük işlemlerini tamamlayarak Sofya’ya varıyoruz. Sofya şehir turunda; St. Nedelya Kilisesi, Rotunda Kilisesi, Rus Kilisesi, Aya Sofya Kilisesi, Aleksandr Nevski Katedrali, Başbakanlık ve Parlamento binaları, Sofya Üniversitesi ve Ulusal Kültür Sarayı ve Mimar Sinan tarafından tasarlanan Banyabaşı Camii görülecek yerler arasındadır. Öğle yemeği ve şehri tanımak için vereceğimiz serbest zaman sonrasında dönüş yolculuğumuza devam ediyoruz. Plovdiv yakınlarında vereceğimiz molanın ardından Kapıkule Sınır Kapısı’ndan Türkiye’ye girişimizi gerçekleştiriyoruz.  Turumuzun ve hizmetlerimizin sonu.",
       },
     ],
-    flight_infos: { row1: {}, row2: {} },
     months: [],
     hotel_prices: [],
     mainTitle: "OTOBÜSLÜ BALKAN TURU ",
     subTitle:
       "7 Gece Konaklamalı (Yunanistan – Kuzey Makedonya – Arnavutluk – Karadağ - Hırvatistan – Bosna Hersek– Sırbistan – Bulgaristan)",
+    tldr: "Lüks araçlarla baştanbaşa Balkanlar",
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
       "Tur başlangıcında misafirlerimize içinde maske, dezenfektan ve ıslak mendil bulunan hijyen kitleri dağıtılacaktır.",
@@ -821,6 +834,9 @@ export default [
   },
   // 8 otobüslü balkan üçlü
   {
+    mainTitle: "OTOBÜSLÜ BALKAN ÜÇLÜSÜ",
+    subTitle: "2 Gece Konaklamalı (Bulgaristan - Yunanistan – Kuzey Makedonya)",
+    tldr: "Bulgaristan & Yunanistan  & Kuzey Makedonya",
     days: [
       {
         title: "1.Gün",
@@ -848,11 +864,9 @@ export default [
           "Sabah otelde alacağımız erken kahvaltının ardından Bitola’ya hareket ediyoruz. Bitola’ya varışımızla birlikte şehir turuna başlıyoruz. Panoramik Bitola turunda, Yeni Cami, Türk Çarşısı, (Elveda Rumeli dizisindeki tarihi sokaklar), Kapalı Çarşı, İshak Paşa Cami ve Saat Kulesi’ni görüyoruz. Ardından Bitola çarşısında yürüyüş yapıp, Türkiye Cumhuriyeti’nin kurucusu ulu önder Atatürk’ün okuduğu Askeri İdadiyi görüyoruz. Tur bitiminde Selanik’e doğru hareket ediyoruz. Aristoteles Meydanı'nda verilecek serbest zaman sonrasında otobüsle yapacağımız panoramik Selanik şehir turunda, Beyaz Kule, Büyük İskender heykeli, Döner Kule, Uluslararası Fuar alanı, Osmanlı Hamamı, Osmanlı Cami, Bedesten, Yunanistan Makedonya’sı Başkanlık Sarayı ve Yunanistan’ın en büyük Kilisesi olan Aya Dimitros Kilisesi görülecek yerler arasındadır. Türkiye Cumhuriyeti’nin kurucusu ulu önder Atatürk’ün doğduğu ve yaşadığı evi de ziyaret ettikten sonra Kavala’ya devam ediyoruz. Kavala şehir turunda Su Kemerleri, Kavalalı Mehmet Ali Paşa İmarethanesi ve Konağı göreceğimiz yerler arasındadır. Akşam yemeği için vereceğimiz molanın ardından İpsala Sınır Kapısı’ndan Türkiye’ye girişimizi gerçekleştiriyoruz.  Turumuzun ve hizmetlerimizin sonu.",
       },
     ],
-    flight_infos: { row1: {}, row2: {} },
     months: [],
     hotel_prices: [],
-    mainTitle: "OTOBÜSLÜ BALKAN ÜÇLÜSÜ",
-    subTitle: "2 Gece Konaklamalı (Bulgaristan - Yunanistan – Kuzey Makedonya)",
+
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
       "Tur başlangıcında misafirlerimize içinde maske, dezenfektan ve ıslak mendil bulunan hijyen kitleri dağıtılacaktır.",
@@ -902,10 +916,11 @@ export default [
       },
     ],
   },
-  //  9 özel balkan üçlüsü 
+  //  9 özel balkan üçlüsü
   {
     mainTitle: "ÖZEL BALKAN ÜÇLÜSÜ",
     subTitle: "2 Gece Konaklamalı (Bulgaristan - Yunanistan – Kuzey Makedonya)",
+    tldr: "Max. 10 kişi ile özel Balkan turu",
     days: [
       {
         title: "1.Gün",
@@ -932,7 +947,6 @@ export default [
           "Sabah otelde alacağımız erken kahvaltının ardından Bitola’ya hareket ediyoruz. Bitola’ya varışımızla birlikte şehir turuna başlıyoruz. Panoramik Bitola turunda, Yeni Cami, Türk Çarşısı, (Elveda Rumeli dizisindeki tarihi sokaklar), Kapalı Çarşı, İshak Paşa Cami ve Saat Kulesi’ni görüyoruz. Ardından Bitola çarşısında yürüyüş yapıp, Türkiye Cumhuriyeti’nin kurucusu ulu önder Atatürk’ün okuduğu Askeri İdadiyi görüyoruz. Tur bitiminde Selanik’e doğru hareket ediyoruz. Aristoteles Meydanı'nda verilecek serbest zaman sonrasında otobüsle yapacağımız panoramik Selanik şehir turunda, Beyaz Kule, Büyük İskender heykeli, Döner Kule, Uluslararası Fuar alanı, Osmanlı Hamamı, Osmanlı Cami, Bedesten, Yunanistan Makedonya’sı Başkanlık Sarayı ve Yunanistan’ın en büyük Kilisesi olan Aya Dimitros Kilisesi görülecek yerler arasındadır. Türkiye Cumhuriyeti’nin kurucusu ulu önder Atatürk’ün doğduğu ve yaşadığı evi de ziyaret ettikten sonra Kavala’ya devam ediyoruz. Kavala şehir turunda Su Kemerleri, Kavalalı Mehmet Ali Paşa İmarethanesi ve Konağı göreceğimiz yerler arasındadır. Akşam yemeği için vereceğimiz molanın ardından İpsala Sınır Kapısı’ndan Türkiye’ye girişimizi gerçekleştiriyoruz.  Turumuzun ve hizmetlerimizin sonu.",
       },
     ],
-    flight_infos: { row1: {}, row2: {} },
     months: [],
     hotel_prices: [],
 
