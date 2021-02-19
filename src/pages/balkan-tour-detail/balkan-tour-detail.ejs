@@ -131,7 +131,7 @@
 
         <div>
           <h1 class="font-bold text-5xl mb-4">{{ selectedTour.mainTitle }}</h1>
-          <h4 class="font-bold text-3xl text-green-500 mb-8">{{ selectedTour.subTitle }}</h1>
+          <h4 class="font-bold text-3xl text-green-500 mb-8">{{ selectedTour.subTitle }}</h4>
           <div v-if="selectedTour.days.length" v-for="(day, index) in selectedTour.days" :key="index">
             <h2 class="font-bold text-3xl">{{ day.title }}</h2>
             <h4 class="font-bold text-green-500 uppercase">
