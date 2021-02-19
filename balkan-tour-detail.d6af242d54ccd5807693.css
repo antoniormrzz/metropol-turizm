@@ -2115,6 +2115,10 @@ h1,h2,h3,h4,h5{
     min-height:200px;
     margin-bottom:40px
   }
+
+  .tour-card:last-child{
+    margin-bottom:10px
+  }
 }
 
 .border-table th,.border-table td{
@@ -2138,5 +2142,36 @@ h1,h2,h3,h4,h5{
 
 .active-tour{
   opacity:1 !important
+}
+
+@media (min-width: 768px){
+  #left-scroll-div{
+    position:-webkit-sticky;
+    position:sticky;
+    top:84px;
+    height:calc(100vh - 84px);
+    overflow-y:scroll;
+    padding-right:15px
+  }
+
+  #left-scroll-div::-webkit-scrollbar{
+    width:5px
+  }
+
+  #left-scroll-div::-webkit-scrollbar-track{
+    -webkit-box-shadow:inset 0 0 5px #c1c1c1;
+            box-shadow:inset 0 0 5px #c1c1c1;
+    border-radius:10px
+  }
+
+  #left-scroll-div::-webkit-scrollbar-thumb{
+    background:#03AD4F;
+    border-radius:10px
+  }
+
+  #left-scroll-div::-webkit-scrollbar-thumb:hover{
+    background:#1d9151;
+    width:15px
+  }
 }
 
