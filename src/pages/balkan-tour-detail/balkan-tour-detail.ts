@@ -1,6 +1,6 @@
 // for all modules, import tailwind and it's scss style
 import "tailwindcss/tailwind.css";
-import "./tour-detail.scss";
+import "./balkan-tour-detail.scss";
 import balkanTours from "../../constants/balkan-tours";
 import $ from "jquery";
 

@@ -4,7 +4,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tour Detail</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/venntourlogo.png"
+      type="image/x-icon"
+    />
+    <title>Balkans Tours</title>
   </head>
 
   <body>
@@ -16,8 +21,7 @@
           <div class="absolute bottom-6 flex justify-center w-full">
             <a
               href="mailto:info@balkans.com"
-              class="transition duration-500 ease-in-out hover:bg-red-500 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-full"
-              style="background-color: #ee2930"
+              class="transition duration-500 ease-in-out hover:bg-green-700 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-full bg-balkanGreen"
             >
               Bilgi Al
             </a>
@@ -99,7 +103,7 @@
       </div>
 
       <div class="tour-detail">
-        <div class="hidden md:block" :class="{ open: showDrawer }">
+        <div class="hidden md:block" :class="{ open: showDrawer }" id="left-scroll-div">
           <a
             class="tour-card flex rounded-lg  border- border-gray-200"
             v-for="(tour, index) in tourData"
@@ -107,7 +111,7 @@
             :data-key="index"
             @click="selectTour(index)"
           >
-            <img class="w-40 md:w-52 object-cover" src="assets/img/tour-details/1.png" />
+            <img class="w-40 md:w-52 object-cover" :src="'assets/img/tour-details/balkan_tour_images/' + index + '.png'" />
             <div class="px-4 flex flex-col justify-between">
               <h3 class="text-lg md:text-xl font-bold">{{ tour.mainTitle }}</h3>
               <div>
@@ -132,7 +136,7 @@
 
         <div>
           <h1 class="font-bold text-5xl mb-4">{{ selectedTour.mainTitle }}</h1>
-          <h4 class="font-bold text-3xl text-green-500 mb-8">{{ selectedTour.subTitle }}</h1>
+          <h4 class="font-bold text-3xl text-green-500 mb-8">{{ selectedTour.subTitle }}</h4>
           <div v-if="selectedTour.days.length" v-for="(day, index) in selectedTour.days" :key="index">
             <h2 class="font-bold text-3xl">{{ day.title }}</h2>
             <h4 class="font-bold text-green-500 uppercase">
@@ -169,7 +173,7 @@
             </ul>
           </template>
 
-          <div class="flex flex-wrap">
+          <div class="flex flex-wrap flex-col">
             <template v-if="selectedTour.hotel_prices && selectedTour.hotel_prices.length">
               <table
                 v-for="(hotel, index) in selectedTour.hotel_prices"
@@ -181,7 +185,7 @@
                     <th
                       colspan="2"
                       class="font-bold text-green-500 py-2 px-16"
-                      style="height: 113px"
+                      style="height: auto"
                     >
                       <span class="block">{{ hotel.title }}</span>
                       <span
@@ -276,6 +280,16 @@
             </ul>
           </template>
         </div>
+        
+      </div>
+      <!-- TO DO button click => mailto and title 'll be selected tour title '-->
+      <div class="bottom-6 flex justify-end w-full pt-6 pb-16 pr-64">
+        <a
+          href="mailto:info@balkans.com?subject=Selected Tour Title"
+          class="transition duration-500 ease-in-out hover:bg-green-700 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-full bg-balkanGreen"
+        >
+          Bilgi Al
+        </a>
       </div>
     </main>
   </body>

@@ -1,4 +1,5 @@
 export default [
+  // 0 belgrad
   {
     mainTitle: "BALKANLARIN BEYAZ ŞEHRİ BELGRAD",
     subTitle: "3 Gece Konaklamalı",
@@ -125,6 +126,7 @@ export default [
       },
     },
   },
+  // 1 budva
   {
     mainTitle: "BUDVA",
     subTitle: "3 Gece Konaklamalı",
@@ -249,6 +251,7 @@ export default [
       },
     },
   },
+  // 2 Saraybosna
 
   {
     mainTitle: "SARAYBOSNA",
@@ -375,6 +378,7 @@ export default [
       },
     },
   },
+  // 3 uçaklı baştanbaşa balkanlar
   {
     days: [
       {
@@ -501,6 +505,7 @@ export default [
       "Fiyatların geçerli olduğu tarihler aşağıdaki gibidir;",
     ],
   },
+  // 4 budva dalış turu
   {
     days: [
       {
@@ -563,6 +568,7 @@ export default [
       "Dalış sertifikası olamayanlar günde 1 deneme dalışı yapabilirler veya dalış kursu alabilirler. Dalış kursu fiyata dahil değildir.",
     ],
   },
+  // 5 GOT
   {
     days: [
       {
@@ -611,10 +617,10 @@ export default [
     flight_infos: { row1: {}, row2: {} },
     months: [],
     hotel_prices: [],
-    mainTitle: "GAME OF THRONES - HIRVATİSTAN & SARAYBOSNA TURU",
+    mainTitle: "HIRVATİSTAN & SARAYBOSNA TURU",
     subTitle: "6 Gece Konaklamalı",
     location:
-      "(Zagreb – Zadar – Šibenik – Split – Kliss – Neum - Dubrovnik – Trebinje – Mostar- Saraybosna)",
+      "Zagreb – Zadar – Šibenik – Split – Kliss – Neum - Dubrovnik – Trebinje – Mostar- Saraybosna",
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
       "Tur başlangıcında misafirlerimize içinde maske, dezenfektan ve ıslak mendil bulunan hijyen kitleri dağıtılacaktır.",
@@ -642,6 +648,7 @@ export default [
     ],
     important_infos: [],
   },
+  // 6 jahorina kayak
   {
     days: [
       {
@@ -718,6 +725,7 @@ export default [
     ],
     important_infos: [],
   },
+  // 7 otobüslü balkan
   {
     days: [
       {
@@ -811,6 +819,7 @@ export default [
     ],
     important_infos: [],
   },
+  // 8 otobüslü balkan üçlü
   {
     days: [
       {
@@ -893,6 +902,7 @@ export default [
       },
     ],
   },
+  //  9 özel balkan üçlüsü 
   {
     mainTitle: "ÖZEL BALKAN ÜÇLÜSÜ",
     subTitle: "2 Gece Konaklamalı (Bulgaristan - Yunanistan – Kuzey Makedonya)",
