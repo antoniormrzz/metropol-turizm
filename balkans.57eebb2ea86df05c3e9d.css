@@ -580,6 +580,11 @@ video {
   background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
 }
 
+.bg-balkanGreen {
+  --tw-bg-opacity: 1;
+  background-color: rgba(3, 173, 79, var(--tw-bg-opacity));
+}
+
 .hover\:bg-red-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
@@ -1127,12 +1132,20 @@ video {
   padding-bottom: 3rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
 
 .pb-36 {
   padding-bottom: 9rem;
+}
+
+.pr-64 {
+  padding-right: 16rem;
 }
 
 .pointer-events-none {
