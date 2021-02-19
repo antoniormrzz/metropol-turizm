@@ -2,6 +2,11 @@
 import "tailwindcss/tailwind.css";
 import "./tour-detail.scss";
 import balkanTours from "../../constants/balkan-tours";
+import $ from "jquery";
+
+$(document).ready(() => {
+  $(`.tour-card[data-key="0"]`).addClass("active-tour");
+});
 
 new Vue({
   el: "#app",
@@ -12,15 +17,18 @@ new Vue({
   },
   computed: {
     cutText: function () {
-      return this.selectedTour.days[0].text.substring(0, 116) + "...";
+      return this.selectedTour.tldr?.substring(0, 116) + "...";
     },
     flight_infos: function () {
-      return this.selectedTour.flight_infos ;
+      return this.selectedTour.flight_infos;
     },
   },
   methods: {
     selectTour: function (index) {
       this.selectedTour = this.tourData[index];
+      this.showDrawer = false;
+      $(".tour-card").removeClass("active-tour");
+      $(`.tour-card[data-key="${index}"]`).addClass("active-tour");
     },
     toggleDrawer: function () {
       this.showDrawer = !this.showDrawer;

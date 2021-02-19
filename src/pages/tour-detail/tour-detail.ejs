@@ -104,6 +104,7 @@
             class="tour-card flex rounded-lg  border- border-gray-200"
             v-for="(tour, index) in tourData"
             :key="index"
+            :data-key="index"
             @click="selectTour(index)"
           >
             <img class="w-40 md:w-52 object-cover" src="assets/img/tour-details/1.png" />
@@ -111,7 +112,7 @@
               <h3 class="text-lg md:text-xl font-bold">{{ tour.mainTitle }}</h3>
               <div>
                 <h4 class="text-sm md:text-base font-bold text-green-500 uppercase">
-                  tour.location
+                  {{ tour.location }}
                 </h4>
                 <p class="text-sm md:text-base text-justify">{{ cutText }}</p>
               </div>
@@ -132,7 +133,7 @@
         <div>
           <h1 class="font-bold text-5xl mb-4">{{ selectedTour.mainTitle }}</h1>
           <h4 class="font-bold text-3xl text-green-500 mb-8">{{ selectedTour.subTitle }}</h1>
-          <div v-for="(day, index) in selectedTour.days" :key="index">
+          <div v-if="selectedTour.days.length" v-for="(day, index) in selectedTour.days" :key="index">
             <h2 class="font-bold text-3xl">{{ day.title }}</h2>
             <h4 class="font-bold text-green-500 uppercase">
               {{ day.subTitle }}
@@ -140,7 +141,7 @@
             <p class="my-2">{{ day.text }}</p>
           </div>
 
-          <template v-if="selectedTour.includes.length">
+          <template v-if="selectedTour.includes && selectedTour.includes.length">
             <h4 class="font-bold text-green-500 uppercase mt-4">
               FİYATA DAHİL OLANLAR
             </h4>
@@ -154,7 +155,7 @@
             </ul>
           </template>
 
-          <template v-if="selectedTour.excludes.length">
+          <template v-if="selectedTour.excludes && selectedTour.excludes.length">
             <h4 class="font-bold text-green-500 uppercase mt-4">
               FİYATA DAHİL OLMAYANLAR
             </h4>
@@ -169,7 +170,7 @@
           </template>
 
           <div class="flex flex-wrap">
-            <template v-if="selectedTour.hotel_prices.length">
+            <template v-if="selectedTour.hotel_prices && selectedTour.hotel_prices.length">
               <table
                 v-for="(hotel, index) in selectedTour.hotel_prices"
                 :key="index"
@@ -208,7 +209,7 @@
 
           <table
             class="table-fixed border-table text-center w-full md:w-3/4 mt-10 font-bold"
-            v-if="flight_infos.row1 && flight_infos.row2"
+            v-if="flight_infos.row1.length && flight_infos.row2"
           >
             <tbody>
               <tr>
@@ -230,7 +231,7 @@
             </tbody>
           </table>
 
-          <template v-if="selectedTour.important_infos.length">
+          <template v-if="selectedTour.important_infos && selectedTour.important_infos.length">
             <h4 class="font-bold text-4xl mt-8">Önemli Bilgilendirme</h4>
             <ul class="list-inside list-disc ml-1">
               <li
@@ -242,7 +243,7 @@
             </ul>
           </template>
 
-          <template v-if="selectedTour.months.length">
+          <template v-if="selectedTour.months && selectedTour.months.length">
             <div class="flex flex-wrap mt-16 mb-16">
               <div
                 class="w-1/2 md:w-1/4"
@@ -263,7 +264,7 @@
             </div>
           </template>
 
-          <template v-if="selectedTour.covid_preventions.length">
+          <template v-if="selectedTour.covid_preventions && selectedTour.covid_preventions.length">
             <h4 class="font-bold text-4xl mt-8">COVID-19 Önlemlerimiz</h4>
             <ul class="list-inside list-disc ml-1 mb-20">
               <li
