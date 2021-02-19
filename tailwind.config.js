@@ -17,6 +17,9 @@ module.exports = {
         "3xl": "1.875rem",
         "4xl": "2.25rem",
       },
+      colors: {
+        balkanGreen: '#03AD4F'
+      }
     },
     screens: {
       sm: "640px",
