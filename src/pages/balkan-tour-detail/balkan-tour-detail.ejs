@@ -4,7 +4,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tour Detail</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/venntourlogo.png"
+      type="image/x-icon"
+    />
+    <title>Balkans Tours</title>
   </head>
 
   <body>
@@ -98,7 +103,7 @@
       </div>
 
       <div class="tour-detail">
-        <div class="hidden md:block" :class="{ open: showDrawer }">
+        <div class="hidden md:block" :class="{ open: showDrawer }" id="left-scroll-div">
           <a
             class="tour-card flex rounded-lg  border- border-gray-200"
             v-for="(tour, index) in tourData"
