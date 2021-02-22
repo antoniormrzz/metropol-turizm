@@ -1,8 +1,10 @@
 export default [
   // 0 Avusturya Çekya Polonya
   {
-    mainTitle: "AVUSTURYA ÇEKYA POLONYA TURU",
-    subTitle: "THY İLE 6 gece / 7 Gün",
+    mainTitle: "Avusturya Çekya Polonya Turu",
+    subTitle: "Thy İle 6 Gece / 7 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates:
       "18 Temmuz – 01,15,29 Ağustos – 12 Eylül – 24 Ekim – 14 Kasım – 26 Aralık 2021",
     location: "Viyana (1) – Prag (2) – Krakov (2) – Varşova (1)",
@@ -14,7 +16,7 @@ export default [
         "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
         "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
       ],
-      ["4 * Oteller", "£", "£", "£", "£"],
+      ["4 * Oteller", "€", "€", "€", "€"],
     ],
 
     days: [
@@ -133,8 +135,10 @@ export default [
 
   // 1 BALTIK BAŞKENTLERİ
   {
-    mainTitle: "BALTIK BAŞKENTLERİ",
-    subTitle: "THY İLE 5 Gece / 6 Gün",
+    mainTitle: "Baltık Başkentleri",
+    subTitle: "Thy İle 5 Gece / 6 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "11 Mayıs – 14 Haziran – 19 Temmuz – 16 Ağustos 2021",
     location: "Tallinn (2) – Riga (2) – Vilnius (1)",
     prices: [
@@ -145,7 +149,7 @@ export default [
         "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
         "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
       ],
-      ["4 * Oteller", "£", "£", "£", "£"],
+      ["4 * Oteller", "€", "€", "€", "€"],
     ],
 
     days: [
@@ -253,8 +257,10 @@ export default [
   },
   // 2 FİZEMLİ FAS FURU
   {
-    mainTitle: "GİZEMLİ FAS TURU",
-    subTitle: "THY İLE VİZESİZ 7 Gece 8 Gün",
+    mainTitle: "Gizemli Fas Turu",
+    subTitle: "Thy İle Vi̇zesi̇z 7 Gece 8 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "16 Ekim – 13 Kasım – 26 Aralık 2021",
     location:
       "Kazablanka (1) – Fes (2) – Erfoud (1) – Ouarzazate (1) – Marakeş (2)",
@@ -393,8 +399,10 @@ export default [
   // 3 GÜNEY AFRİKA SAFARİ TURU
 
   {
-    mainTitle: "GÜNEY AFRİKA SAFARİ TURU",
-    subTitle: "THY İLE VİZESİZ 7 Gece 9 Gün",
+    mainTitle: "Güney Afrika Safari Turu",
+    subTitle: "Thy İle Vi̇zesi̇z 7 Gece 9 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "17 Temmuz – 14 Ağustos – 18 Eylül – 16 Ekim 2021",
     location: "Cape Town (4) – Kruger (2) – Johannesburg (1)",
     prices: [
@@ -570,8 +578,10 @@ export default [
   // 4 JAPONYA GÜNEY KORE TURU
 
   {
-    mainTitle: "JAPONYA GÜNEY KORE TURU",
-    subTitle: "THY İLE VİZESİZ 6 Gece 7 Gün",
+    mainTitle: "Japonya Güney Kore Turu",
+    subTitle: "Thy İle Vi̇zesi̇z 6 Gece 7 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates:
       "13 Haziran – 18 Temmuz – 15 Ağustos – 19 Eylül – 17 Ekim – 14 Kasım 2021",
     location: "Tokyo (3) – Osaka (2) – Seul (1)",
@@ -704,8 +714,10 @@ export default [
   // 5 SİCİLYA & NAPOLİ TURU
 
   {
-    mainTitle: "SİCİLYA & NAPOLİ TURU",
-    subTitle: "THY İLE VİZESİZ 6 Gece 7 Gün",
+    mainTitle: "Sicilya & Napoli Turu",
+    subTitle: "Thy İle Vi̇zesi̇z 6 Gece 7 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates:
       "18 Temmuz – 01,15,29 Ağustos – 12 Eylül – 24 Ekim – 14 Kasım – 26 Aralık 2021",
     location:
@@ -835,8 +847,10 @@ export default [
   // 6 SIRLARIN ÜLKESİ SRİ LANKA TURU
 
   {
-    mainTitle: "SIRLARIN ÜLKESİ SRİ LANKA TURU",
-    subTitle: "THY İLE VİZESİZ 6 Gece 8 Gün",
+    mainTitle: "Sırların Ülkesi Sri Lanka Turu",
+    subTitle: "Thy İle Vi̇zesi̇z 6 Gece 8 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates:
       "16 Temmuz – 07,20 Ağustos – 17 Eylül – 08 , 22 Ekim – 20 Kasım 2021",
     location:
@@ -1005,9 +1019,11 @@ export default [
 
   // 7 UKRAYNA TURU
   {
-    mainTitle: "ÜRDÜN TURU",
+    mainTitle: "Ukrayna Turu",
     subTitle:
-      "THY İLE VİZESİZ BİYOMETRİK YENİ KİMLİKLE GİRİŞ İMKANI 5 Gece 6 Gün",
+      "Thy İle Vi̇zesi̇z Bi̇yometri̇k Yeni̇ Ki̇mli̇kle Gi̇ri̇ş İmkani 5 Gece 6 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates:
       "17 Temmuz – 07,21 Ağustos – 18 Eylül – 09,23 Ekim – 06,20 Kasım – 26 Aralık 2021",
     location: "Lviv (2) – Rivne – Kiev (3) – Çernobil – Odessa (2)",
@@ -1019,7 +1035,7 @@ export default [
         "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
         "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
       ],
-      ["4 * Oteller", "£", "£", "£", "£"],
+      ["4 * Oteller", "€", "€", "€", "€"],
     ],
 
     days: [
@@ -1149,8 +1165,10 @@ export default [
 
   // 8 ÜRDÜN TURU
   {
-    mainTitle: "ÜRDÜN TURU",
-    subTitle: "THY İLE VİZESİZ 5 Gece 6 Gün",
+    mainTitle: "Ürdün Turu",
+    subTitle: "Thy İle Vi̇zesi̇z 5 Gece 6 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "20 Temmuz – 26 Ağustos – 22 Eylül – 13,27 Ekim – 29 Aralık 2021",
     location:
       "Akabe (1) – Bedevi Kampı (1) – Petra (1) – Ölü Deniz (1) – Amman (1)",
@@ -1162,7 +1180,7 @@ export default [
         "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
         "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
       ],
-      ["4 * Oteller", "£", "£", "£", "£"],
+      ["4 * Oteller", "€", "€", "€", "€"],
     ],
 
     days: [
@@ -1260,8 +1278,10 @@ export default [
 
   // 9 VİETNAM KAMBOÇYA TURU
   {
-    mainTitle: "VİETNAM KAMBOÇYA TURU",
-    subTitle: "THY İLE 7 Gece 9 Gün",
+    mainTitle: "Vi̇etnam Kamboçya Turu",
+    subTitle: "Thy İle 7 Gece 9 Gün",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "23 Ekim – 20 Kasım – 11 Aralık 2021",
     location:
       "Saigon (Ho Chi Minh) (2) – Siem Reap (2) – Hanoi (3) – Ha Long Bay",
