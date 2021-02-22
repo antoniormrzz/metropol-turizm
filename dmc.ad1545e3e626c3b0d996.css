@@ -585,6 +585,11 @@ video {
   background-color: rgba(42, 38, 100, var(--tw-bg-opacity));
 }
 
+.bg-travelYellow {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 205, 15, var(--tw-bg-opacity));
+}
+
 .hover\:bg-red-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
@@ -1297,6 +1302,11 @@ video {
 .text-dmcBlue {
   --tw-text-opacity: 1;
   color: rgba(42, 38, 100, var(--tw-text-opacity));
+}
+
+.text-travelYellow {
+  --tw-text-opacity: 1;
+  color: rgba(255, 205, 15, var(--tw-text-opacity));
 }
 
 .hover\:text-blue-600:hover {
@@ -2108,46 +2118,45 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-mice{
+.bg-dmc{
   height:510px;
-  background-image:url(assets/img/34ab5035b52601e98e80feeb6ed2f56e.png)
+  background-image:url(assets/img/1a07b0f891fb9a477183218d99a1d43e.png)
 }
 
-.bg-calendar{
-  background-image:url(assets/img/dd934eeb596b3edeb7f6bbba37c08d46.png);
+.bg-balloon{
+  background-image:url(assets/img/cf3842fedb89f9ae1480d14f24f9fbba.png);
   background-repeat:no-repeat;
-  background-position-x:-8vw;
-  background-position-y:center
+  background-position-x:-100px
 }
 
 @media (max-width: 1024px){
-  .bg-calendar{
+  .bg-balloon{
     background-image:none
   }
 }
 
-.bg-outline{
-  background-image:url(assets/img/962e3274394a98b1965414342125e850.png);
+.bg-travel{
+  background-image:url(assets/img/0f295ca5499c9593f4cb43500e849900.png);
   background-repeat:no-repeat;
-  background-position-x:85vw;
-  background-position-y:center
+  background-position-x:81vw
 }
 
 @media (max-width: 1024px){
-  .bg-outline{
+  .bg-travel{
     background-image:none
   }
 }
 
-.bg-prod{
-  background-image:url(assets/img/324984e5897c65eedb1100bbba6af673.png);
+.bg-bus{
+  background-image:url(assets/img/d83def139ffbd6a9ea609780cd00e967.png);
   background-repeat:no-repeat;
-  background-position-x:-8vw;
-  background-position-y:center
+  background-position-x:-150px;
+  background-position-y:-50px;
+  background-size:60%
 }
 
 @media (max-width: 1024px){
-  .bg-prod{
+  .bg-bus{
     background-image:none
   }
 }
