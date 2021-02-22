@@ -9,7 +9,7 @@ export default [
         date: "Her gün hareketli",
         double_room: "2.790 ₺",
         single_room: "3.490 ₺ ",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 950 ₺\n7-12 Yaş : 1.590 ₺",
+        kids: ["0-2 Yaş : 250 ₺", "3-6 Yaş : 950 ₺", "7-12 Yaş : 1.590 ₺"],
       },
     ],
     flight_infos: {
@@ -55,8 +55,11 @@ export default [
             text:
               "Erken yaşlarda dokuma yapan kadınların şaşırtıcı kodları ve satır satır okunması gereken sihirli harfleri onların sevinçlerini ve acılarını sabırla günümüze kadar yaşayan bir geçmişi temsil eder. Onlar, kuşların sesleri, çocuk sesleri, hafifçe esen bahar rüzgârları, çiçekler, yapraklar, dallar, rakamlar, kaprislerine, istek ve paylaşmalarla içerir. Bir yağmur beklentisi bir bulut ve dört kanat ve çift başlı bir kuş tarafından haber bir beklenti ile sembolize edilir. Ancak bu sembollerin dili günümüze tam çözümlenmiş değildir. \n Gezi sonrasında otelimize yerleşme ve serbest zaman. Konaklama otelimizde.",
           },
+          {
+            content_title: "",
+            text: "Konaklama: Exedra Hotel Cappadocia",
+          },
         ],
-        accomodation: "Konaklama: Exedra Hotel Cappadocia ",
       },
 
       {
@@ -125,18 +128,18 @@ export default [
         date: "İki kişilik gruba özel",
         double_room: "3.990 ₺",
         single_room: "4.490 ₺ ",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 950 ₺\n7-12 Yaş : 1.990 ₺",
+        kids: ["0-2 Yaş : 250 ₺", "3-6 Yaş : 950 ₺", "7-12 Yaş : 1.990 ₺"],
       },
       {
         date: "Dört kişilik gruba özel",
         double_room: "3.490 ₺",
         single_room: "3.990 ₺ ",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 950 ₺\n7-12 Yaş : 1.590 ₺",
+        kids: ["0-2 Yaş : 250 ₺", "3-6 Yaş : 950 ₺", "7-12 Yaş : 1.590 ₺"],
       },
     ],
     flight_infos: {
-      title1: "Önerilen Uçuş Saatleri",
-      title2: "Pegasus Hava Yolları",
+      preTitle: "Önerilen Uçuş Saatleri",
+      title: "Pegasus Hava Yolları",
       rows: [
         {
           key: "İstanbul Sabiha Gökçen havalimanı – Kayseri",
@@ -381,7 +384,7 @@ export default [
         date: "Her gün hareketli",
         double_room: "Kişi başı : 1.390 ₺",
         single_room: "Kişi başı : 1.550 ₺",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 850 ₺\n7-12 Yaş : 1.090 ₺",
+        kids: ["0-2 Yaş : 250 ₺", "3-6 Yaş : 850 ₺", "7-12 Yaş : 1.090 ₺"],
       },
     ],
     flight_infos: {
@@ -455,7 +458,7 @@ export default [
         date: "Her gün hareketli",
         double_room: "Kişi başı : 1.390 ₺",
         single_room: "Kişi başı : 1.650 ₺",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 850 ₺\n7-12 Yaş : 1.090 ₺",
+        kids: ["0-2 Yaş : 250 ₺", "3-6 Yaş : 850 ₺", "7-12 Yaş : 1.090 ₺"],
       },
     ],
     flight_infos: {
@@ -528,7 +531,7 @@ export default [
         date: "Her gün hareketli",
         double_room: "Kişi başı : 1.490 ₺",
         single_room: "Kişi başı : 1.650 ₺",
-        kids: "0-2 Yaş : 350 ₺\n3-6 Yaş : 950 ₺\n7-12 Yaş : 1.190 ₺",
+        kids: ["0-2 Yaş : 350 ₺","3-6 Yaş : 950 ₺","7-12 Yaş : 1.190 ₺"],
       },
     ],
     flight_infos: {
@@ -604,7 +607,7 @@ export default [
         date: "Her gün hareketli",
         double_room: "Kişi başı : 1.390 ₺",
         single_room: "Kişi başı : 1.550 ₺",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 850 ₺\n7-12 Yaş : 1.090 ₺",
+        kids: ["0-2 Yaş : 250 ₺","3-6 Yaş : 850 ₺","7-12 Yaş : 1.090 ₺"],
       },
     ],
     flight_infos: {
@@ -677,7 +680,7 @@ export default [
         date: "Her gün hareketli",
         double_room: "Kişi başı : 1.590 ₺",
         single_room: "Kişi başı : 1.790 ₺",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 950 ₺\n7-12 Yaş : 1.190 ₺",
+        kids: ["0-2 Yaş : 250 ₺","3-6 Yaş : 950 ₺","7-12 Yaş : 1.190 ₺"],
       },
     ],
     flight_infos: {
@@ -765,7 +768,7 @@ export default [
         date: "Her gün hareketli",
         double_room: "Kişi başı : 1.590 ₺",
         single_room: "Kişi başı : 1.790 ₺",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 950 ₺\n7-12 Yaş : 1.190 ₺",
+        kids: ["0-2 Yaş : 250 ₺","3-6 Yaş : 950 ₺","7-12 Yaş : 1.190 ₺"],
       },
     ],
     flight_infos: {
@@ -854,7 +857,7 @@ export default [
         date: "Her gün hareketli",
         double_room: "Kişi başı : 1.690 ₺",
         single_room: "Kişi başı : 1.790 ₺",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 950 ₺\n7-12 Yaş : 1.190 ₺",
+        kids: ["0-2 Yaş : 250 ₺","3-6 Yaş : 950 ₺","7-12 Yaş : 1.190 ₺"],
       },
     ],
     flight_infos: {
@@ -904,8 +907,7 @@ export default [
 
       {
         title: "3.Gün",
-        subTitle:
-          "ŞANLIURFA – DİYARBAKIR ",
+        subTitle: "ŞANLIURFA – DİYARBAKIR ",
         content: [
           {
             content_title: "",
@@ -930,20 +932,17 @@ export default [
     ],
   },
 
-
   // 10 TARSUS – ADANA – ANTAKYA TURU
   {
-    mainTitle:
-      "TARSUS – ADANA – ANTAKYA TURU ",
-    subTitle:
-      "TARSUS – ADANA – ANTAKYA TURU ",
+    mainTitle: "TARSUS – ADANA – ANTAKYA TURU ",
+    subTitle: "TARSUS – ADANA – ANTAKYA TURU ",
     location: "TARSUS – ADANA – ANTAKYA TURU ",
     prices: [
       {
         date: "Her gün hareketli",
         double_room: "Kişi başı : 1.690 ₺",
         single_room: "Kişi başı : 1.790 ₺",
-        kids: "0-2 Yaş : 250 ₺\n3-6 Yaş : 950 ₺\n7-12 Yaş : 1.190 ₺",
+        kids: ["0-2 Yaş : 250 ₺","3-6 Yaş : 950 ₺","7-12 Yaş : 1.190 ₺"],
       },
     ],
     flight_infos: {
@@ -993,8 +992,7 @@ export default [
 
       {
         title: "3.Gün",
-        subTitle:
-          "ANTAKYA",
+        subTitle: "ANTAKYA",
         content: [
           {
             content_title: "",
@@ -1005,16 +1003,13 @@ export default [
       },
     ],
     includes: [
-        "Adana gidiş, Hatay dönüş uçak biletleri,",
-        "Belirtilen otellerde 2 gece konaklama,",
-        "Tüm ulaşım ve geziler,",
-        "Profesyonel kokartlı rehberlik hizmeti,",
-        "2 adet kahvaltı, ",
-        "Müze ve Ören yeri giriş ücretleri,",
+      "Adana gidiş, Hatay dönüş uçak biletleri,",
+      "Belirtilen otellerde 2 gece konaklama,",
+      "Tüm ulaşım ve geziler,",
+      "Profesyonel kokartlı rehberlik hizmeti,",
+      "2 adet kahvaltı, ",
+      "Müze ve Ören yeri giriş ücretleri,",
     ],
-    excludes: [
-      "Tüm özel harcamalar,",
-      "Öğle ve Akşam yemekleri,",
-    ],
+    excludes: ["Tüm özel harcamalar,", "Öğle ve Akşam yemekleri,"],
   },
 ];
