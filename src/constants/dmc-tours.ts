@@ -1,7 +1,9 @@
 export default [
   {
-    mainTitle:
-      "VENN 3N4D NEMRUT – URFA - ANTEP TOUR FROM/TO CAPPADOCIA DETAILED ITINERARY",
+    mainTitle: "nemrut – urfa - antep tour from/to cappadocia",
+    subTitle: "3N4D",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
     days: [
       {
         title: "Day 1",
@@ -35,7 +37,10 @@ export default [
     ],
   },
   {
-    mainTitle: "5D4N ISTANBUL TOUR PACKAGE",
+    mainTitle: "istanbul tour package",
+    subTitle: "5D4N",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
     days: [
       {
         title: "Day 1",
@@ -78,7 +83,10 @@ export default [
     ],
   },
   {
-    mainTitle: "5D4N ISTANBUL TOUR PACKAGE",
+    mainTitle: "istanbul tour package",
+    subTitle: "5D4N",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
     days: [
       {
         title: "Day 1",
@@ -149,7 +157,9 @@ export default [
     ],
   },
   {
-    mainTitle: "CENTRAL ANATOLIA SHORT TOUR WITH DOMESTIC FLIGHT",
+    mainTitle: "central anatolia short tour with domestic flight",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
     days: [
       {
         title: "Day 1",
@@ -214,7 +224,9 @@ export default [
     ],
   },
   {
-    mainTitle: "CLASSIC ANATOILAN TOUR PROGRAM",
+    mainTitle: "classic anatoilan tour program",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
     days: [
       {
         title: "Day 1",
@@ -278,7 +290,9 @@ export default [
     ],
   },
   {
-    mainTitle: "DAILY CAPPADOCIA TOUR PROGRAM",
+    mainTitle: "daily cappadocia tour program",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
     days: [
       {
         title: "Day 1",
@@ -300,7 +314,9 @@ export default [
     ],
   },
   {
-    mainTitle: "GOLDEN WAY ANATOILAN TOUR WITH ANTALYA",
+    mainTitle: "golden way anatoilan tour with antalya",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
     days: [
       {
         title: "Day 1",
@@ -370,7 +386,9 @@ export default [
     ],
   },
   {
-    mainTitle: "VENN SEVEN CHURCHES SAPMLE TOUR ITINERARY",
+    mainTitle: "venn seven churches",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
     days: [
       {
         title: "Day 1",
@@ -428,7 +446,9 @@ export default [
     ],
   },
   {
-    mainTitle: "SHORT ANATOLIAN TOUR WITH DOMESTIC FLIGHTS",
+    mainTitle: "short anatolian tour with domestic flights",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
     days: [
       {
         title: "Day 1",
@@ -478,7 +498,10 @@ export default [
     ],
   },
   {
-    mainTitle: "UMRAH STOPOVER 2N3D ISTANBUL AND BURSA TOUR PROGRAM",
+    mainTitle: "umrah stopover istanbul and bursa tour program",
+    tldr:
+      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem  ipsum door lorem ipsum",
+    subTitle: "2N3D",
     days: [
       {
         title: "Day 1",

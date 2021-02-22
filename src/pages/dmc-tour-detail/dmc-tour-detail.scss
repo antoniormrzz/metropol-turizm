@@ -1,0 +1,108 @@
+@import "../../global/styles/global";
+
+.bg-dmc {
+  height: 510px;
+  background-image: url("../../assets/img/nc-dmc-new-cover.png");
+}
+
+.tour-detail {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  p {
+    text-align: justify;
+  }
+
+  @media (min-width: 768px) {
+    padding-left: 50px;
+    grid-template-columns: 300px 1fr;
+    padding-right: 50px;
+    gap: 50px;
+  }
+}
+
+.tour-card {
+  height: auto;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-width: 1px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  @media (min-width: 768px) {
+    min-height: 200px;
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 10px;
+    }
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.border-table {
+  th,
+  td {
+    border: 1px solid #cccc;
+  }
+}
+
+.open {
+  background-color: #f9f9f9;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow-y: auto;
+  display: block;
+  position: fixed;
+  width: 100vw;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.active-tour {
+  opacity: 1 !important;
+}
+
+@media (min-width: 768px) {
+  #left-scroll-div {
+    position: sticky;
+    top: 84px;
+    height: calc(100vh - 84px);
+    overflow-y: scroll;
+    padding-right: 15px;
+
+    /* width */
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #c1c1c1;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #2A2664;
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #201d4d;
+      width: 15px;
+    }
+  }
+}

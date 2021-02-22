@@ -18,7 +18,8 @@ module.exports = {
         "4xl": "2.25rem",
       },
       colors: {
-        balkanGreen: '#03AD4F'
+        balkanGreen: '#03AD4F',
+        dmcBlue: '#2A2664'
       }
     },
     screens: {
