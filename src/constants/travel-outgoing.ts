@@ -7,19 +7,14 @@ export default [
       "18 Temmuz – 01,15,29 Ağustos – 12 Eylül – 24 Ekim – 14 Kasım – 26 Aralık 2021",
     location: "Viyana (1) – Prag (2) – Krakov (2) – Varşova (1)",
     prices: [
-      {
-        header1:
-          "18 Temmuz – 01,15,29 Ağustos – 12 Eylül – 24 Ekim – 14 Kasım – 26 Aralık 2021",
-        header2: "2-3 kişilik odada kişi başı",
-        header3: "Tek kişilik oda farkı",
-        header4: "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        header5: "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        body1: "4 * Oteller",
-        body2: "£",
-        body3: "£",
-        body4: "£",
-        body5: "£",
-      },
+      [
+        "18 Temmuz – 01,15,29 Ağustos – 12 Eylül – 24 Ekim – 14 Kasım – 26 Aralık 2021",
+        "2-3 kişilik odada kişi başı",
+        "Tek kişilik oda farkı",
+        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+      ],
+      ["4 * Oteller", "£", "£", "£", "£"],
     ],
 
     days: [
@@ -260,7 +255,7 @@ export default [
       "• Vize başvurusu için tur bitim tarihinden itibaren en az 6 ay geçerli pasaport ve konsolosluk tarafından istenilen evraklar gerekmektedir. Bu program için Schengen Vizesi gerekmektedir.. Pasaport polisi yolcuyu ülkeye sokmama yetkisine sahiptir. Böyle bir durumda sorumluluk yolcuya aittir.",
     ],
   },
-  // 2 
+  // 2
   {
     mainTitle: "GİZEMLİ FAS TURU",
     subTitle: "THY İLE VİZESİZ 7 Gece 8 Gün",
