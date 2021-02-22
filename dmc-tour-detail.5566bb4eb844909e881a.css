@@ -816,6 +816,10 @@ video {
   font-size: 1.125rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
 }
@@ -871,6 +875,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -882,6 +891,10 @@ video {
 
 .ml-1 {
   margin-left: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mb-2 {
@@ -1107,6 +1120,11 @@ video {
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-36 {
