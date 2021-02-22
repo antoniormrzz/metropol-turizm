@@ -580,6 +580,11 @@ video {
   background-color: rgba(3, 173, 79, var(--tw-bg-opacity));
 }
 
+.bg-dmcBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgba(42, 38, 100, var(--tw-bg-opacity));
+}
+
 .hover\:bg-red-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
@@ -1289,6 +1294,11 @@ video {
   color: rgba(3, 173, 79, var(--tw-text-opacity));
 }
 
+.text-dmcBlue {
+  --tw-text-opacity: 1;
+  color: rgba(42, 38, 100, var(--tw-text-opacity));
+}
+
 .hover\:text-blue-600:hover {
   --tw-text-opacity: 1;
   color: rgba(37, 99, 235, var(--tw-text-opacity));
@@ -1296,6 +1306,10 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .w-6 {
@@ -2094,72 +2108,47 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-travel{
+.bg-mice{
   height:510px;
-  background-image:url(assets/img/b041fd600ec082e29a0da391559cfb6a.png)
+  background-image:url(assets/img/34ab5035b52601e98e80feeb6ed2f56e.png)
 }
 
-.travel-text p{
-  font-size:24px;
-  line-height:32px
-}
-
-.text-ul li{
-  font-size:24px;
-  line-height:48px;
-  display:-webkit-box;
-  display:-webkit-flex;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-align:center;
-  -webkit-align-items:center;
-      -ms-flex-align:center;
-          align-items:center
-}
-
-.text-ul li:before{
-  content:"";
-  background-color:#c4c4c4;
-  width:10px;
-  height:10px;
-  border-radius:20px;
-  margin-right:10px
-}
-
-.bg-pattern{
+.bg-calendar{
+  background-image:url(assets/img/dd934eeb596b3edeb7f6bbba37c08d46.png);
   background-repeat:no-repeat;
-  background-position:center;
-  background-size:contain;
-  width:40vw;
-  height:80vh;
-  position:absolute
+  background-position-x:-8vw;
+  background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-pattern{
+  .bg-calendar{
     background-image:none
   }
 }
 
-.bg-ski{
-  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
-  left:56vw;
-  top:175vh;
-  -webkit-transform:rotate(-45deg);
-          transform:rotate(-45deg);
-  width:25vw;
-  height:65vh
+.bg-outline{
+  background-image:url(assets/img/962e3274394a98b1965414342125e850.png);
+  background-repeat:no-repeat;
+  background-position-x:85vw;
+  background-position-y:center
 }
 
-.bg-ship{
-  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
-  left:79vw;
-  top:86vh
+@media (max-width: 1024px){
+  .bg-outline{
+    background-image:none
+  }
 }
 
-.bg-plane{
-  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
-  left:-10vw;
-  top:86vh
+.bg-prod{
+  background-image:url(assets/img/324984e5897c65eedb1100bbba6af673.png);
+  background-repeat:no-repeat;
+  background-position-x:-8vw;
+  background-position-y:center
+}
+
+@media (max-width: 1024px){
+  .bg-prod{
+    background-image:none
+  }
 }
 
