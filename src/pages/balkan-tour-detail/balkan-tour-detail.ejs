@@ -126,7 +126,12 @@
                 >
                   {{ tour.location }}
                 </h4>
-                <p class="text-sm md:text-base" style="text-align:left !important">{{ tour.tldr }}</p>
+                <p
+                  class="text-sm md:text-base"
+                  style="text-align: left !important"
+                >
+                  {{ tour.tldr }}
+                </p>
               </div>
             </div>
           </a>
@@ -214,7 +219,11 @@
                         v-for="(subTitle, index) in hotel.subtitles"
                         >{{ subTitle }}</span
                       >
-                      <a class="text-blue-500 hover:text-blue-600":href="hotel.link">{{ hotel.link }}</a>
+                      <a
+                        class="text-blue-500 hover:text-blue-600"
+                        :href="hotel.link"
+                        >{{ hotel.link }}</a
+                      >
                     </th>
                   </tr>
                 </thead>
@@ -406,16 +415,17 @@
               </li>
             </ul>
           </template>
+
+          <!-- TO DO button click => mailto and title 'll be selected tour title '-->
+          <div class="bottom-6 flex justify-end w-full pt-6 pb-16 pr-64">
+            <a
+              href="mailto:info@balkans.com?subject=Selected Tour Title"
+              class="transition duration-500 ease-in-out hover:bg-green-700 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-full bg-balkanGreen"
+            >
+              Bilgi Al
+            </a>
+          </div>
         </div>
-      </div>
-      <!-- TO DO button click => mailto and title 'll be selected tour title '-->
-      <div class="bottom-6 flex justify-end w-full pt-6 pb-16 pr-64">
-        <a
-          href="mailto:info@balkans.com?subject=Selected Tour Title"
-          class="transition duration-500 ease-in-out hover:bg-green-700 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-full bg-balkanGreen"
-        >
-          Bilgi Al
-        </a>
       </div>
     </main>
   </body>
