@@ -52,7 +52,6 @@
   &:hover {
     opacity: 1;
   }
-  
 }
 
 .border-table {
@@ -79,7 +78,6 @@
 
 .active-tour {
   opacity: 1 !important;
-
 }
 
 @media (min-width: 768px) {
@@ -103,13 +101,13 @@
 
     /* Handle */
     &::-webkit-scrollbar-thumb {
-      background: #03AD4F;
+      background: #ffcd0f;
       border-radius: 10px;
     }
 
     /* Handle on hover */
     &::-webkit-scrollbar-thumb:hover {
-      background: #1d9151;
+      background: #e2b708;
       width: 15px;
     }
   }

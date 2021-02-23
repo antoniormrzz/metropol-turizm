@@ -815,7 +815,6 @@ export default [
           },
         ],
       },
-
       {
         title: "3.Gün",
         subTitle:
