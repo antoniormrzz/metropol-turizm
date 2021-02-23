@@ -555,6 +555,11 @@ video {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
@@ -593,6 +598,16 @@ video {
 .hover\:bg-red-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
+}
+
+.hover\:bg-yellow-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
+}
+
+.hover\:bg-yellow-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
 }
 
 .hover\:bg-green-600:hover {
@@ -1036,6 +1051,10 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .p-6 {
@@ -2151,45 +2170,46 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-dmc{
+.bg-mice{
   height:510px;
-  background-image:url(assets/img/1a07b0f891fb9a477183218d99a1d43e.png)
+  background-image:url(assets/img/34ab5035b52601e98e80feeb6ed2f56e.png)
 }
 
-.bg-balloon{
-  background-image:url(assets/img/cf3842fedb89f9ae1480d14f24f9fbba.png);
+.bg-calendar{
+  background-image:url(assets/img/dd934eeb596b3edeb7f6bbba37c08d46.png);
   background-repeat:no-repeat;
-  background-position-x:-100px
+  background-position-x:-8vw;
+  background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-balloon{
+  .bg-calendar{
     background-image:none
   }
 }
 
-.bg-travel{
-  background-image:url(assets/img/0f295ca5499c9593f4cb43500e849900.png);
+.bg-outline{
+  background-image:url(assets/img/962e3274394a98b1965414342125e850.png);
   background-repeat:no-repeat;
-  background-position-x:81vw
+  background-position-x:85vw;
+  background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-travel{
+  .bg-outline{
     background-image:none
   }
 }
 
-.bg-bus{
-  background-image:url(assets/img/d83def139ffbd6a9ea609780cd00e967.png);
+.bg-prod{
+  background-image:url(assets/img/324984e5897c65eedb1100bbba6af673.png);
   background-repeat:no-repeat;
-  background-position-x:-150px;
-  background-position-y:-50px;
-  background-size:60%
+  background-position-x:-8vw;
+  background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-bus{
+  .bg-prod{
     background-image:none
   }
 }
