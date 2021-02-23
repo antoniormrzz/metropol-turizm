@@ -2178,9 +2178,7 @@ h1,h2,h3,h4,h5{
 .tour-detail{
   display:grid;
   grid-template-columns:1fr;
-  gap:35px;
-  padding-left:15px;
-  padding-right:15px
+  gap:35px
 }
 
 .tour-detail p{
@@ -2189,9 +2187,7 @@ h1,h2,h3,h4,h5{
 
 @media (min-width: 768px){
   .tour-detail{
-    padding-left:50px;
     grid-template-columns:300px 1fr;
-    padding-right:50px;
     gap:50px
   }
 }
