@@ -675,6 +675,11 @@ video {
   border-color: rgba(16, 185, 129, var(--tw-border-opacity));
 }
 
+.border-balkanGreen {
+  --tw-border-opacity: 1;
+  border-color: rgba(3, 173, 79, var(--tw-border-opacity));
+}
+
 .focus\:border-indigo-500:focus {
   --tw-border-opacity: 1;
   border-color: rgba(99, 102, 241, var(--tw-border-opacity));
@@ -691,6 +696,10 @@ video {
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
+}
+
+.border-dotted {
+  border-style: dotted;
 }
 
 .border-2 {
@@ -1239,6 +1248,10 @@ video {
   left: 0px;
 }
 
+.top-4 {
+  top: 1rem;
+}
+
 .right-5 {
   right: 1.25rem;
 }
@@ -1489,6 +1502,10 @@ video {
     --tw-bg-opacity: 0.4;
   }
 
+  .md\:border-l-2 {
+    border-left-width: 2px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1636,6 +1653,10 @@ video {
 
   .md\:w-1\/5 {
     width: 20%;
+  }
+
+  .md\:w-4\/5 {
+    width: 80%;
   }
 
   .md\:gap-10 {
@@ -2171,109 +2192,67 @@ h1,h2,h3,h4,h5{
   background-image:url(assets/img/0451279754d28e866f34f507696253ee.png)
 }
 
-.tour-detail{
-  display:grid;
-  grid-template-columns:1fr;
-  gap:35px;
-  padding-right:15px;
-  padding-left:15px
+.bg-plane{
+  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
+  background-repeat:no-repeat;
+  background-position-x:-200px
 }
 
-@media (min-width: 768px){
-  .tour-detail{
-    grid-template-columns:300px 1fr;
-    gap:50px;
-    padding-right:0px;
-    padding-left:0px
+@media (max-width: 1024px){
+  .bg-plane{
+    background-image:none
   }
 }
 
-.tour-detail p{
-  text-align:justify
+.bg-ship{
+  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
+  background-repeat:no-repeat;
+  background-position-x:1550px;
+  background-position-y:center
 }
 
-.tour-card{
-  height:auto;
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-  -webkit-flex-direction:column;
-      -ms-flex-direction:column;
-          flex-direction:column;
-  overflow:hidden;
-  margin-bottom:30px;
-  border-width:1px;
-  opacity:0.5;
-  cursor:pointer;
-  -webkit-transition:all 0.5s;
-  transition:all 0.5s
-}
-
-@media (min-width: 768px){
-  .tour-card{
-    min-height:200px;
-    margin-bottom:40px
-  }
-
-  .tour-card:last-child{
-    margin-bottom:10px
+@media (max-width: 1024px){
+  .bg-ship{
+    background-image:none
   }
 }
 
-.tour-card:hover{
-  opacity:1
+.bg-ski{
+  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
+  background-repeat:no-repeat;
+  background-position-x:-250px;
+  background-position-y:center
 }
 
-.border-table th,.border-table td{
-  border:1px solid #cccc
+@media (max-width: 1024px){
+  .bg-ski{
+    background-image:none
+  }
 }
 
-.open{
-  background-color:#f9f9f9;
-  height:100%;
-  top:0;
-  left:0;
-  display:block;
-  overflow-y:auto;
-  display:block;
-  position:fixed;
-  width:100vw;
-  padding-top:100px;
-  padding-right:20px;
-  padding-left:20px
+.bg-skuba{
+  background-image:url(assets/img/efa571af75d3f21af89e1093e8f67eb9.png);
+  background-repeat:no-repeat;
+  background-position-x:1550px;
+  background-position-y:200px
 }
 
-.active-tour{
-  opacity:1 !important
+@media (max-width: 1024px){
+  .bg-skuba{
+    background-image:none
+  }
 }
 
-@media (min-width: 768px){
-  #left-scroll-div{
-    position:-webkit-sticky;
-    position:sticky;
-    top:84px;
-    height:calc(100vh - 84px);
-    overflow-y:scroll;
-    padding-right:15px
-  }
+.bg-river{
+  background-image:url(assets/img/03119d760f12f2403e5d58ac2b4d386c.png);
+  background-repeat:no-repeat;
+  background-position-x:-200px;
+  background-position-y:center
+}
 
-  #left-scroll-div::-webkit-scrollbar{
-    width:5px
-  }
-
-  #left-scroll-div::-webkit-scrollbar-track{
-    -webkit-box-shadow:inset 0 0 5px #c1c1c1;
-            box-shadow:inset 0 0 5px #c1c1c1;
-    border-radius:10px
-  }
-
-  #left-scroll-div::-webkit-scrollbar-thumb{
-    background:#03AD4F;
-    border-radius:10px
-  }
-
-  #left-scroll-div::-webkit-scrollbar-thumb:hover{
-    background:#1d9151;
-    width:15px
+@media (max-width: 1024px){
+  .bg-river{
+    background-image:none
   }
 }
 
