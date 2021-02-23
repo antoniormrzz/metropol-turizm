@@ -19,12 +19,16 @@ new Vue({
     showDrawer: false,
   },
   computed: {},
+  mounted: function () {
+    $('#selectedTourName').val(this.selectedTour.mainTitle)
+  },
   methods: {
     selectTour: function (index) {
       this.selectedTour = this.tourData[index];
       this.showDrawer = false;
       $(".tour-card").removeClass("active-tour");
       $(`.tour-card[data-key="${index}"]`).addClass("active-tour");
+      $('#selectedTourName').val(this.selectedTour.mainTitle)
     },
     toggleDrawer: function () {
       this.showDrawer = !this.showDrawer;
