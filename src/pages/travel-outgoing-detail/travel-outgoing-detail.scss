@@ -9,21 +9,19 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 35px;
-
-  p {
-    text-align: justify;
-  }
-
+  padding-right: 15px;
+  padding-left: 15px;
+  
   @media (min-width: 768px) {
     grid-template-columns: 300px 1fr;
     gap: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
-
-  // @media (min-width: 1224px) {
-  //   padding-left: 150px;
-  //   padding-right: 150px;
-  //   gap: 135px;
-  // }
+  
+  p {
+    text-align: justify;
+  }
 }
 
 .tour-card {

@@ -12,22 +12,16 @@
   padding-left: 15px;
   padding-right: 15px;
 
+  @media (min-width: 768px) {
+    grid-template-columns: 300px 1fr;
+    gap: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   p {
     text-align: justify;
   }
-
-  @media (min-width: 768px) {
-    padding-left: 50px;
-    grid-template-columns: 300px 1fr;
-    padding-right: 50px;
-    gap: 50px;
-  }
-
-  // @media (min-width: 1224px) {
-  //   padding-left: 150px;
-  //   padding-right: 150px;
-  //   gap: 135px;
-  // }
 }
 
 .tour-card {
