@@ -29,7 +29,7 @@
       </div>
 
       <div class="pt-10 pb-36 flex items-center justify-center">
-        <img class="w-48" src="assets/img/page_names/venn_tour_travel.png" />
+        <img class="w-48" src="assets/img/page_names/venn_tour_travel.png" id="_detail_start"/>
       </div>
 
       <div class="tour-detail">
@@ -44,6 +44,7 @@
             :key="index"
             :data-key="index"
             @click="selectTour(index)"
+            href="#_detail_start"
           >
             <img
               class="w-full object-cover h-24"

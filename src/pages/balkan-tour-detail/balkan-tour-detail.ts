@@ -3,9 +3,12 @@ import "tailwindcss/tailwind.css";
 import "./balkan-tour-detail.scss";
 import balkanTours from "../../constants/balkan-tours";
 import $ from "jquery";
+import modalHandler from "../../global/src/modal";
 
 $(document).ready(() => {
   $(`.tour-card[data-key="0"]`).addClass("active-tour");
+
+  modalHandler();
 });
 
 new Vue({
@@ -15,9 +18,7 @@ new Vue({
     selectedTour: balkanTours[0],
     showDrawer: false,
   },
-  computed: {
-    
-  },
+  computed: {},
   methods: {
     selectTour: function (index) {
       this.selectedTour = this.tourData[index];

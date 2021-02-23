@@ -98,7 +98,11 @@
       </div>
 
       <div class="pt-10 pb-20 flex items-center justify-center">
-        <img class="w-34" src="assets/img/page_names/venn_tour_balkans.png" />
+        <img
+          class="w-34"
+          src="assets/img/page_names/venn_tour_balkans.png"
+          id="_detail_start"
+        />
       </div>
 
       <div class="tour-detail">
@@ -113,6 +117,7 @@
             :key="index"
             :data-key="index"
             @click="selectTour(index)"
+            href="#_detail_start"
           >
             <img
               class="w-full object-cover h-24"
@@ -419,14 +424,15 @@
           <!-- TO DO button click => mailto and title 'll be selected tour title '-->
           <div class="bottom-6 flex justify-end w-full pt-6 pb-16 pr-64">
             <a
-              href="mailto:info@balkans.com?subject=Selected Tour Title"
               class="transition duration-500 ease-in-out hover:bg-green-700 transform hover:scale-105 text-white font-semibold py-3 px-6 rounded-full bg-balkanGreen"
+              data-micromodal-trigger="modal-2"
             >
               Bilgi Al
             </a>
           </div>
         </div>
       </div>
+      <%- include('../../views/mail-modal'); %>
     </main>
   </body>
 </html>
