@@ -9,18 +9,18 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 35px;
-  padding-left: 15px;
   padding-right: 15px;
-
+  padding-left: 15px;
+  
+  @media (min-width: 768px) {
+    grid-template-columns: 300px 1fr;
+    gap: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
   p {
     text-align: justify;
-  }
-
-  @media (min-width: 768px) {
-    padding-left: 50px;
-    grid-template-columns: 300px 1fr;
-    padding-right: 50px;
-    gap: 50px;
   }
 }
 
