@@ -1171,6 +1171,10 @@ video {
   padding-right: 0.75rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -2171,16 +2175,16 @@ h1,h2,h3,h4,h5{
   display:grid;
   grid-template-columns:1fr;
   gap:35px;
-  padding-left:15px;
-  padding-right:15px
+  padding-right:15px;
+  padding-left:15px
 }
 
 @media (min-width: 768px){
   .tour-detail{
     grid-template-columns:300px 1fr;
     gap:50px;
-    padding-left:0px;
-    padding-right:0px
+    padding-right:0px;
+    padding-left:0px
   }
 }
 
@@ -2263,17 +2267,13 @@ h1,h2,h3,h4,h5{
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb{
-    background:#ffcd0f;
+    background:#03AD4F;
     border-radius:10px
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb:hover{
-    background:#e2b708;
+    background:#1d9151;
     width:15px
   }
-}
-
-td.kids_td span{
-  display:block
 }
 

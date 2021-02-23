@@ -1171,6 +1171,10 @@ video {
   padding-right: 0.75rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -2162,46 +2166,71 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-mice{
+.bg-balkans{
   height:510px;
-  background-image:url(assets/img/34ab5035b52601e98e80feeb6ed2f56e.png)
+  background-image:url(assets/img/0451279754d28e866f34f507696253ee.png)
 }
 
-.bg-calendar{
-  background-image:url(assets/img/dd934eeb596b3edeb7f6bbba37c08d46.png);
+.bg-plane{
+  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
   background-repeat:no-repeat;
-  background-position-x:-8vw;
-  background-position-y:center
+  background-position-x:-200px
 }
 
 @media (max-width: 1024px){
-  .bg-calendar{
+  .bg-plane{
     background-image:none
   }
 }
 
-.bg-outline{
-  background-image:url(assets/img/962e3274394a98b1965414342125e850.png);
+.bg-ship{
+  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
   background-repeat:no-repeat;
-  background-position-x:85vw;
+  background-position-x:1550px;
   background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-outline{
+  .bg-ship{
     background-image:none
   }
 }
 
-.bg-prod{
-  background-image:url(assets/img/324984e5897c65eedb1100bbba6af673.png);
+.bg-ski{
+  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
   background-repeat:no-repeat;
-  background-position-x:-8vw;
+  background-position-x:-250px;
   background-position-y:center
 }
 
 @media (max-width: 1024px){
-  .bg-prod{
+  .bg-ski{
+    background-image:none
+  }
+}
+
+.bg-skuba{
+  background-image:url(assets/img/efa571af75d3f21af89e1093e8f67eb9.png);
+  background-repeat:no-repeat;
+  background-position-x:1550px;
+  background-position-y:200px
+}
+
+@media (max-width: 1024px){
+  .bg-skuba{
+    background-image:none
+  }
+}
+
+.bg-river{
+  background-image:url(assets/img/03119d760f12f2403e5d58ac2b4d386c.png);
+  background-repeat:no-repeat;
+  background-position-x:-200px;
+  background-position-y:center
+}
+
+@media (max-width: 1024px){
+  .bg-river{
     background-image:none
   }
 }

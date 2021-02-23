@@ -1171,6 +1171,10 @@ video {
   padding-right: 0.75rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -2167,67 +2171,113 @@ h1,h2,h3,h4,h5{
   background-image:url(assets/img/0451279754d28e866f34f507696253ee.png)
 }
 
-.bg-plane{
-  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
-  background-repeat:no-repeat;
-  background-position-x:-200px
+.tour-detail{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:35px;
+  padding-left:15px;
+  padding-right:15px
 }
 
-@media (max-width: 1024px){
-  .bg-plane{
-    background-image:none
+@media (min-width: 768px){
+  .tour-detail{
+    grid-template-columns:300px 1fr;
+    gap:50px;
+    padding-left:0px;
+    padding-right:0px
   }
 }
 
-.bg-ship{
-  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
-  background-repeat:no-repeat;
-  background-position-x:1550px;
-  background-position-y:center
+.tour-detail p{
+  text-align:justify
 }
 
-@media (max-width: 1024px){
-  .bg-ship{
-    background-image:none
+.tour-card{
+  height:auto;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:column;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  overflow:hidden;
+  margin-bottom:30px;
+  border-width:1px;
+  opacity:0.5;
+  cursor:pointer;
+  -webkit-transition:all 0.5s;
+  transition:all 0.5s
+}
+
+@media (min-width: 768px){
+  .tour-card{
+    min-height:200px;
+    margin-bottom:40px
+  }
+
+  .tour-card:last-child{
+    margin-bottom:10px
   }
 }
 
-.bg-ski{
-  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
-  background-repeat:no-repeat;
-  background-position-x:-250px;
-  background-position-y:center
+.tour-card:hover{
+  opacity:1
 }
 
-@media (max-width: 1024px){
-  .bg-ski{
-    background-image:none
+.border-table th,.border-table td{
+  border:1px solid #cccc
+}
+
+.open{
+  background-color:#f9f9f9;
+  height:100%;
+  top:0;
+  left:0;
+  display:block;
+  overflow-y:auto;
+  display:block;
+  position:fixed;
+  width:100vw;
+  padding-top:100px;
+  padding-right:20px;
+  padding-left:20px
+}
+
+.active-tour{
+  opacity:1 !important
+}
+
+@media (min-width: 768px){
+  #left-scroll-div{
+    position:-webkit-sticky;
+    position:sticky;
+    top:84px;
+    height:calc(100vh - 84px);
+    overflow-y:scroll;
+    padding-right:15px
+  }
+
+  #left-scroll-div::-webkit-scrollbar{
+    width:5px
+  }
+
+  #left-scroll-div::-webkit-scrollbar-track{
+    -webkit-box-shadow:inset 0 0 5px #c1c1c1;
+            box-shadow:inset 0 0 5px #c1c1c1;
+    border-radius:10px
+  }
+
+  #left-scroll-div::-webkit-scrollbar-thumb{
+    background:#ffcd0f;
+    border-radius:10px
+  }
+
+  #left-scroll-div::-webkit-scrollbar-thumb:hover{
+    background:#e2b708;
+    width:15px
   }
 }
 
-.bg-skuba{
-  background-image:url(assets/img/efa571af75d3f21af89e1093e8f67eb9.png);
-  background-repeat:no-repeat;
-  background-position-x:1550px;
-  background-position-y:200px
-}
-
-@media (max-width: 1024px){
-  .bg-skuba{
-    background-image:none
-  }
-}
-
-.bg-river{
-  background-image:url(assets/img/03119d760f12f2403e5d58ac2b4d386c.png);
-  background-repeat:no-repeat;
-  background-position-x:-200px;
-  background-position-y:center
-}
-
-@media (max-width: 1024px){
-  .bg-river{
-    background-image:none
-  }
+td.kids_td span{
+  display:block
 }
 
