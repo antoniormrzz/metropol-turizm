@@ -1,9 +1,9 @@
 export default [
   // 0 belgrad
   {
-    mainTitle: "BALKANLARIN BEYAZ ŞEHRİ BELGRAD",
+    mainTitle: "Balkanların Beyaz Şehri Belgrad",
     subTitle: "3 Gece Konaklamalı",
-    location: "BELGRAD",
+    location: "Belgrad",
     tldr: "Tuna ve Sava Nehirlerinin birleştiği nokta, beyaz şehir Belgrad",
     days: [
       {
@@ -54,7 +54,6 @@ export default [
       "Otelde alınan ekstralar",
     ],
     important_infos: [
-      "Adınıza henüz herhangi bir rezervasyon yapılmamış olup, otel ve uçaklarda herhangi bir yer tutulmamıştır. Konfirmenize istinaden müsaitlikler ve fiyatlar yeniden kontrol edilecektir. ",
       "Fiyatlarımız net ve komisyonsuz olup, 40 kişi için hesaplanmıştır. Kişi sayısının değişmesi durumunda fiyat revize edilecektir.",
       "Fiyatların geçerli olduğu tarihler aşağıdaki gibidir;",
     ],
@@ -98,20 +97,20 @@ export default [
         subtitles: ["Şehir Merkezi"],
         link: "www.royalinn.rs",
         double_room_price: "449 €",
-        single_room_price: "50 £",
+        single_room_price: "50 €",
       },
       {
         title: "5* Hyatt Regency Belgrad ",
         subtitles: ["Şehir Merkezine 2,5 Km"],
         hotel_link: "www.hyatt.com/en-US/hotel/serbia/hyatt-regency-belgrade",
-        double_room_price: "499 £",
-        single_room_price: "60 £",
+        double_room_price: "499 €",
+        single_room_price: "60 €",
       },
     ],
     flight_infos: {
       row1: {
         flight_no: "TK 1081",
-        airline: "Turkish Airlines",
+        airline: "THY",
         airport_1: "İSTANBUL (IST)",
         airport_2: "BELGRAD (BEG)",
         time_1: "08.20",
@@ -119,7 +118,7 @@ export default [
       },
       row2: {
         flight_no: "TK 1084",
-        airline: "Turkish Airlines",
+        airline: "THY",
         airport_1: "BELGRAD (BEG)",
         airport_2: "İSTANBUL (IST)",
         time_1: "20.20",
@@ -129,9 +128,9 @@ export default [
   },
   // 1 budva
   {
-    mainTitle: "BUDVA",
+    mainTitle: "Budva",
     subTitle: "3 Gece Konaklamalı",
-    location: "BUDVA",
+    location: "Budva",
     tldr: "Balkanların incisi, Adriyatik’in en güzel sahilleri",
     days: [
       {
@@ -180,10 +179,7 @@ export default [
       "Ekstra turlar ve kişisel harcamalar",
       "Otelde alınan ekstralar",
     ],
-    important_infos: [
-      "Adınıza henüz herhangi bir rezervasyon yapılmamış olup, otel ve uçaklarda herhangi bir yer tutulmamıştır. Konfirmenize istinaden müsaitlikler ve fiyatlar yeniden kontrol edilecektir. ",
-      "Fiyatların geçerli olduğu tarihler aşağıdaki gibidir;",
-    ],
+    important_infos: ["Fiyatların geçerli olduğu tarihler aşağıdaki gibidir;"],
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
       "Tur başlangıcında misafirlerimize içinde maske, dezenfektan ve ıslak mendil bulunan hijyen kitleri dağıtılacaktır.",
@@ -224,20 +220,20 @@ export default [
         subtitles: ["Şehir Merkezi", "Plaja 50 m"],
         link: "www.hotel-budva.me",
         double_room_price: "549 €",
-        single_room_price: "90 £",
+        single_room_price: "90 €",
       },
       {
         title: "5 * Hyatt Regency Belgrad ",
         subtitles: ["Şehir Merkezine 1,4 Km", "Plaja 300 m"],
         hotel_link: "www.slavijabudvahotel.com",
-        double_room_price: "579 £",
-        single_room_price: "100 £",
+        double_room_price: "579 €",
+        single_room_price: "100 €",
       },
     ],
     flight_infos: {
       row1: {
         flight_no: "TK 1085",
-        airline: "Turkish Airlines",
+        airline: "THY",
         airport_1: "İSTANBUL (IST)",
         airport_2: "PODGORICA (TGD)",
         time_1: "08.00",
@@ -245,7 +241,7 @@ export default [
       },
       row2: {
         flight_no: "TK 1084",
-        airline: "Turkish Airlines",
+        airline: "THY",
         airport_1: "PODGORICA (TGD)",
         airport_2: "İSTANBUL (IST)",
         time_1: "20.30",
@@ -256,9 +252,9 @@ export default [
   // 2 Saraybosna
 
   {
-    mainTitle: "SARAYBOSNA",
+    mainTitle: "Saraybosna",
     subTitle: "3 Gece Konaklamalı",
-    location: "SARAYBOSNA",
+    location: "Saraybosna",
     tldr: "Sevdalinka türkülerinin kaynağı, hüzünlü şehir Saraybosna",
     days: [
       {
@@ -308,10 +304,7 @@ export default [
       "Ekstra turlar ve kişisel harcamalar",
       "Otelde alınan ekstralar",
     ],
-    important_infos: [
-      "Adınıza henüz herhangi bir rezervasyon yapılmamış olup, otel ve uçaklarda herhangi bir yer tutulmamıştır. Konfirmenize istinaden müsaitlikler ve fiyatlar yeniden kontrol edilecektir. ",
-      "Fiyatların geçerli olduğu tarihler aşağıdaki gibidir;",
-    ],
+    important_infos: ["Fiyatların geçerli olduğu tarihler aşağıdaki gibidir;"],
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
       "Tur başlangıcında misafirlerimize içinde maske, dezenfektan ve ıslak mendil bulunan hijyen kitleri dağıtılacaktır.",
@@ -352,20 +345,20 @@ export default [
         subtitles: [],
         link: "www.hotel-hollywood.ba",
         double_room_price: "469 €",
-        single_room_price: "90 £",
+        single_room_price: "90 €",
       },
       {
         title: "5 * Malak Regency Hotel",
         subtitles: [],
         hotel_link: "www.malakregency.com/ba",
-        double_room_price: "499 £",
-        single_room_price: "100 £",
+        double_room_price: "499 €",
+        single_room_price: "100 €",
       },
     ],
     flight_infos: {
       row1: {
         flight_no: "TK 1021",
-        airline: "Turkish Airlines",
+        airline: "THY",
         airport_1: "İSTANBUL (IST)",
         airport_2: "SARAYBOSNA (SJJ)",
         time_1: "07.05",
@@ -373,7 +366,7 @@ export default [
       },
       row2: {
         flight_no: "TK 1024",
-        airline: "Turkish Airlines",
+        airline: "THY",
         airport_1: "SARAYBOSNA (SJJ)",
         airport_2: "İSTANBUL (IST)",
         time_1: "14.15",
@@ -383,7 +376,7 @@ export default [
   },
   // 3 uçaklı baştanbaşa balkanlar
   {
-    mainTitle: "UÇAKLI BAŞTANBAŞA BALKANLAR",
+    mainTitle: "Uçaklı Baştanbaşa Balkanlar",
     location:
       "Kuzey Makedonya – Arnavutluk – Karadağ - Bosna Hersek– Sırbistan",
     subTitle: "7 Gece Konaklamalı - Üsküp gidiş, Belgrad dönüş",
@@ -429,7 +422,7 @@ export default [
         title: "7.Gün ",
         subTitle: "SARAYBOSNA, BELGRAD",
         text:
-          "Sabah otelimizde alınacak kahvaltı sonrası otelimizden ayrılıyoruz ve Saraybosna için panoramik turumuza başlıyoruz. Avrupa’nın en müstesna çarşısı Başçarşı’da gezintimizi yapıyoruz. Osmanlı döneminden beri faaliyete devam eden Kurşunlu Medresesi’ni geziyoruz. Ardından Kanuni Sultan Süleyman’ın akrabası Hüsrev ",
+          "Sabah otelimizde alınacak kahvaltı sonrası otelimizden ayrılıyoruz ve Saraybosna için panoramik turumuza başlıyoruz. Avrupa’nın en müstesna çarşısı Başçarşı’da gezintimizi yapıyoruz. Osmanlı döneminden beri faaliyete devam eden Kurşunlu Medresesi’ni geziyoruz. Ardından Kanuni Sultan Süleyman’ın akrabası Hüsrev Bey Camii’ni geziyoruz. Turumuzun devamında Saat Kulesi, Saraybosna’da Katolik Katedrali, Ortodoks Kiliseleri ve Musevi Sinagogu’nu görüyoruz. Ardından 1. Dünya Savaşı’nın çıktığı Latin Köprüsü’nü gezdikten sonra Fatih Sultan Mehmet’in şehre girdiği kapıdan geçip Osmanlı çeşmesinden su içiyoruz. Son olarak Fatih Sultan Mehmet Han’a atfedilen Fatih Camii’ni de görüp öğle yemeğini aldıktan sonra yola çıkıyoruz. Önce Tuzla yolu ile sınıra geliyor pasaport işlemlerimizden sonra, yola devam ediyoruz. Akşam yemeğini yerel bir restoranda alıyoruz. Geceleme Belgrad’da otelimizde.",
       },
       {
         title: "8.Gün ",
@@ -441,7 +434,7 @@ export default [
     flight_infos: {
       row1: {
         flight_no: "PC 351",
-        airline: "Turkish Airlines",
+        airline: "PEGASUS",
         airport_1: "İSTANBUL (SAW)",
         airport_2: "ÜSKÜP (SKP)",
         time_1: "10.20",
@@ -449,7 +442,7 @@ export default [
       },
       row2: {
         flight_no: "PC 374",
-        airline: "Turkish Airlines",
+        airline: "PEGASUS",
         airport_1: "BELGRAD (BEG)",
         airport_2: "İSTANBUL (SAW)",
         time_1: "16.35",
@@ -477,7 +470,7 @@ export default [
         subtitles: [],
         link: "",
         double_room_price: "669 €",
-        single_room_price: "120 £",
+        single_room_price: "120 €",
       },
     ],
 
@@ -505,15 +498,14 @@ export default [
       "Ekstra turlar ve kişisel harcamalar",
       "Otelde alınan ekstralar",
     ],
-    important_infos: [
-      "Adınıza henüz herhangi bir rezervasyon yapılmamış olup, otel ve uçaklarda herhangi bir yer tutulmamıştır. Konfirmenize istinaden müsaitlikler ve fiyatlar yeniden kontrol edilecektir.",
-      "Fiyatların geçerli olduğu tarihler aşağıdaki gibidir;",
-    ],
+    important_infos: ["Fiyatların geçerli olduğu tarihler aşağıdaki gibidir;"],
   },
   // 4 budva dalış turu
   {
-    mainTitle: "BUDVA DALIŞ TURU",
+    mainTitle: "Budva Dalış Turu",
     subTitle: "4 Gece Konaklamalı - Toplam 6 Dalış",
+    location: "Budva",
+
     tldr: "5 Günde 6 dalışla keyifli bir deneyim",
     days: [
       {
@@ -548,7 +540,6 @@ export default [
       },
     ],
     months: [],
-    location: "BUDVA",
     hotel_prices: [],
 
     includes: [
@@ -576,7 +567,7 @@ export default [
   },
   // 5 GOT
   {
-    mainTitle: "HIRVATİSTAN & SARAYBOSNA TURU",
+    mainTitle: "Hırvatistan & Saraybosna Turu",
     subTitle: "6 Gece Konaklamalı",
     location:
       "Zagreb – Zadar – Šibenik – Split – Kliss – Neum - Dubrovnik – Trebinje – Mostar- Saraybosna",
@@ -657,7 +648,7 @@ export default [
   },
   // 6 jahorina kayak
   {
-    mainTitle: "JAHORİNA KAYAK TURU",
+    mainTitle: "Jahorina Kayak Turu",
     subTitle: "3 Gece konaklamalı",
     tldr: " Olimpiyat pistlerinde kayak keyfi",
     days: [
@@ -740,6 +731,11 @@ export default [
   },
   // 7 otobüslü balkan
   {
+    mainTitle: "Otobüslü Balkan Turu ",
+    subTitle: "7 Gece Konaklamalı",
+    location:
+      "Yunanistan – Kuzey Makedonya – Arnavutluk – Karadağ - Hırvatistan – Bosna Hersek– Sırbistan – Bulgaristan",
+    tldr: "Lüks araçlarla baştanbaşa Balkanlar",
     days: [
       {
         title: "1.Gün ",
@@ -798,10 +794,7 @@ export default [
     ],
     months: [],
     hotel_prices: [],
-    mainTitle: "OTOBÜSLÜ BALKAN TURU ",
-    subTitle:
-      "7 Gece Konaklamalı (Yunanistan – Kuzey Makedonya – Arnavutluk – Karadağ - Hırvatistan – Bosna Hersek– Sırbistan – Bulgaristan)",
-    tldr: "Lüks araçlarla baştanbaşa Balkanlar",
+   
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
       "Tur başlangıcında misafirlerimize içinde maske, dezenfektan ve ıslak mendil bulunan hijyen kitleri dağıtılacaktır.",
@@ -834,8 +827,9 @@ export default [
   },
   // 8 otobüslü balkan üçlü
   {
-    mainTitle: "OTOBÜSLÜ BALKAN ÜÇLÜSÜ",
-    subTitle: "2 Gece Konaklamalı (Bulgaristan - Yunanistan – Kuzey Makedonya)",
+    mainTitle: "Otobüslü Balkan Üçlüsü",
+    subTitle: "2 Gece Konaklamalı",
+    location: "Bulgaristan - Yunanistan – Kuzey Makedonya",
     tldr: "Bulgaristan & Yunanistan  & Kuzey Makedonya",
     days: [
       {
@@ -918,8 +912,9 @@ export default [
   },
   //  9 özel balkan üçlüsü
   {
-    mainTitle: "ÖZEL BALKAN ÜÇLÜSÜ",
-    subTitle: "2 Gece Konaklamalı (Bulgaristan - Yunanistan – Kuzey Makedonya)",
+    mainTitle: "Özel Balkan Üçlüsü",
+    subTitle: "2 Gece Konaklamalı",
+    location: "Bulgaristan - Yunanistan – Kuzey Makedonya",
     tldr: "Max. 10 kişi ile özel Balkan turu",
     days: [
       {

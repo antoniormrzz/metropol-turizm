@@ -155,9 +155,34 @@
           <h1 class="font-bold text-3xl lg:text-5xl mb-4">
             {{ selectedTour.mainTitle }}
           </h1>
-          <h4 class="font-bold text-3xl text-balkanGreen mb-8">
+          <h4 class="font-bold text-2xl text-balkanGreen">
             {{ selectedTour.subTitle }}
           </h4>
+          <h5 class="text-2xl mb-6">{{ selectedTour.location }}</h5>
+
+          <!--months -->
+          <template v-if="selectedTour.months && selectedTour.months.length">
+            <div class="flex flex-wrap mt-16 mb-16 justify-between text-center">
+              <div
+                class="w-1/2 md:w-1/4 relative"
+                v-for="(month, index) in selectedTour.months"
+                :key="index"
+              >
+                <div v-if="index != 0" class="absolute top-4 left-0 h-24 md:border-l-2 border-balkanGreen border-dotted"></div>
+                <h4 class="font-bold text-balkanGreen uppercase my-2">
+                  {{ month.title }}
+                </h4>
+                <h5
+                  v-if="month.dates.length"
+                  v-for="(date, index) in month.dates"
+                  :key="index"
+                  class=" text-sm"
+                >
+                  {{ date }}
+                </h5>
+              </div>
+            </div>
+          </template>
           <div
             v-if="selectedTour.days.length"
             v-for="(day, index) in selectedTour.days"
@@ -248,7 +273,7 @@
 
           <div class="overflow-x-auto">
             <table
-              class="hidden md:block table-fixed border-table text-center w-full md:w-3/4 mt-10 font-bold"
+              class="hidden md:block table-fixed border-table text-center w-full md:w-4/5 mt-10 font-bold"
               v-if="selectedTour.flight_infos?.row1 && selectedTour.flight_infos?.row2"
             >
               <tbody>
@@ -257,7 +282,16 @@
                     {{ selectedTour.flight_infos.row1.flight_no }}
                   </td>
                   <td class="py-2 px-4">
-                    {{ selectedTour.flight_infos.row1.airline }}
+                    <img
+                      class="airline_img"
+                      v-if="selectedTour.flight_infos.row1.airline === 'THY'"
+                      src="assets/img/balkans_icon/thy.png"
+                    />
+                    <img
+                      class="airline_img"
+                      v-else
+                      src="assets/img/balkans_icon/pgss.png"
+                    />
                   </td>
                   <td class="py-2 px-4">
                     {{ selectedTour.flight_infos.row1.airport_1 }}
@@ -277,7 +311,16 @@
                     {{ selectedTour.flight_infos.row2.flight_no }}
                   </td>
                   <td class="py-2 px-4">
-                    {{ selectedTour.flight_infos.row2.airline }}
+                    <img
+                      class="airline_img"
+                      v-if="selectedTour.flight_infos.row1.airline === 'THY'"
+                      src="assets/img/balkans_icon/thy.png"
+                    />
+                    <img
+                      class="airline_img"
+                      v-else
+                      src="assets/img/balkans_icon/pgss.png"
+                    />
                   </td>
                   <td class="py-2 px-4">
                     {{ selectedTour.flight_infos.row2.airport_1 }}
@@ -307,7 +350,16 @@
                 </tr>
                 <tr>
                   <td colspan="4">
-                    {{ selectedTour.flight_infos.row1.airline }}
+                    <img
+                      class="airline_img"
+                      v-if="selectedTour.flight_infos.row1.airline === 'THY'"
+                      src="assets/img/balkans_icon/thy.png"
+                    />
+                    <img
+                      class="airline_img"
+                      v-else
+                      src="assets/img/balkans_icon/pgss.png"
+                    />
                   </td>
                 </tr>
                 <tr class="font-normal text-sm">
@@ -334,7 +386,16 @@
                 </tr>
                 <tr>
                   <td colspan="4">
-                    {{ selectedTour.flight_infos.row2.airline }}
+                    <img
+                      class="airline_img"
+                      v-if="selectedTour.flight_infos.row1.airline === 'THY'"
+                      src="assets/img/balkans_icon/thy.png"
+                    />
+                    <img
+                      class="airline_img"
+                      v-else
+                      src="assets/img/balkans_icon/pgss.png"
+                    />
                   </td>
                 </tr>
                 <tr class="font-normal text-sm">
@@ -367,27 +428,6 @@
                 {{ info }}
               </li>
             </ul>
-          </template>
-
-          <template v-if="selectedTour.months && selectedTour.months.length">
-            <div class="flex flex-wrap mt-16 mb-16">
-              <div
-                class="w-1/2 md:w-1/4"
-                v-for="(month, index) in selectedTour.months"
-                :key="index"
-              >
-                <h4 class="font-bold text-balkanGreen uppercase">
-                  {{ month.title }}
-                </h4>
-                <h5
-                  v-if="month.dates.length"
-                  v-for="(date, index) in month.dates"
-                  :key="index"
-                >
-                  {{ date }}
-                </h5>
-              </div>
-            </div>
           </template>
 
           <template
