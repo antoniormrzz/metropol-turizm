@@ -1041,7 +1041,7 @@ export default [
       "Negombo (1) – Dambulla (2) – Kandy – Nuwara Eliya (1) – Yala (1) – Galle – Beruwala (1) – Kolombo ",
     prices: [
       [
-        "17 Eylül – 08,22 Ekim 2021",
+        "17 Eylül – 22 Ekim 2021",
         "2-3 kişilik odada kişi başı",
         "Tek kişilik oda farkı",
         "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
@@ -1057,7 +1057,7 @@ export default [
       ],
       ["4 * Oteller", "1899 USD", "300 USD", "1849 USD", "250 USD"],
       [
-        "16 Temmuz – 20 Ağustos 2021",
+        "16 Temmuz – 20 Ağustos – 08 Ekim 2021",
         "2-3 kişilik odada kişi başı",
         "Tek kişilik oda farkı",
         "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
