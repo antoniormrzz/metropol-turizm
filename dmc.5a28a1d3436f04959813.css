@@ -840,6 +840,10 @@ video {
   font-size: 1.125rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
 }
@@ -2194,72 +2198,46 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-travel{
+.bg-dmc{
   height:510px;
-  background-image:url(assets/img/b041fd600ec082e29a0da391559cfb6a.png)
+  background-image:url(assets/img/1a07b0f891fb9a477183218d99a1d43e.png)
 }
 
-.travel-text p{
-  font-size:24px;
-  line-height:32px
-}
-
-.text-ul li{
-  font-size:24px;
-  line-height:48px;
-  display:-webkit-box;
-  display:-webkit-flex;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-align:center;
-  -webkit-align-items:center;
-      -ms-flex-align:center;
-          align-items:center
-}
-
-.text-ul li:before{
-  content:"";
-  background-color:#c4c4c4;
-  width:10px;
-  height:10px;
-  border-radius:20px;
-  margin-right:10px
-}
-
-.bg-pattern{
+.bg-balloon{
+  background-image:url(assets/img/cf3842fedb89f9ae1480d14f24f9fbba.png);
   background-repeat:no-repeat;
-  background-position:center;
-  background-size:contain;
-  width:40vw;
-  height:80vh;
-  position:absolute
+  background-position-x:-100px
 }
 
 @media (max-width: 1024px){
-  .bg-pattern{
+  .bg-balloon{
     background-image:none
   }
 }
 
-.bg-ski{
-  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
-  left:56vw;
-  top:175vh;
-  -webkit-transform:rotate(-45deg);
-          transform:rotate(-45deg);
-  width:25vw;
-  height:65vh
+.bg-travel{
+  background-image:url(assets/img/0f295ca5499c9593f4cb43500e849900.png);
+  background-repeat:no-repeat;
+  background-position-x:81vw
 }
 
-.bg-ship{
-  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
-  left:79vw;
-  top:86vh
+@media (max-width: 1024px){
+  .bg-travel{
+    background-image:none
+  }
 }
 
-.bg-plane{
-  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
-  left:-10vw;
-  top:86vh
+.bg-bus{
+  background-image:url(assets/img/d83def139ffbd6a9ea609780cd00e967.png);
+  background-repeat:no-repeat;
+  background-position-x:-150px;
+  background-position-y:-50px;
+  background-size:60%
+}
+
+@media (max-width: 1024px){
+  .bg-bus{
+    background-image:none
+  }
 }
 
