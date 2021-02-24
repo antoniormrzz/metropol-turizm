@@ -120,7 +120,7 @@
             href="#_detail_start"
           >
             <img
-              class="w-full object-cover h-24"
+              class="w-full object-cover h-32"
               :src="'assets/img/tour-details/balkan_tour_images/' + index + '.png'"
             />
             <div class="p-2 flex flex-col justify-between">
@@ -168,7 +168,7 @@
                 v-for="(month, index) in selectedTour.months"
                 :key="index"
               >
-                <div v-if="index != 0" class="absolute top-4 left-0 h-24 md:border-l-2 border-balkanGreen border-dotted"></div>
+                <div v-if="index != 0" class="absolute top-4 left-0 h-32 md:border-l-2 border-balkanGreen border-dotted"></div>
                 <h4 class="font-bold text-balkanGreen uppercase my-2">
                   {{ month.title }}
                 </h4>
