@@ -86,10 +86,14 @@
           <h1 class="font-bold text-3xl lg:text-5xl mb-4">
             {{ selectedTour.mainTitle }}
           </h1>
-          <h4 class="font-bold text-3xl text-travelYellow">
-            {{ selectedTour.subTitle }}
+          <h4
+            v-for="(subTitle, index) in selectedTour.subTitles"
+            :key="index"
+            class="font-bold text-xl text-travelYellow"
+          >
+            {{ subTitle }}
           </h4>
-          <h5 class="font-bold text-2xl text-travelYellow mb-8">
+          <h5 class="font-bold text-xl text-travelYellow mb-8">
             {{ selectedTour.dates }}
           </h5>
           <div
@@ -111,15 +115,30 @@
           </div>
 
           <div v-if="selectedTour.hotels">
-            <h4 class="font-bold text-travelYellow uppercase my-4">
-              OTELLER
-            </h4>
+            <h4 class="font-bold text-travelYellow uppercase mt-4 mb-2">OTELLER</h4>
             <ul>
-              <li class="flex" v-for="(hotel,index) in selectedTour.hotels"> <span class="md:w-44">{{hotel.location}}</span> <span class="ml-4 md:ml-0">{{ hotel.name }}</span></li>
+              <li class="flex" v-for="(hotel,index) in selectedTour.hotels">
+                <span class="md:w-44">{{ hotel.location }}</span>
+                <span class="ml-4 md:ml-0">{{ hotel.name }}</span>
+              </li>
             </ul>
           </div>
 
-          <table v-if="selectedTour.prices" class="table-fixed border-table text-center w-full mt-10 mb-4">
+          <div v-if="selectedTour.flight_details">
+            <h4 class="font-bold text-travelYellow uppercase mt-4 mb-2">
+              UÇUŞ DETAYLARI
+            </h4>
+            <ul>
+              <li v-for="(detail,index) in selectedTour.flight_details" class>
+                {{ detail }}
+              </li>
+            </ul>
+          </div>
+
+          <table
+            v-if="selectedTour.prices"
+            class="table-fixed border-table text-center w-full mt-10 mb-4"
+          >
             <tbody>
               <tr
                 v-for="(price, index) in selectedTour.prices"

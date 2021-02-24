@@ -2,7 +2,7 @@ export default [
   // 0 Avusturya Çekya Polonya
   {
     mainTitle: "Avusturya Çekya Polonya Turu",
-    subTitle: "THY İle 6 Gece / 7 Gün",
+    subTitles: ["THY İle", "6 Gece / 7 Gün"],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates:
@@ -18,11 +18,10 @@ export default [
     //   ],
     //   ["4 * Oteller", "€", "€", "€", "€"],
     // ],
-
     days: [
       {
         title: "1.Gün",
-        subTitle: "İSTANBUL – VİYANA ",
+        subTitle: "İSTANBUL – VİYANA",
         content:
           "İstanbul Havalimanı Dış Hatlar Terminali’nde saat 05:00’te buluşma. Bilet, pasaport ve bagaj işlemlerinin ardından Türk Hava Yolları’nın TK1883 tarifeli seferi ile saat 08:15’te Viyana’ya hareket. Yerel saat ile saat 09:40'ta Viyana’ya varış. Varışımızın ardından panoramik olarak gerçekleştireceğimiz Viyana şehir turumuza başlıyoruz. Turumuz sırasında Opera, Üniversite, Parlemento Binası, Tiyatro, Prater , Holfburg ve Müzeler bölgesi görülecek yerler arasındadır. Turumuzun ardından otelimize transfer ve serbest zaman. ",
         breakfast: "---",
@@ -46,8 +45,8 @@ export default [
         content:
           "Sabah erken saatte alacağımız kahvaltının ardından Kalovy Vary turumuzu gerçekleştirmek için otelimizden hareket ediyoruz. 17. ve 18. Yüzyılda Avrupa sosyetesinin ve devlet adamlarının uğrak şehri olan Karlovy Vary’nin eşsiz tabiatı içinde, yan yana inşa edilmiş onlarca muhteşem sarayı, Atatürk’ün 1918 de kaldığı oteli, Dvorak`ın, Mozart`ın, Göethe`nin, Beethoven`ın, Rus Çarı Büyük Petro’nun ve Puşkin`in evlerini gördükten sonra 12 farklı suyun çıktığı termal galerileri ziyaret edeceğiz. Turumuz sonrası yerel bir restorant’da öğle yemeğimizi alıyoruz. Yemek sonrası serbest zamanınızda kristal, porselen, granat, kehribar taşlarının ve diğer geleneksel Çek hediyelik eşyalarının satıldığı mağazalarda geçirebilirsiniz. Serbest zaman sonrası rehberinizin bilgilendireceği saatte Prag’a dönüyoruz. Akşam serbest zaman",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
-        lunch: " Ekstra olarak alınacaktır.",
-        dinner: "Karlovy Vary turunda ücrete dahil olarak alınacaktır.",
+        lunch: "Karlovy Vary turunda ücrete dahil olarak alınacaktır.",
+        dinner: "Ekstra olarak alınacaktır.",
         currency: "Çekya – Koruna",
       },
       {
@@ -88,6 +87,24 @@ export default [
           "Kahvaltının ardından odaların boşaltılması. Rehberimizin belirleyeceği saatte Varşova Havalimanı'na transfer. Bilet, bagaj ve pasaport işlemlerinin ardından Türk Hava Yolları’nın TK1766 seferi ile saat 19:10'da İstanbul'a hareket ve saat 22:45'te İstanbul'a varış ve turumuzun sonu.",
       },
     ],
+    flight_infos: {
+      row1: {
+        flight_no: "TK 1883",
+        airline: "THY",
+        airport_1: "İstanbul",
+        airport_2: "Viyana",
+        time_1: "08:15",
+        time_2: "09:40",
+      },
+      row2: {
+        flight_no: "TK 1766",
+        airline: "THY",
+        airport_1: "Varşova",
+        airport_2: "İstanbul",
+        time_1: "19:10",
+        time_2: "22:45",
+      },
+    },
     includes: [
       "THY ile İstanbul – Viyana / Varşova – İstanbul arası ekonomi sınıfı uçuş,",
       "Havalimanı vergileri,",
@@ -137,7 +154,7 @@ export default [
   // 1 BALTIK BAŞKENTLERİ
   {
     mainTitle: "Baltık Başkentleri",
-    subTitle: "THY İle 5 Gece / 6 Gün",
+    subTitles: ["THY İle", "5 Gece / 6 Gün"],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "14 Haziran – 19 Temmuz – 16 Ağustos 2021",
@@ -166,6 +183,24 @@ export default [
         name: "4 * Park Inn Central – 4 * Tallink – 4 * Ulemiste vb.",
       },
     ],
+    flight_infos: {
+      row1: {
+        flight_no: "TK 1423",
+        airline: "THY",
+        airport_1: "İstanbul",
+        airport_2: "Tallinn",
+        time_1: "08:30",
+        time_2: "10:20",
+      },
+      row2: {
+        flight_no: "TK 1410",
+        airline: "THY",
+        airport_1: "Vilnius",
+        airport_2: "İstanbul",
+        time_1: "12:15",
+        time_2: "14:55",
+      },
+    },
     days: [
       {
         title: "1.Gün",
@@ -272,7 +307,7 @@ export default [
   // 2 FİZEMLİ FAS FURU
   {
     mainTitle: "Gizemli Fas Turu",
-    subTitle: "THY İle VİZESİZ 7 Gece 8 Gün",
+    subTitles: ["THY İle", "Vizesiz", "7 Gece 8 Gün"],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "16 Ekim – 13 Kasım – 26 Aralık 2021",
@@ -310,7 +345,24 @@ export default [
         name: "4 * Dellarosa Hotel Suites & Spa vb.",
       },
     ],
-
+    flight_infos: {
+      row1: {
+        flight_no: "TK 617",
+        airline: "THY",
+        airport_1: "İstanbul",
+        airport_2: "Kazablanka",
+        time_1: "11:35",
+        time_2: "14:30",
+      },
+      row2: {
+        flight_no: "TK 620",
+        airline: "THY",
+        airport_1: "Marekeş",
+        airport_2: "İstanbul",
+        time_1: "15:55",
+        time_2: "22:55",
+      },
+    },
     days: [
       {
         title: "1.Gün",
@@ -344,7 +396,7 @@ export default [
       },
       {
         title: "4.Gün",
-        subTitle: "FES – MIDELT – ERFOUD ",
+        subTitle: "FES – IFRANE – ERFOUD",
         content:
           "Otelde alacağımız kahvaltının ardından Ifrane üzerinden Erfoud şehrine doğru yol alıyoruz. Fransız Alp mimarisi ile dikkat çeken Ifrane’de mola verdikten sonra yola devam edip Erfoud’a varıyor ve konaklama yapacağımız otelimize yerleşiyoruz. Ardından Sahra Çölü’nün kapısı olarak bilinen dünyanın en büyük çölünde 4x4 ler ve develer ile Sahra Kum Tepeleri turumuzu gerçekleştiriyoruz. Öğle yemeğimizi tur esnasında alacağız. Turun ardından otelimize transfer ve serbest zaman. Akşam yemeği otelimizde.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
@@ -432,10 +484,9 @@ export default [
   },
 
   // 3 GÜNEY AFRİKA SAFARİ TURU
-
   {
-    mainTitle: "Güney Afrika Safari Turu",
-    subTitle: "THY İle Vi̇zesi̇z 7 Gece 9 Gün",
+    mainTitle: "Güney Afrİka Safari Turu",
+    subTitles: ["THY İle", "Vizesiz", "7 Gece 9 Gün"],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "17 Temmuz – 14 Ağustos – 18 Eylül – 16 Ekim 2021",
@@ -526,7 +577,7 @@ export default [
       },
       {
         title: "8.Gün",
-        subTitle: "JOHANNESBURG – İSTANBUL ",
+        subTitle: "JOHANNESBURG – İSTANBUL",
         content:
           "Sabah kahvaltısının ardından odaların boşaltılması ve serbest zaman. Rehberimizin belirleyeceği saatte Havalimanı'na transfer. Bilet, bagaj ve pasaport işlemlerinin ardından Türk Hava Yolları’nın TK43 seferi ile saat 18:10'da İstanbul'a hareket.",
 
@@ -537,11 +588,29 @@ export default [
       },
       {
         title: "9.Gün",
-        subTitle: "JOHANNESBURG – İSTANBUL ",
+        subTitle: "İSTANBUL",
         content:
           "Yerel saat ile saat 04:55'da İstanbul'a varış ve turumuzun sonu.",
       },
     ],
+    flight_infos: {
+      row1: {
+        flight_no: "TK 44",
+        airline: "THY",
+        airport_1: "İstanbul",
+        airport_2: "Cape Town",
+        time_1: "01:55",
+        time_2: "11:20",
+      },
+      row2: {
+        flight_no: "TK 43",
+        airline: "THY",
+        airport_1: "Johannesburg",
+        airport_2: "İstanbul",
+        time_1: "18:10",
+        time_2: "04:55",
+      },
+    },
     includes: [
       "THY ile İstanbul – Cape Town / Johannesburg – İstanbul arası ekonomi sınıfı uçuş,",
       "Havalimanı vergileri,",
@@ -611,10 +680,9 @@ export default [
   },
 
   // 4 KUZEY TAYLAND TURU
-
   {
     mainTitle: "Kuzey Tayland Turu",
-    subTitle: "THY İle Vizesiz 7 Gece 9 Gün",
+    subTitles: ["THY İle", "Vizesiz", "7 Gece 9 Gün"],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates:
@@ -660,6 +728,24 @@ export default [
         name: "4* U Nimman vb.",
       },
     ],
+    flight_infos: {
+      row1: {
+        flight_no: "TK 64",
+        airline: "THY",
+        airport_1: "İstanbul",
+        airport_2: "Bangkok",
+        time_1: "20:15",
+        time_2: "09:50 +1",
+      },
+      row2: {
+        flight_no: "TK 65",
+        airline: "THY",
+        airport_1: "Bangkok",
+        airport_2: "İstanbul",
+        time_1: "21:45",
+        time_2: "04:10 +1",
+      },
+    },
     days: [
       {
         title: "1.Gün",
@@ -676,7 +762,7 @@ export default [
         subTitle: "BANGKOK",
         content:
           "Yerel saat ile 09:50’de varışımıza istinaden havalimanından ayrılıyor ve otelimize transfer oluyoruz. Serbest zaman.",
-        breakfast: "---",
+        breakfast: "Otelde ücrete dahil olarak alınacaktır.",
         lunch: "Ekstra olarak alınacaktır.",
         dinner: "Otelde ücrete dahil olarak alınacaktır.",
         currency: "Tayland – Baht",
@@ -790,10 +876,11 @@ export default [
       "Vize başvurusu için tur bitim tarihinden itibaren en az 6 ay geçerli pasaport ve konsolosluk tarafından istenilen evraklar gerekmektedir. Bu tura katılım için Türk pasaportlu yolculara vize uygulaması bulunmamaktadır. Vize alınmış olması ülkeye giriş yapılabileceği anlamına gelmez. Pasaport polisi yolcuyu ülkeye sokmama yetkisine sahiptir. Böyle bir durumda sorumluluk yolcuya aittir. ",
     ],
   },
+
   // 5 Lizbon Porto Turu
   {
     mainTitle: "Lizbon & Porto Turu",
-    subTitle: "Thy İle 4 Gece 5 Gün",
+    subTitles: ["Thy İle", "4 Gece 5 Gün"],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates:
@@ -879,18 +966,23 @@ export default [
         airline: "THY",
         airport_1: "İstanbul",
         airport_2: "Lizbon",
-        time_1: "08.15",
-        time_2: "10.20",
+        time_1: "07:35",
+        time_2: "10:30",
       },
       row2: {
         flight_no: "TK 1450",
         airline: "THY",
         airport_1: "Porto",
         airport_2: "İstanbul",
-        time_1: "11.00",
-        time_2: "18.40",
+        time_1: "15:45",
+        time_2: "22:20",
       },
     },
+    flight_details: [
+      "10,24 Kasım – 15,29 Aralık uçuş detayları aşağıdaki gibidir;",
+      "İstanbul – Lizbon TK1755 – 08:15  – 10:20 Gidiş",
+      "Porto – İstanbul TK1450 – 11:00 – 18:40 Dönüş ",
+    ],
     includes: [
       "THY ile İstanbul – Lizbon / Porto – İstanbul arası ekonomi sınıfı uçuş",
       "Havalimanı vergileri",
@@ -941,7 +1033,7 @@ export default [
   // 6 SIRLARIN ÜLKESİ SRİ LANKA TURU
   {
     mainTitle: "Sırların Ülkesi Sri Lanka Turu",
-    subTitle: "Thy İle Vi̇zesi̇z 6 Gece 8 Gün",
+    subTitles: ["Thy İle", "Vizesiz", "6 Gece 8 Gün"],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "16 Temmuz – 06,20 Ağustos – 17 Eylül – 08,22 Ekim – 19 Kasım 2021",
@@ -1001,7 +1093,7 @@ export default [
       },
       {
         title: "3.Gün",
-        subTitle: "NEGOMBO – PINNAWALA – DAMBULLA0",
+        subTitle: "NEGOMBO – PINNAWALA – DAMBULLA",
         content:
           "Kahvaltının ardından odaların boşaltılması ile birlikte Dambulla’ya doğru hareket ediyoruz. Yol üzerinde önce 1975 yılında kurulmuş dünyanın ilk Fil Yetimhanesi’ni ziyaret etmek için Pinnawala’ya uğruyoruz. Burada bebekken bulunmuş ya da yaralı halde bulunmuş fillerin beslenme ve banyo yapışlarını izliyoruz. Ardından yolsa devam ediyoruz. Öğle yemeğimizi yol üzerinde aldıktan sonra Dambulla’nın altın tapınağı olarak da bilinen Dambulla Mağara Tapınağı’nı ziyaret ediyoruz. Burası Sri Lanka’nın en iyi korunmuş mağara tapınağı olmakla beraber, mağara Budha ve hayatı üzerine yoğunlaşmıştır. Turumuz sonrası Dambulla’da ki otelimize transfer. Akşam yemeği otelimizde.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
@@ -1061,7 +1153,7 @@ export default [
       },
       {
         title: "9.Gün",
-        subTitle: "BERUWALA – KOLOMBO – İSTANBUL",
+        subTitle: "İSTANBUL",
         content: "Yerel saat ile 04:55’de İstanbul’a varış ve turumuzun sonu.",
       },
     ],
@@ -1072,6 +1164,24 @@ export default [
       { location: "Yala", name: "4* Cinnamon Wild vb." },
       { location: "Beruwala", name: "4* Cinnamon Bey vb." },
     ],
+    flight_infos: {
+      row1: {
+        flight_no: "TK 730",
+        airline: "THY",
+        airport_1: "İstanbul",
+        airport_2: "Kolombo",
+        time_1: "01:45",
+        time_2: "15:00",
+      },
+      row2: {
+        flight_no: "TK 731",
+        airline: "THY",
+        airport_1: "Kolombo",
+        airport_2: "İstanbul",
+        time_1: "20:20",
+        time_2: "04:55 +1",
+      },
+    },
     includes: [
       "THY ile İstanbul – Kolombo – İstanbul arası ekonomi sınıfı uçuş,",
       "Havalimanı vergileri,",
@@ -1119,8 +1229,12 @@ export default [
   // 7 UKRAYNA TURU
   {
     mainTitle: "Ukrayna Turu",
-    subTitle:
-      "Thy İle Vizesiz Biyometrik Yeni Kimlikle Giriş İmkanı 5 Gece 6 Gün",
+    subTitles: [
+      "Thy İle",
+      "Vizesiz",
+      "Biyometrik Yeni Kimlikle Giriş İmkanı",
+      "5 Gece 6 Gün",
+    ],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates:
@@ -1221,6 +1335,24 @@ export default [
       { location: "Kiev", name: "4* President Hotel vb." },
       { location: "Odessa", name: "4* Alexandrovskiy Hotel vb." },
     ],
+    flight_infos: {
+      row1: {
+        flight_no: "TK 441",
+        airline: "THY",
+        airport_1: "İstanbul",
+        airport_2: "Lviv",
+        time_1: "07:45",
+        time_2: "09:45",
+      },
+      row2: {
+        flight_no: "TK 468",
+        airline: "THY",
+        airport_1: "Odessa",
+        airport_2: "İstanbul",
+        time_1: "21:30",
+        time_2: "23:00",
+      },
+    },
     includes: [
       "THY ile İstanbul – Lviv / Odessa – İstanbul arası ekonomi sınıfı uçuş",
       "Havalimanı vergileri",
@@ -1272,7 +1404,7 @@ export default [
   // 8 ÜRDÜN TURU
   {
     mainTitle: "Ürdün Turu",
-    subTitle: "Thy İle Vi̇zesi̇z 5 Gece 6 Gün",
+    subTitle: ["Thy İle", "Vizesiz", "5 Gece 6 Gün"],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "20 Temmuz – 26 Ağustos – 22 Eylül – 13,27 Ekim – 29 Aralık 2021",
@@ -1353,9 +1485,27 @@ export default [
       { location: "Ölü Deniz", name: "5* Holiday Inn Dead Sea vb." },
       { location: "Amman", name: "4* Corp Amman Hotel vb." },
     ],
+    flight_infos: {
+      row1: {
+        flight_no: "TK 818",
+        airline: "THY",
+        airport_1: "İstanbul",
+        airport_2: "Akabe",
+        time_1: "22:00",
+        time_2: "00:45 +1",
+      },
+      row2: {
+        flight_no: "TK 817",
+        airline: "THY",
+        airport_1: "Amman",
+        airport_2: "İstanbul",
+        time_1: "09:30",
+        time_2: "12:30",
+      },
+    },
     includes: [
       "İstanbul – Akabe / Amman - İstanbul Arası Türk Hava Yolları ile Ekonomi Sınıf Gidiş-Dönüş Uçak Bileti",
-      "Akabe’de 1 gece, Bedevi Kampında 1 gece, Petra’da 1 gece, Ölü Deniz’de 1 gece ve Amman’da 1 gece olmak üzere toplam 4 gece oda kahvaltı konaklama,",
+      "Akabe’de 1 gece, Bedevi Kampında 1 gece, Petra’da 1 gece, Ölü Deniz’de 1 gece ve Amman’da 1 gece olmak üzere toplam 5 gece oda kahvaltı konaklama,",
       "Programda belirtilen tüm turlar",
       "Programda belirtilen 3 adet öğle yemeği ve 1 adet akşam yemeği",
       "Türkçe Rehberlik Hizmeti",
@@ -1394,8 +1544,8 @@ export default [
 
   // 9 VİETNAM KAMBOÇYA TURU
   {
-    mainTitle: "Vi̇etnam Kamboçya Turu",
-    subTitle: "Thy İle 7 Gece 9 Gün",
+    mainTitle: "Vietnam Kamboçya Turu",
+    subTitle: ["Thy İle", "7 Gece 9 Gün"],
     tldr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
     dates: "23 Ekim – 20 Kasım – 11 Aralık 2021",
@@ -1446,7 +1596,7 @@ export default [
           "Kahvaltının ardından otelimizden çıkış işlemlerimiz sonrası panoramik Saigon şehir turumuzu gerçekleştiriyoruz. Savaş Müzesi, Opera Binası, Tarihi Posta Binası ve Notre-Dame Katedrali ve Ben Thanh Pazarını göreceğimiz yerler arasındadır. Öğle yemeğinin ardından Cu Chi Tünelleri turumuzu gerçekleştireceğiz. Yakın tarihimizin en etkileyici olaylarından, birçok filme konu olmuş Vietnam – A.B.D. savaşı sırasında Kuzey Vietnamlı halkın inşa ettiği ve savaş boyunca bir şehir haline gelen siperleri, kampları ve tünelleri görüyoruz. Turdan sonra havaalanına transfer ve yerel havayolları ile Siem Reap’e uçuş. Varışta otelimize transfer ve serbest zaman.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
         lunch: "Yerel restoranda ücrete dahil olarak alınacaktır.",
-        dinner: "Ekstra olarak alınacaktır.",
+        dinner: "Otelde ücrete dahil olarak alınacaktır.",
         currency: "Kamboçya – Riel",
       },
       {
@@ -1481,7 +1631,7 @@ export default [
       },
       {
         title: "8.Gün",
-        subTitle: "HANOI – HA LONG BAY – HANOI",
+        subTitle: "HAI PHONG – LAN HA BAY (CRUISE)",
         content:
           "Sabah kahvaltısının ardından Hai Phong şehrine geçiyoruz. Limandan konaklama yapacağımız Cruise gemimize tender boat lar ile geçiyoruz. Öğlen gemimiz hareket ettikten sonra çok çeşitli adacıkların ve el değmemiş Ba Trai Dao bölgesinin manzarası eşliğinde öğle yemeğimizi alıyoruz. Yemek sonrası Kim Giao ormanı ile Cat Ba Milli Parkı'nın ortasında bulunan Trung Trang mağarasına otobüsle transfer. Lan Ha Bay körfezinin Tra Bau bölgesinde arzu ederseniz kano kullanabilir yada berrak sularda yüzme keyfinin tadını çıkarabilirsiniz. Turun ardından gemimize dönüyoruz. Akşam yemeğine kadar gün batımını izleyebilir, dinlenebilir yada gemide ki farklı aktivitelere katılabilirsiniz. Akşam yemeği gemide.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
@@ -1511,6 +1661,24 @@ export default [
       { location: "Siem Reap", name: "4* Sakmut Boutique Hotel vb." },
       { location: "Hanoi", name: "4* Babylon Grand Hotel & Spa vb." },
     ],
+    flight_infos: {
+      row1: {
+        flight_no: "TK 162",
+        airline: "THY",
+        airport_1: "İstanbul",
+        airport_2: "Saigon",
+        time_1: "01:50",
+        time_2: "16:55",
+      },
+      row2: {
+        flight_no: "TK 165",
+        airline: "THY",
+        airport_1: "Hanoi",
+        airport_2: "İstanbul",
+        time_1: "21:45",
+        time_2: "04:35 +1",
+      },
+    },
     includes: [
       "THY ile İstanbul – Saigon / Hanoi – İstanbul arası ekonomi sınıfı uçuş",
       "Havalimanı vergileri",
