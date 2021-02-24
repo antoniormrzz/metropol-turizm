@@ -801,13 +801,21 @@ export default [
     location: "Lizbon (2) – Porto (2)",
     prices: [
       [
-        "17 Temmuz – 07,21 Ağustos – 18 Eylül – 09,23 Ekim – 06,20 Kasım – 26 Aralık 2021",
+        "20 Temmuz – 11,25 Ağustos – 10,24 Kasım – 15 Aralık 2021",
         "2-3 kişilik odada kişi başı",
         "Tek kişilik oda farkı",
         "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
         "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
       ],
-      ["4 * Oteller", "799 €", "200 €", "749 €", "150 €"],
+      ["4 * Oteller", "799 €", "250 €", "749 €", "250 €"],
+      [
+        "15 Eylül – 13,27 Ekim –29 Aralık 2021",
+        "2-3 kişilik odada kişi başı",
+        "Tek kişilik oda farkı",
+        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+      ],
+      ["4 * Oteller", "809 €", "250 €", "759 €", "250 €"],
     ],
 
     days: [
@@ -853,16 +861,16 @@ export default [
       },
       {
         title: "5.Gün",
-        subTitle: "KIEV – ÇERNOBİL – KIEV",
+        subTitle: "PORTO – İSTANBUL ",
         content:
           "Kahvaltının ardından odaların boşaltılması. Rehberimizin belirleyeceği saatte Havalimanı'na transfer. Bilet, bagaj ve pasaport işlemlerinin ardından Türk Hava Yolları’nın TK1450 seferi ile saat 15:45’te İstanbul'a hareket ve saat 22:20’de İstanbul'a varış.",
       },
     ],
     hotels: [
-      { location: "Lizbon", name: "4* VIP’s Executive Arts vb." },
+      { location: "Lizbon", name: "4 * VIP’s Executive Arts vb." },
       {
         location: "Porto",
-        name: "4* Axis Vermar Conference & Beach Hotel vb.",
+        name: "4 * Axis Vermar Conference & Beach Hotel vb.",
       },
     ],
     flight_infos: {
