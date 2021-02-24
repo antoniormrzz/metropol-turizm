@@ -29,7 +29,11 @@
       </div>
 
       <div class="py-20 flex items-center justify-center">
-        <img class="w-48" src="assets/img/page_names/venn_tour_travel.png" id="_detail_start"/>
+        <img
+          class="w-48"
+          src="assets/img/page_names/venn_tour_travel.png"
+          id="_detail_start"
+        />
       </div>
 
       <div class="container mx-auto tour-detail">
@@ -106,7 +110,16 @@
             </ul>
           </div>
 
-          <table class="table-fixed border-table text-center w-full my-10">
+          <div v-if="selectedTour.hotels">
+            <h4 class="font-bold text-travelYellow uppercase my-4">
+              OTELLER
+            </h4>
+            <ul>
+              <li class="flex" v-for="(hotel,index) in selectedTour.hotels"> <span class="md:w-44">{{hotel.location}}</span> <span class="ml-4 md:ml-0">{{ hotel.name }}</span></li>
+            </ul>
+          </div>
+
+          <table v-if="selectedTour.prices" class="table-fixed border-table text-center w-full mt-10 mb-4">
             <tbody>
               <tr
                 v-for="(price, index) in selectedTour.prices"
@@ -119,6 +132,168 @@
               </tr>
             </tbody>
           </table>
+
+          <div v-if="selectedTour.flight_infos" class="overflow-x-auto">
+            <h4 class="font-bold text-travelYellow uppercase mt-4">
+              UÇUŞ BİLGİLERİ
+            </h4>
+            <table
+              class="hidden md:block table-fixed border-table text-center w-full md:w-4/5 mt-4 font-bold"
+              v-if="selectedTour.flight_infos?.row1 && selectedTour.flight_infos?.row2"
+            >
+              <tbody>
+                <tr>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.flight_no }}
+                  </td>
+                  <td class="py-2 px-4">
+                    <img
+                      class="airline_img"
+                      v-if="selectedTour.flight_infos.row1.airline === 'THY'"
+                      src="assets/img/balkans_icon/thy.png"
+                    />
+                    <img
+                      class="airline_img"
+                      v-else
+                      src="assets/img/balkans_icon/pgss.png"
+                    />
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.airport_1 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.airport_2 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.time_1 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row1.time_2 }}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.flight_no }}
+                  </td>
+                  <td class="py-2 px-4">
+                    <img
+                      class="airline_img"
+                      v-if="selectedTour.flight_infos.row1.airline === 'THY'"
+                      src="assets/img/balkans_icon/thy.png"
+                    />
+                    <img
+                      class="airline_img"
+                      v-else
+                      src="assets/img/balkans_icon/pgss.png"
+                    />
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.airport_1 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.airport_2 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.time_1 }}
+                  </td>
+                  <td class="py-2 px-4">
+                    {{ selectedTour.flight_infos.row2.time_2 }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table
+              class="md:hidden table-fixed border-table text-center w-full md:w-3/4 mt-10 font-bold"
+              v-if="selectedTour.flight_infos?.row1 && selectedTour.flight_infos?.row2"
+            >
+              <tbody>
+                <tr>
+                  <td colspan="4">
+                    {{ selectedTour.flight_infos.row1.flight_no }}
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    <img
+                      class="airline_img"
+                      v-if="selectedTour.flight_infos.row1.airline === 'THY'"
+                      src="assets/img/balkans_icon/thy.png"
+                    />
+                    <img
+                      class="airline_img"
+                      v-else
+                      src="assets/img/balkans_icon/pgss.png"
+                    />
+                  </td>
+                </tr>
+                <tr class="font-normal text-sm">
+                  <td>
+                    {{ selectedTour.flight_infos.row1.airport_1 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row1.airport_2 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row1.time_1 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row1.time_2 }}
+                  </td>
+                </tr>
+                <tr class="bg-balkanGreen">
+                  <td colspan="4"></td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    {{ selectedTour.flight_infos.row2.flight_no }}
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    <img
+                      class="airline_img"
+                      v-if="selectedTour.flight_infos.row1.airline === 'THY'"
+                      src="assets/img/balkans_icon/thy.png"
+                    />
+                    <img
+                      class="airline_img"
+                      v-else
+                      src="assets/img/balkans_icon/pgss.png"
+                    />
+                  </td>
+                </tr>
+                <tr class="font-normal text-sm">
+                  <td>
+                    {{ selectedTour.flight_infos.row2.airport_1 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row2.airport_2 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row2.time_1 }}
+                  </td>
+                  <td>
+                    {{ selectedTour.flight_infos.row2.time_2 }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <template v-if="selectedTour.warning_for_teenagers">
+            <h4 class="font-bold text-travelYellow uppercase mt-4">
+              18 YAŞ ALTI ÇOCUKLAR İÇİN ÖNEMLİ UYARI
+            </h4>
+            <ul class="list-inside list-none ml-1">
+              <li
+                v-for="(item, index) in selectedTour.warning_for_teenagers"
+                :key="index"
+              >
+                {{ item }}
+              </li>
+            </ul>
+          </template>
 
           <template
             v-if="selectedTour.includes && selectedTour.includes.length"
