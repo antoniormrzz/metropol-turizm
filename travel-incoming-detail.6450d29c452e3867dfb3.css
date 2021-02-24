@@ -814,8 +814,8 @@ video {
   height: 4rem;
 }
 
-.h-24 {
-  height: 6rem;
+.h-32 {
+  height: 8rem;
 }
 
 .h-auto {
@@ -2194,25 +2194,25 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-dmc{
+.bg-balkans{
   height:510px;
-  background-image:url(assets/img/1a07b0f891fb9a477183218d99a1d43e.png)
+  background-image:url(assets/img/0451279754d28e866f34f507696253ee.png)
 }
 
 .tour-detail{
   display:grid;
   grid-template-columns:1fr;
   gap:35px;
-  padding-right:15px;
-  padding-left:15px
+  padding-left:15px;
+  padding-right:15px
 }
 
 @media (min-width: 768px){
   .tour-detail{
     grid-template-columns:300px 1fr;
     gap:50px;
-    padding-right:0px;
-    padding-left:0px
+    padding-left:0px;
+    padding-right:0px
   }
 }
 
@@ -2295,13 +2295,17 @@ h1,h2,h3,h4,h5{
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb{
-    background:#2A2664;
+    background:#ffcd0f;
     border-radius:10px
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb:hover{
-    background:#201d4d;
+    background:#e2b708;
     width:15px
   }
+}
+
+td.kids_td span{
+  display:block
 }
 

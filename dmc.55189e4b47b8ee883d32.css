@@ -814,8 +814,8 @@ video {
   height: 4rem;
 }
 
-.h-24 {
-  height: 6rem;
+.h-32 {
+  height: 8rem;
 }
 
 .h-auto {
@@ -2194,71 +2194,45 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-balkans{
+.bg-dmc{
   height:510px;
-  background-image:url(assets/img/0451279754d28e866f34f507696253ee.png)
+  background-image:url(assets/img/1a07b0f891fb9a477183218d99a1d43e.png)
 }
 
-.bg-plane{
-  background-image:url(assets/img/6af0474d21cc05042edde78a71a16f4f.png);
+.bg-balloon{
+  background-image:url(assets/img/cf3842fedb89f9ae1480d14f24f9fbba.png);
   background-repeat:no-repeat;
-  background-position-x:-200px
+  background-position-x:-100px
 }
 
 @media (max-width: 1024px){
-  .bg-plane{
+  .bg-balloon{
     background-image:none
   }
 }
 
-.bg-ship{
-  background-image:url(assets/img/e0aefa2a35c6126e805efe98276881ef.png);
+.bg-travel{
+  background-image:url(assets/img/0f295ca5499c9593f4cb43500e849900.png);
   background-repeat:no-repeat;
-  background-position-x:1550px;
-  background-position-y:center
+  background-position-x:81vw
 }
 
 @media (max-width: 1024px){
-  .bg-ship{
+  .bg-travel{
     background-image:none
   }
 }
 
-.bg-ski{
-  background-image:url(assets/img/2a13bc6d5917bb3dc49fd4ecedf01541.png);
+.bg-bus{
+  background-image:url(assets/img/d83def139ffbd6a9ea609780cd00e967.png);
   background-repeat:no-repeat;
-  background-position-x:-250px;
-  background-position-y:center
+  background-position-x:-150px;
+  background-position-y:-50px;
+  background-size:60%
 }
 
 @media (max-width: 1024px){
-  .bg-ski{
-    background-image:none
-  }
-}
-
-.bg-skuba{
-  background-image:url(assets/img/efa571af75d3f21af89e1093e8f67eb9.png);
-  background-repeat:no-repeat;
-  background-position-x:1550px;
-  background-position-y:200px
-}
-
-@media (max-width: 1024px){
-  .bg-skuba{
-    background-image:none
-  }
-}
-
-.bg-river{
-  background-image:url(assets/img/03119d760f12f2403e5d58ac2b4d386c.png);
-  background-repeat:no-repeat;
-  background-position-x:-200px;
-  background-position-y:center
-}
-
-@media (max-width: 1024px){
-  .bg-river{
+  .bg-bus{
     background-image:none
   }
 }

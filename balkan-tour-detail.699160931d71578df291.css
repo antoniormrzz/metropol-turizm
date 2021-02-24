@@ -814,8 +814,8 @@ video {
   height: 4rem;
 }
 
-.h-24 {
-  height: 6rem;
+.h-32 {
+  height: 8rem;
 }
 
 .h-auto {
@@ -2194,9 +2194,9 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-travel{
+.bg-balkans{
   height:510px;
-  background-image:url(assets/img/b041fd600ec082e29a0da391559cfb6a.png)
+  background-image:url(assets/img/0451279754d28e866f34f507696253ee.png)
 }
 
 .tour-detail{
@@ -2295,12 +2295,12 @@ h1,h2,h3,h4,h5{
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb{
-    background:#FFCD0F;
+    background:#03AD4F;
     border-radius:10px
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb:hover{
-    background:#e2b708;
+    background:#1d9151;
     width:15px
   }
 }
