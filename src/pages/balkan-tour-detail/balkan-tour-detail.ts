@@ -17,6 +17,12 @@ new Vue({
     tourData: balkanTours,
     selectedTour: balkanTours[0],
     showDrawer: false,
+    form: {
+      name: '',
+      email: '',
+      tourName: '',
+      message: ''
+    }
   },
   computed: {},
   mounted: function () {
@@ -33,5 +39,8 @@ new Vue({
     toggleDrawer: function () {
       this.showDrawer = !this.showDrawer;
     },
+    submitForm: function () {
+      console.log(this.form)
+    }
   },
 });
