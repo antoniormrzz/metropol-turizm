@@ -1373,6 +1373,10 @@ video {
   color: rgba(37, 99, 235, var(--tw-text-opacity));
 }
 
+.italic {
+  font-style: italic;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -2198,9 +2202,9 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-balkans{
+.bg-dmc{
   height:510px;
-  background-image:url(assets/img/0451279754d28e866f34f507696253ee.png)
+  background-image:url(assets/img/1a07b0f891fb9a477183218d99a1d43e.png)
 }
 
 .tour-detail{
@@ -2299,18 +2303,13 @@ h1,h2,h3,h4,h5{
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb{
-    background:#03AD4F;
+    background:#2A2664;
     border-radius:10px
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb:hover{
-    background:#1d9151;
+    background:#201d4d;
     width:15px
   }
-}
-
-.airline_img{
-  width:110px;
-  margin:auto
 }
 
