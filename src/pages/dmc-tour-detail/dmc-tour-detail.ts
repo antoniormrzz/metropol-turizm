@@ -1,6 +1,6 @@
 // for all modules, import tailwind and it's scss style
 import "tailwindcss/tailwind.css";
-import './dmc-tour-detail.scss';
+import "./dmc-tour-detail.scss";
 
 import dmcTours from "../../constants/dmc-tours";
 import $ from "jquery";
@@ -16,9 +16,6 @@ new Vue({
     selectedTour: dmcTours[0],
     showDrawer: false,
   },
-  computed: {
-    
-  },
   methods: {
     selectTour: function (index) {
       this.selectedTour = this.tourData[index];
@@ -28,6 +25,12 @@ new Vue({
     },
     toggleDrawer: function () {
       this.showDrawer = !this.showDrawer;
+    },
+    isOptional: function (text) {
+      return text.substring(0, 8) == "Optional";
+    },
+    isDetail: function (text) {
+      return text.substring(0, 15) == "Hot Air Balloon";
     },
   },
 });

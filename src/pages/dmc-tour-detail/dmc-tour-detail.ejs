@@ -86,7 +86,11 @@
       </div>
 
       <div class="pt-10 pb-20 flex items-center justify-center">
-        <img class="w-42" src="assets/img/page_names/venn_tour_dmc.png" id="_detail_start"/>
+        <img
+          class="w-42"
+          src="assets/img/page_names/venn_tour_dmc.png"
+          id="_detail_start"
+        />
       </div>
 
       <div class="container mx-auto tour-detail">
@@ -120,8 +124,10 @@
                 <p
                   class="text-sm md:text-base"
                   style="text-align: left !important"
+                  v-for="(text, index) in tour.tldr"
+                  :v-key="index"
                 >
-                  {{ tour.tldr }}
+                  {{ text }}
                 </p>
               </div>
             </div>
@@ -141,10 +147,15 @@
           <h1 class="font-bold text-3xl lg:text-5xl mb-4 capitalize">
             {{ selectedTour.mainTitle }}
           </h1>
-          <h4 class="font-bold text-3xl text-dmcBlue mb-8">
-            {{ selectedTour.subTitle }}
+          <h4
+            class="font-bold text-3xl text-dmcBlue"
+            v-for="(subTitle, index) in selectedTour.subTitles"
+            :v-key="index"
+          >
+            {{ subTitle }}
           </h4>
           <div
+            class="mt-8"
             v-if="selectedTour.days.length"
             v-for="(day, index) in selectedTour.days"
             :key="index"
@@ -153,9 +164,17 @@
             <h4 class="font-bold text-dmcBlue uppercase">
               {{ day.subTitle }}
             </h4>
-            <p class="my-2" v-for="(txt, index) in day.text" :v-key="index">
-              {{ txt }}
-            </p>
+            <template v-for="(txt, index) in day.text" :v-key="index">
+              <p v-if="isOptional(txt)" class="my-2 font-bold">
+                {{ txt }}
+              </p>
+              <p v-else-if="isDetail(txt)" class="my-2 font-bold mt-16">
+                {{ txt }}
+              </p>
+              <p v-else class="my-2">
+                {{ txt }}
+              </p>
+            </template>
           </div>
 
           <!-- TO DO button click => mailto and title 'll be selected tour title '-->
