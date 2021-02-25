@@ -4,7 +4,7 @@ export default [
     mainTitle: "Avusturya Çekya Polonya Turu",
     subTitles: ["THY İle", "6 Gece / 7 Gün"],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Avrupa’nın sanat başkenti Viyana, Gotik mimarisiyle ön plana çıkan Prag ve savaşın en ağır izlerini taşıyan Varşova ile tarihi bir yolculuğa çıkacaksınız.",
     dates:
       "17,31 Temmuz – 14,28 Ağustos – 11 Eylül – 23 Ekim – 13 Kasım – 27 Aralık 2021",
     location: "Viyana (1) – Prag (2) – Krakov (2) – Varşova (1)",
@@ -150,13 +150,12 @@ export default [
       "• Vize başvurusu için tur bitim tarihinden itibaren en az 6 ay geçerli pasaport ve konsolosluk tarafından istenilen evraklar gerekmektedir. Bu program için Schengen Vizesi gerekmektedir.. Pasaport polisi yolcuyu ülkeye sokmama yetkisine sahiptir. Böyle bir durumda sorumluluk yolcuya aittir.",
     ],
   },
-
   // 1 BALTIK BAŞKENTLERİ
   {
     mainTitle: "Baltık Başkentleri",
     subTitles: ["THY İle", "5 Gece / 6 Gün"],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Kuzey Avrupa’nın en huzurlu ülkelerinin, muhteşem doğal güzellikleri ile birlikte modern dünyayı birleştiren başkentlerinde masalsı bir tura hazır mısınız?",
     dates: "14 Haziran – 19 Temmuz – 16 Ağustos 2021",
     location: "Tallinn (2) – Riga (2) – Vilnius (1)",
     prices: [
@@ -309,7 +308,7 @@ export default [
     mainTitle: "Gizemli Fas Turu",
     subTitles: ["THY İle", "Vizesiz", "7 Gece 8 Gün"],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Fas’ın kraliyet şehirlerinde doğu kültürü ile bir çok farklı kültürün harmanlanmış halini gizemleri ile birlikte keşfedeceksiniz.",
     dates: "16 Ekim – 13 Kasım – 26 Aralık 2021",
     location:
       "Kazablanka (1) – Fes (2) – Erfoud (1) – Ouarzazate (1) – Marakeş (2)",
@@ -482,13 +481,12 @@ export default [
       "• Vize başvurusu için tur bitim tarihinden itibaren en az 6 ay geçerli pasaport ve konsolosluk tarafından istenilen evraklar gerekmektedir. Bu tura katılım için Türk pasaportlu yolculara vize uygulaması bulunmamaktadır. Vize alınmış olması ülkeye giriş yapılabileceği anlamına gelmez. Pasaport polisi yolcuyu ülkeye sokmama yetkisine sahiptir. Böyle bir durumda sorumluluk yolcuya aittir. ",
     ],
   },
-
   // 3 GÜNEY AFRİKA SAFARİ TURU
   {
-    mainTitle: "Güney Afrİka Safari Turu",
+    mainTitle: "Güney Afrika Safari Turu",
     subTitles: ["THY İle", "Vizesiz", "7 Gece 9 Gün"],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Modern dünyadan uzakta vahşi doğanın ve hayatta kalma mücadelesinin çarpıcı örneklerini deneyimleyeceğiniz muhteşem Güney Afrika turu.",
     dates: "17 Temmuz – 14 Ağustos – 18 Eylül – 16 Ekim 2021",
     location: "Cape Town (4) – Kruger (2) – Johannesburg (1)",
     // prices: [
@@ -678,13 +676,12 @@ export default [
       "• Vize başvurusu için tur bitim tarihinden itibaren en az 6 ay geçerli pasaport ve konsolosluk tarafından istenilen evraklar gerekmektedir. Bu tura katılımda Türk pasaportlu yolcular için vize uygulaması bulunmamaktadır. Vize alınmış olması ülkeye giriş yapılabileceği anlamına gelmez. Pasaport polisi yolcuyu ülkeye sokmama yetkisine sahiptir. Böyle bir durumda sorumluluk yolcuya aittir. ",
     ],
   },
-
   // 4 KUZEY TAYLAND TURU
   {
     mainTitle: "Kuzey Tayland Turu",
     subTitles: ["THY İle", "Vizesiz", "7 Gece 9 Gün"],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Mistik tapınakları, büyüleyici sarayları ve sıra dışı kabile hayatlarını göreceğiniz alışılagelmişin çok ötesinde bir ülke Tayland.",
     dates:
       "16 Temmuz – 06,20 Ağustos – 17 Eylül – 08,22 Ekim – 12,26 Kasım – 10,26 Aralık 2021",
     location: "Bangkok (2) – Chiang Rai (2) – Chiang Mai (3)",
@@ -876,13 +873,12 @@ export default [
       "Vize başvurusu için tur bitim tarihinden itibaren en az 6 ay geçerli pasaport ve konsolosluk tarafından istenilen evraklar gerekmektedir. Bu tura katılım için Türk pasaportlu yolculara vize uygulaması bulunmamaktadır. Vize alınmış olması ülkeye giriş yapılabileceği anlamına gelmez. Pasaport polisi yolcuyu ülkeye sokmama yetkisine sahiptir. Böyle bir durumda sorumluluk yolcuya aittir. ",
     ],
   },
-
   // 5 Lizbon Porto Turu
   {
     mainTitle: "Lizbon & Porto Turu",
     subTitles: ["Thy İle", "4 Gece 5 Gün"],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Atlas Okyanusu’na açılması sebebiyle büyük kaşiflere ev sahipliği yapmış, kültürel ve tarihi zenginlikleri bir arada bulabileceğiniz bir ülke Portekiz.",
     dates:
       "20 Temmuz – 11,25 Ağustos – 15 Eylül – 13,27 Ekim – 10,24 Kasım – 15,29 Aralık 2021",
     location: "Lizbon (2) – Porto (2)",
@@ -1029,13 +1025,12 @@ export default [
       "• Vize başvurusu için tur bitim tarihinden itibaren en az 6 ay geçerli pasaport ve konsolosluk tarafından istenilen evraklar gerekmektedir. Bu program için Schengen Vizesi gerekmektedir.. Pasaport polisi yolcuyu ülkeye sokmama yetkisine sahiptir. Böyle bir durumda sorumluluk yolcuya aittir.",
     ],
   },
-
   // 6 SIRLARIN ÜLKESİ SRİ LANKA TURU
   {
     mainTitle: "Sırların Ülkesi Sri Lanka Turu",
     subTitles: ["Thy İle", "Vizesiz", "6 Gece 8 Gün"],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Hint Okyanusu’nda görkemli Budist tapınakları, muhteşem çay tarlaları ve doğal yaşantısı ile halen çözülememiş sırları barındıran mistik bir ülke Sri Lanka.",
     dates: "16 Temmuz – 06,20 Ağustos – 17 Eylül – 08,22 Ekim – 19 Kasım 2021",
     location:
       "Negombo (1) – Dambulla (2) – Kandy – Nuwara Eliya (1) – Yala (1) – Galle – Beruwala (1) – Kolombo ",
@@ -1225,7 +1220,6 @@ export default [
       ,
     ],
   },
-
   // 7 UKRAYNA TURU
   {
     mainTitle: "Ukrayna Turu",
@@ -1236,7 +1230,7 @@ export default [
       "5 Gece 6 Gün",
     ],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Kültür başkenti Lviv, renkli yaşam tarzı ile Kiev ve Ukrayna’nın incisi diyebileceğimiz Odessa üçlüsünü bir arada görebileceğiniz bir tur.",
     dates:
       "17 Temmuz – 07,21 Ağustos – 18 Eylül – 09,23 Ekim – 06,20 Kasım – 26 Aralık 2021",
     location: "Lviv (2) – Rivne – Kiev (3) – Çernobil – Odessa (2)",
@@ -1400,13 +1394,12 @@ export default [
       "• Vize başvurusu için tur bitim tarihinden itibaren en az 6 ay geçerli pasaport ve konsolosluk tarafından istenilen evraklar gerekmektedir. Bu program TC vatandaşları için vize uygulaması bulunmamaktadır. TC vatandaşlarının Ukrayna’ya geçerli biyometrik kimlik belgeleri ile vizesiz olarak seyahat edebilmeleri mümkündür. Vize alınmış olması ülkeye giriş yapılabileceği anlamına gelmez. Pasaport polisi yolcuyu ülkeye sokmama yetkisine sahiptir. Böyle bir durumda sorumluluk yolcuya aittir.",
     ],
   },
-
   // 8 ÜRDÜN TURU
   {
     mainTitle: "Ürdün Turu",
-    subTitle: ["Thy İle", "Vizesiz", "5 Gece 6 Gün"],
+    subTitles: ["Thy İle", "Vizesiz", "5 Gece 6 Gün"],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Çölün kızgın sıcağına ve suyun inanılmaz varlığına şahit olup, bedevi hayatını deneyimleyip çölde adrenalin dolu bir safariye hazır mısınız?",
     dates: "20 Temmuz – 26 Ağustos – 22 Eylül – 13,27 Ekim – 29 Aralık 2021",
     location:
       "Akabe (1) – Bedevi Kampı (1) – Petra (1) – Ölü Deniz (1) – Amman (1)",
@@ -1541,13 +1534,12 @@ export default [
       "• Vize başvurusu için tur bitim tarihinden itibaren en az 6 ay geçerli pasaport ve konsolosluk tarafından istenilen evraklar gerekmektedir. Bu tura katılım için Türk pasaportlu yolculara vize uygulaması bulunmamaktadır. Pasaportlarında İsrail vizesi ya da İsrail’e giriş-çıkış damgası bulunan kişilerin ülkeye girişlerine izin verilmemektedir. Vizeye tabi tutulmaması ülkeye giriş yapılabileceği anlamına gelmez. Pasaport polisi yolcuyu ülkeye sokmama yetkisine sahiptir. Böyle bir durumda sorumluluk yolcuya aittir. ",
     ],
   },
-
   // 9 VİETNAM KAMBOÇYA TURU
   {
     mainTitle: "Vietnam Kamboçya Turu",
-    subTitle: ["Thy İle", "7 Gece 9 Gün"],
+    subTitles: ["Thy İle", "7 Gece 9 Gün"],
     tldr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lore maur dolor lorem ipsum dolor sit",
+      "Sıradan bir Uzakdoğu turundan çok uzak, kendi içinde ayrıcalıkları ve güzellikleri olan tam bir doğa harikası Vietnam Kamboçya?",
     dates: "23 Ekim – 20 Kasım – 11 Aralık 2021",
     location:
       "Saigon (Ho Chi Minh) (2) – Siem Reap (2) – Hanoi (2) – Lan Ha Bay / Cruise (1)",
@@ -1631,7 +1623,7 @@ export default [
       },
       {
         title: "8.Gün",
-        subTitle: "HAI PHONG – LAN HA BAY (CRUISE)",
+        subTitle: "HANOI – HAI PHONG – LAN HA BAY (CRUISE)",
         content:
           "Sabah kahvaltısının ardından Hai Phong şehrine geçiyoruz. Limandan konaklama yapacağımız Cruise gemimize tender boat lar ile geçiyoruz. Öğlen gemimiz hareket ettikten sonra çok çeşitli adacıkların ve el değmemiş Ba Trai Dao bölgesinin manzarası eşliğinde öğle yemeğimizi alıyoruz. Yemek sonrası Kim Giao ormanı ile Cat Ba Milli Parkı'nın ortasında bulunan Trung Trang mağarasına otobüsle transfer. Lan Ha Bay körfezinin Tra Bau bölgesinde arzu ederseniz kano kullanabilir yada berrak sularda yüzme keyfinin tadını çıkarabilirsiniz. Turun ardından gemimize dönüyoruz. Akşam yemeğine kadar gün batımını izleyebilir, dinlenebilir yada gemide ki farklı aktivitelere katılabilirsiniz. Akşam yemeği gemide.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
