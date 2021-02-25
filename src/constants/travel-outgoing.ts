@@ -489,16 +489,30 @@ export default [
       "Modern dünyadan uzakta vahşi doğanın ve hayatta kalma mücadelesinin çarpıcı örneklerini deneyimleyeceğiniz muhteşem Güney Afrika turu.",
     dates: "17 Temmuz – 14 Ağustos – 18 Eylül – 16 Ekim 2021",
     location: "Cape Town (4) – Kruger (2) – Johannesburg (1)",
-    // prices: [
-    //   [
-    //     "17 Temmuz – 14 Ağustos – 18 Eylül – 16 Ekim 2021",
-    //     "2-3 kişilik odada kişi başı",
-    //     "Tek kişilik oda farkı",
-    //     "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-    //     "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-    //   ],
-    //   ["4 * Oteller", "€", "€", "€", "€"],
-    // ],
+    hotels: [
+      {
+        location: "Cape Town",
+        name: "4* Kloof Street Hotel vb.",
+      },
+      {
+        location: "Kruger",
+        name: "4* Pestana Kruger Lodge vb.",
+      },
+      {
+        location: "Johannesburg",
+        name: "5* Radisson Blue Sandton Hotel vb.",
+      },
+    ],
+    prices: [
+      [
+        "17 Temmuz – 14 Ağustos – 18 Eylül – 16 Ekim 2021",
+        "2-3 kişilik odada kişi başı",
+        "Tek kişilik oda farkı",
+        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+      ],
+      ["4*-5* Oteller", "2499 USD", "350 USD", "2449 USD", "425 USD"],
+    ],
 
     days: [
       {
@@ -536,17 +550,17 @@ export default [
         title: "4.Gün",
         subTitle: "CAPE TOWN",
         content:
-          "Kahvaltının ardından öğle yemekli Botanik Bahçe turumuzu gerçekleştireceğiz. 1913 yılından bugüne dek ziyarete açık olan 2004 yılında UNESCO tarafından Dünya Miras Listesine alınan, dünyadaki sayılı botanik bahçelerinden biri olan Kirstenbosch Botanik Bahçesi’ni geziyoruz. Öğle yemeğimizi botanik bahçesinin içinde yer alan Güney Afrika’nın lezzetlerini tadacağımız yerel restoranda aldıktan sonra Cape Town’a dönüş ve serbest zaman.",
+          "Otelimizde alacağımız kahvaltının ardından tam gün serbest zaman. Alış veriş, dinlenme ve gezme fırsatı. Arzu eden misafirlerimiz extra olarak düzenlenecek olan Balina Gözlem turumuza turuna katılabilirler. (170 USD) Sabah erken saatte hareket ile Hermanus Kasabasına gidiyoruz. Limandan tekne ile hareket ederek her yıl Haziran ayından Kasım ayına kadar Hermanus kasabasına göç eden yaklaşık 2000 balinayı gözlemleme turumuzu yapıyoruz. Turumuzun ardından tarihi Hermanus kasabasında alacağımız öğle yemeğinin ardından Cape Town’a ve otelimize geri dönüyoruz. Geceleme otelimizde.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
-        lunch: "Botanik Bahçe turunda ücrete dahil olarak alınacaktır.",
+        lunch: "Ekstra Balina Gözlem turunda ücrete dahil olarak alınacaktır.",
         dinner: "Ekstra olarak alınacaktır.",
         currency: "Güney Afrika – Rand",
       },
       {
         title: "5.Gün",
-        subTitle: "CAPE TOWN – HOEDSPRUIT – KRUGER MİLLİ PARKI",
+        subTitle: "CAPE TOWN – JOHANNESBURG– KRUGER MİLLİ PARKI",
         content:
-          "Kahvaltının ardından Hoedspruit’e (Kruger Milli Parkı) gitmek üzere otelimizden ayrılıyor ve Cape Town havalimanına transfer oluyoruz. Yerel havayolları ile yapacağımız uçuşun ardından Hoedspruit’e varıyoruz. Varışımızın ardından gerçek bir safari deneyimi için konaklamamızı yapacağımız lodge odalarımıza yerleşiyoruz. Ardından dinlenmek için serbest zaman. Akşam yemeğimiz otelimizde.",
+          "Kahvaltının ardından Kruger Milli Park’ı na gitmek üzere otelimizden ayrılıyor ve Cape Town havalimanına transfer oluyoruz. Yerel havayolları ile yapacağımız uçuşun ardından Johannesburg’a varıyoruz. Havalimanından ayrılıp yaklaşık 5 saatlik keyifli bir otobüs yolculuğu sonrası Kruger’a varıyoruz. Varışımızın ardından gerçek bir safari deneyimi için konaklamamızı yapacağımız lodge odalarımıza yerleşiyoruz. Ardından dinlenmek için serbest zaman. Akşam yemeğimiz otelimizde.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
         lunch: "Ekstra olarak alınacaktır.",
         dinner: "Otelde ücrete dahil olarak alınacaktır.",
@@ -556,17 +570,17 @@ export default [
         title: "6.Gün",
         subTitle: "KRUGER MİLLİ PARKI",
         content:
-          "Sabah çok erken saatte uyandırma servisi ile güne başlıyoruz. Kahve/çay ve kuru pasta servisinden sonra ilk sabah safarimize çıkıyoruz. Afrika’nın tüm büyük kedileri ve diğer yırtıcıları çoğunlukla gece avlandıkları için, sabah safarileri birçok yırtıcı hayvanı av üzerinde görmek için ideal zamandır. Safariniz deneyimli vahşi yaşam rehberleri eşliğinde yapılacaktır. Safari sonrasında otelimize dönüyor ve kahvaltımızı alıyoruz. Öğlene kadar serbest zaman. Öğleden sonra kahve/çay servisi sonrasında safariye çıkıyor ve gün batımına kadar Afrika savanalarında vahşi yaşama tanıklık ediyoruz. Gün batımında otelimize dönüyoruz. Akşam yemeği otelimizde.",
+          "Gün doğumu ile hareket ederek Kruger Milli Parkında  safari araçları ile yapılacak ve tam gün  sürecek olan safari gezimizde doğal tabiatın içinde unutulmaz anılarla dolu, eşsiz saatler geçirme fırsatına sahip olacağız, Doğal ortamda yaşayan çeşitli vahşi hayvanların günlük yaşantısına konuk olacağız., öğle yemeğimizi de Kruger milli parkının içinde alacağız. Öğle yemeği sonrası safari turumuza devam ederek akşam üzeri otelimize geri döneceğiz. Akşam yemeği ve geceleme otelimizde.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
-        lunch: "Extra olarak alınacaktır.",
+        lunch: "Ücrete dahil olarak alınacaktır.",
         dinner: "Otelde ücrete dahil olarak alınacaktır.",
         currency: "Güney Afrika – Rand",
       },
       {
         title: "7.Gün",
-        subTitle: "KRUGER MİLLİ PARKI – HOEDSPRUIT – JOHANNESBURG",
+        subTitle: "KRUGER MİLLİ PARKI – JOHANNESBURG",
         content:
-          "Sabah kahvaltısı sonrası odaların boşaltılması ile birlikte Hoedspruit havalimanına transferimiz gerçekleşiyor. Yerel havayolları ile yapacağımız uçuş sonrası Johannesburg’a varış. Varışımızın ardından havalimanında ayrılıyor ve panoramik olarak gerçekleştireceğimiz Johanneburg şehir turumuza başlıyoruz. Şehir Merkezi, Houghton-Mandela Evi, Rosebank, Sandton bölgeleri turumuz esnasında göreceğimiz yerler arasındadır. Tur sonrası otelimize transfer ve serbest zaman.",
+          "Sabah kahvaltısı sonrası odaların boşaltılması ile birlikte karayolu ile Johannesburg’a geçiyoruz. Yaklaşık 5 saat sürecek olan keyifli yolculuğumuz sonrası Johannesburg’a varıyoruz. Ardından konaklama yapacağımız otelimize yerleşiyoruz. Dinlenme ve serbest zaman. ",
 
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
         lunch: "Ekstra olarak alınacaktır.",
@@ -577,7 +591,7 @@ export default [
         title: "8.Gün",
         subTitle: "JOHANNESBURG – İSTANBUL",
         content:
-          "Sabah kahvaltısının ardından odaların boşaltılması ve serbest zaman. Rehberimizin belirleyeceği saatte Havalimanı'na transfer. Bilet, bagaj ve pasaport işlemlerinin ardından Türk Hava Yolları’nın TK43 seferi ile saat 18:10'da İstanbul'a hareket.",
+          "Sabah kahvaltısının ardından odaların boşaltılması. Ardından panoramik olarak gerçekleştireceğimiz Johannesburg şehir turumuzda Şehir Merkezi, Houghton-Mandela Evi, Rosebank, Sandton bölgeleri göreceğimiz yerler arasındadır. Şehir turu sonrası rehberimizin belirleyeceği saatte Havalimanı'na transfer. Bilet, bagaj ve pasaport işlemlerinin ardından Türk Hava Yolları’nın TK43 seferi ile saat 18:10'da İstanbul'a hareket.",
 
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
         lunch: "Ekstra olarak alınacaktır.",
@@ -615,7 +629,8 @@ export default [
       "Cape Town’da 4 gece – Johannesburg’da 1 gece oda kahvaltı konaklama",
       "Kruger’da 2 gece lodge larda yarım pansiyon konaklama",
       "Cape Town ve Johannesburg’da panoramik şehir turları ve programda belirtilen tüm çevre gezileri",
-      "Cape Town – Hoedspruit ve Hoedspruit – Johannesburg arası yerel havayolları ile ekonomi sınıf uçuş,",
+      "Johannesburg - Kruger arası yerel havayolları ile ekonomi sınıf uçuş,",
+      "Programda belirtilen 3 adet öğle yemeği ve 2 adet akşam yemeği",
       "Havalimanı – otel – havalimanı transferleri,",
       "Seyahat sağlık sigortası",
       "Yurtdışı çıkış harcı",
