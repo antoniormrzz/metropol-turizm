@@ -74,7 +74,7 @@ export default [
   {
     mainTitle: "Short Way East Anatolia Tour Program",
     subTitles: ["From Cappadocia / To Cappadocia", "4 Days / 3 Nights"],
-    tldr: ["Journey to the land of gods and prophets"],
+    tldr: ["Journey to the land of Gods and Prophets"],
     days: [
       {
         title: "Day 1",
