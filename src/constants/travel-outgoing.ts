@@ -7,23 +7,31 @@ export default [
       "Avrupa’nın sanat başkenti Viyana, Gotik mimarisiyle ön plana çıkan Prag ve savaşın en ağır izlerini taşıyan Varşova ile tarihi bir yolculuğa çıkacaksınız.",
     dates:
       "17,31 Temmuz – 14,28 Ağustos – 11 Eylül – 23 Ekim – 13 Kasım – 27 Aralık 2021",
-    location: "Viyana (1) – Prag (2) – Krakov (2) – Varşova (1)",
-    // prices: [
-    //   [
-    //     "17,31 Temmuz – 14,28 Ağustos – 11 Eylül – 23 Ekim – 13 Kasım – 27 Aralık 2021",
-    //     "2-3 kişilik odada kişi başı",
-    //     "Tek kişilik oda farkı",
-    //     "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-    //     "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-    //   ],
-    //   ["4 * Oteller", "€", "€", "€", "€"],
-    // ],
+    location: "Viyana (1) – Prag (2) – Krakow (2) – Varşova (1)",
+    prices: [
+      [
+        "17,31 Temmuz – 14,28 Ağustos –   13 Kasım – 27 Aralık 2021",
+        "2-3 kişilik odada kişi başı",
+        "Tek kişilik oda farkı",
+        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+      ],
+      ["4 * Oteller", "999€", "1249€", "949€", "150€"],
+      [
+        "17,31 Temmuz – 14,28 Ağustos – 11 Eylül – 23 Ekim – 13 Kasım – 27 Aralık 2021",
+        "2-3 kişilik odada kişi başı",
+        "Tek kişilik oda farkı",
+        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+      ],
+      ["4 * Oteller", "949€", "1199€", "899€", "150€"],
+    ],
     days: [
       {
         title: "1.Gün",
         subTitle: "İSTANBUL – VİYANA",
         content:
-          "İstanbul Havalimanı Dış Hatlar Terminali’nde saat 05:00’te buluşma. Bilet, pasaport ve bagaj işlemlerinin ardından Türk Hava Yolları’nın TK1883 tarifeli seferi ile saat 08:15’te Viyana’ya hareket. Yerel saat ile saat 09:40'ta Viyana’ya varış. Varışımızın ardından panoramik olarak gerçekleştireceğimiz Viyana şehir turumuza başlıyoruz. Turumuz sırasında Opera, Üniversite, Parlemento Binası, Tiyatro, Prater , Holfburg ve Müzeler bölgesi görülecek yerler arasındadır. Turumuzun ardından otelimize transfer ve serbest zaman. ",
+          "İstanbul Havalimanı Dış Hatlar Terminali’nde saat 05:00’te buluşma. Bilet, pasaport ve bagaj işlemlerinin ardından Türk Hava Yolları’nın TK1883 tarifeli seferi ile saat 08:15’te Viyana’ya hareket. Yerel saat ile saat 09:40'ta Viyana’ya varış. Varışımızın ardından panoramik olarak gerçekleştireceğimiz Viyana şehir turumuza başlıyoruz. Turumuz sırasında Opera, Üniversite, Parlamento Binası, Tiyatro, Prater , Hofburg ve Müzeler bölgesi görülecek yerler arasındadır. Turumuzun ardından otelimize transfer ve serbest zaman. ",
         breakfast: "---",
         lunch: " Ekstra olarak alınacaktır.",
         dinner: " Ekstra olarak alınacaktır.",
@@ -33,7 +41,7 @@ export default [
         title: "2.Gün",
         subTitle: "VİYANA – CESKY KRUMLOV – PRAG  ",
         content:
-          "Kahvaltının ardından otelden çıkış işlemlerimizi tamamlayıp Prag’a doğru hareket ediyoruz. Yol üzerinde Cesky Krumlov turumuzu gerçekleştiriyoruz. Cesky Krumlov Çek Cumhuriyeti’nin değerli bir mücevheri olmakla beraber aynı zamanda Unesco tarafından Dünya Mirasları listesinde yer alan bir kasabadır. Komünizmin en koyu dönemlerinde harap duruma gelmiş olan Cesky Kurumlov 1990’lardan itibaren tekrar yeniden doğuşunu yaşamış ve güzelliklerini ziyarete gelen tüm misafirlerine yansıtmıştır. Turumuz sonrası Prag’a doğru yola devam ediyoruz. Prag’a varışımız sonrası panoramik olarak gerçekleştireceğimiz şehir turumuzda Hradcany Kale  Bölgesi, Loretta Kilisesi, Cumhurbaşkanlığı Sarayı, yapımının 600 yıl sürdüğü neo-gotik Rönesans ve Barok özellikleri bünyesinde barınan ST.Vitüs  Katedrali, Simyacılar sokağı, Franz Kafka’nın evi, 13. yüzyılda Baş Mimar Peter Parler tarafından yaptırılan üzerinde 31 Aziz Heykelinin bulunduğu Charles Köprüsü, eski şehir meydanı, 15. yüzyılda inşa edilen üzerinde 12 Havari bulunan tarihi Astronomik saat kulesi ve TYN Kilisesi görülecek yerler arasındadır. Tur sonrası otelimize transfer ve serbest zaman.",
+          "Kahvaltının ardından otelden çıkış işlemlerimizi tamamlayıp Prag’a doğru hareket ediyoruz. Yol üzerinde Cesky Krumlov turumuzu gerçekleştiriyoruz. Cesky Krumlov Çek Cumhuriyeti’nin değerli bir mücevheri olmakla beraber aynı zamanda Unesco tarafından Dünya Mirasları listesinde yer alan bir kasabadır. Komünizmin en koyu dönemlerinde harap duruma gelmiş olan Cesky Kurumlov 1990’lardan itibaren tekrar yeniden doğuşunu yaşamış ve güzelliklerini ziyarete gelen tüm misafirlerine yansıtmıştır. Turumuz sonrası Prag’a doğru yola devam ediyoruz. Prag’a varışımız sonrası panoramik olarak gerçekleştireceğimiz şehir turumuzda Hradcany Kale  Bölgesi, Loretta Kilisesi, Cumhurbaşkanlığı Sarayı, yapımının 600 yıl sürdüğü neo-gotik Rönesans ve Barok özellikleri bünyesinde barınan St.Vitüs  Katedrali, Simyacılar sokağı, Franz Kafka’nın evi, 13. yüzyılda Baş Mimar Peter Parler tarafından yaptırılan üzerinde 31 Aziz Heykelinin bulunduğu Charles Köprüsü, eski şehir meydanı, 15. yüzyılda inşa edilen üzerinde 12 Havari bulunan tarihi Astronomik saat kulesi ve TYN Kilisesi görülecek yerler arasındadır. Tur sonrası otelimize transfer ve serbest zaman.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
         lunch: " Ekstra olarak alınacaktır.",
         dinner: " Ekstra olarak alınacaktır.",
@@ -43,7 +51,7 @@ export default [
         title: "3.Gün",
         subTitle: "PRAG – KARLOVY VARY – PRAG ",
         content:
-          "Sabah erken saatte alacağımız kahvaltının ardından Kalovy Vary turumuzu gerçekleştirmek için otelimizden hareket ediyoruz. 17. ve 18. Yüzyılda Avrupa sosyetesinin ve devlet adamlarının uğrak şehri olan Karlovy Vary’nin eşsiz tabiatı içinde, yan yana inşa edilmiş onlarca muhteşem sarayı, Atatürk’ün 1918 de kaldığı oteli, Dvorak`ın, Mozart`ın, Göethe`nin, Beethoven`ın, Rus Çarı Büyük Petro’nun ve Puşkin`in evlerini gördükten sonra 12 farklı suyun çıktığı termal galerileri ziyaret edeceğiz. Turumuz sonrası yerel bir restorant’da öğle yemeğimizi alıyoruz. Yemek sonrası serbest zamanınızda kristal, porselen, granat, kehribar taşlarının ve diğer geleneksel Çek hediyelik eşyalarının satıldığı mağazalarda geçirebilirsiniz. Serbest zaman sonrası rehberinizin bilgilendireceği saatte Prag’a dönüyoruz. Akşam serbest zaman",
+          "Erken saatte alacağımız kahvaltının ardından Karlovy Vary turumuzu gerçekleştirmek için otelimizden hareket ediyoruz. 17. ve 18. Yüzyılda Avrupa sosyetesinin ve devlet adamlarının uğrak şehri olan Karlovy Vary’nin eşsiz tabiatı içinde, yan yana inşa edilmiş onlarca muhteşem sarayı, Atatürk’ün 1918 de kaldığı oteli, Dvorak`ın, Mozart`ın, Göethe`nin, Beethoven`ın, Rus Çarı Büyük Petro’nun ve Puşkin`in evlerini gördükten sonra 12 farklı suyun çıktığı termal galerileri ziyaret edeceğiz. Turumuz sonrası yerel bir restorant’da öğle yemeğimizi alıyoruz. Yemek sonrası serbest zamanınızda kristal, porselen, granat, kehribar taşlarının ve diğer geleneksel Çek hediyelik eşyalarının satıldığı mağazalarda geçirebilirsiniz. Serbest zaman sonrası rehberinizin bilgilendireceği saatte Prag’a dönüyoruz. Akşam serbest zaman",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
         lunch: "Karlovy Vary turunda ücrete dahil olarak alınacaktır.",
         dinner: "Ekstra olarak alınacaktır.",
@@ -51,9 +59,9 @@ export default [
       },
       {
         title: "4.Gün",
-        subTitle: "PRAG - KRAKOV",
+        subTitle: "PRAG - KRAKOW",
         content:
-          "Kahvaltının ardından otelden çıkış işlemlerimi tamamlayıp Krakov’a doğru yola çıkıyoruz. Akşam saatlerinde varışımız sonrası Oscar ödülü almış olan Schindler’s List ve The Pianist’e ev sahipliği yapan Krakov’da yapacağımız panoramik şehir turumuzda Rynek Glowny, Belediye Kulesi, St Mary Bazilikası, Sukiennice Meydanı, Wawel Kalesi, Kumaş Borsası, Sti Florian’s Kapısı ve Florianska Caddesi, Kanonicza Caddesi görülecek yerler arasındadır. Tur sonrası otelimize transfer ve serbest zaman.",
+          "Kahvaltının ardından otelden çıkış işlemlerimi tamamlayıp Krakow’a doğru yola çıkıyoruz. Akşam saatlerinde varışımız sonrası Oscar ödülü almış olan Schindler’s List ve The Pianist’e ev sahipliği yapan Krakow’da yapacağımız panoramik şehir turumuzda Rynek Glowny, Belediye Kulesi, St.Mary Bazilikası, Sukiennice Meydanı, Wawel Kalesi, Kumaş Borsası, Sti Florian’s Kapısı ve Florianska Caddesi, Kanonicza Caddesi görülecek yerler arasındadır. Tur sonrası otelimize transfer ve serbest zaman.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
         lunch: " Ekstra olarak alınacaktır.",
         dinner: "Ekstra olarak alınacaktır.",
@@ -62,9 +70,9 @@ export default [
       {
         title: "5.Gün",
         subTitle:
-          " KRAKOV – AUSCHWITZ BIRKENAU TOPLAMA KAMPI – WIELICZKA TUZ MADENİ",
+          "KRAKOW – AUSCHWITZ BIRKENAU TOPLAMA KAMPI – WIELICZKA TUZ MADENİ",
         content:
-          "Kahvaltının ardından otelimizden hareketle ilk olarak 2.Dünya Savaşı döneminde kurulmuş 1,5 milyon insanın işkenceye maruz Kaldığı ve katlediği dönemin en büyük toplama kampı Auschwitz Birkenau’ya hareket ediyoruz.  Ardından UNESCO Dünya Mirası Listesi’nde bulunan yeraltındaki tuz krallığı Vieliczka Tuz Madeni’ni ziyaret edeceğiz. Öğle yemeğimizi yerel bir restoranda serbest olarak aldıktan sonra rehberimizin belirleyeceği saatte hareket edip Krakov’a transferimizi gerçekleştireceğiz. Varışımız sonrası serbest zaman.",
+          "Kahvaltının ardından otelimizden hareketle ilk olarak 2.Dünya Savaşı döneminde kurulmuş 1,5 milyon insanın işkenceye maruz kaldığı ve katlediği dönemin en büyük toplama kampı Auschwitz Birkenau’ya hareket ediyoruz.  Ardından UNESCO Dünya Mirası Listesi’nde bulunan yeraltındaki tuz krallığı Vieliczka Tuz Madeni’ni ziyaret edeceğiz. Öğle yemeğimizi yerel bir restoranda serbest olarak aldıktan sonra rehberimizin belirleyeceği saatte hareket edip Krakow’a transferimizi gerçekleştireceğiz. Varışımız sonrası serbest zaman.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
         lunch: " Ekstra olarak alınacaktır.",
         dinner: "Ekstra olarak alınacaktır.",
@@ -72,7 +80,7 @@ export default [
       },
       {
         title: "6.Gün",
-        subTitle: "KRAKOV – VARŞOVA",
+        subTitle: "KRAKOW – VARŞOVA",
         content:
           "Kahvaltının ardından Varşova’ya doğru yola çıkıyoruz. Keyifli bir yolculuğun ardından varışımıza istinaden panoramik olarak gerçekleştireceğimiz Varşova şehir turumuzda Kale meydanı, Barbakan Kapısı, İsimsiz Asker Anıt Mezarı, Varşova Kraliyet Sarayı, Eski şehir, Opera Binası gezeceğimiz yerler arasındadır. Şehir turumuz sonrası otelimize transfer ve serbest zaman.",
         breakfast: "Otelde ücrete dahil olarak alınacaktır.",
@@ -93,23 +101,23 @@ export default [
         airline: "THY",
         airport_1: "İstanbul",
         airport_2: "Viyana",
-        time_1: "08:15",
-        time_2: "09:40",
+        time_1: "08:50",
+        time_2: "09:10",
       },
       row2: {
         flight_no: "TK 1766",
         airline: "THY",
         airport_1: "Varşova",
         airport_2: "İstanbul",
-        time_1: "19:10",
-        time_2: "22:45",
+        time_1: "18:50",
+        time_2: "23:20",
       },
     },
     includes: [
       "THY ile İstanbul – Viyana / Varşova – İstanbul arası ekonomi sınıfı uçuş,",
       "Havalimanı vergileri,",
-      "Viyana’da 1 gece – Prag’da 2 gece – Krakov’da 2 gece ve Varşova’da 1 gece olmak üzere toplam 6 gece oda + kahvaltı konaklama",
-      "Viyana, Prag ve Krakov’da yapılacak panoramik şehir turları,",
+      "Viyana’da 1 gece – Prag’da 2 gece – Krakow’da 2 gece ve Varşova’da 1 gece olmak üzere toplam 6 gece oda + kahvaltı konaklama",
+      "Viyana, Prag ve Krakow’da yapılacak panoramik şehir turları,",
       "Havalimanı – otel – havalimanı transferleri,",
       "Tüm şehirlerarası transferler,",
       "Otel vergileri,",
