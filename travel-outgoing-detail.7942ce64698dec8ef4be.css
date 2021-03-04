@@ -924,6 +924,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -2202,9 +2206,9 @@ h1,h2,h3,h4,h5{
           box-shadow:20px 20px 80px rgba(0,0,0,0.1)
 }
 
-.bg-dmc{
+.bg-travel{
   height:510px;
-  background-image:url(assets/img/1a07b0f891fb9a477183218d99a1d43e.png)
+  background-image:url(assets/img/b041fd600ec082e29a0da391559cfb6a.png)
 }
 
 .tour-detail{
@@ -2303,13 +2307,18 @@ h1,h2,h3,h4,h5{
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb{
-    background:#2A2664;
+    background:#FFCD0F;
     border-radius:10px
   }
 
   #left-scroll-div::-webkit-scrollbar-thumb:hover{
-    background:#201d4d;
+    background:#e2b708;
     width:15px
   }
+}
+
+.airline_img{
+  width:110px;
+  margin:auto
 }
 
