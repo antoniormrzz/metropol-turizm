@@ -18,13 +18,25 @@ export default [
       ],
       ["4 * Oteller", "999€", "1249€", "949€", "150€"],
       [
-        "17,31 Temmuz – 14,28 Ağustos – 11 Eylül – 23 Ekim – 13 Kasım – 27 Aralık 2021",
+        "11 Eylül – 23 Ekim 2021",
         "2-3 kişilik odada kişi başı",
         "Tek kişilik oda farkı",
         "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
         "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
       ],
       ["4 * Oteller", "949€", "1199€", "899€", "150€"],
+    ],
+    flight_details: [
+      [
+        "13 Kasım uçuş detayları aşağıdaki gibidir;",
+        "İstanbul – Viyana TK1883 – 08:50  – 09:10 Gidiş",
+        "Varşova – İstanbul TK1766 – 19:30 – 23:55 Dönüş",
+      ],
+      [
+        "27 Aralık uçuş detayları aşağıdaki gibidir;",
+        "İstanbul – Viyana TK1883 – 08:50  – 09:10 Gidiş",
+        "Varşova – İstanbul TK1766 – 18:50 – 23:20 Dönüş",
+      ],
     ],
     days: [
       {
@@ -101,16 +113,16 @@ export default [
         airline: "THY",
         airport_1: "İstanbul",
         airport_2: "Viyana",
-        time_1: "08:50",
-        time_2: "09:10",
+        time_1: "08:15",
+        time_2: "09:40",
       },
       row2: {
         flight_no: "TK 1766",
         airline: "THY",
         airport_1: "Varşova",
         airport_2: "İstanbul",
-        time_1: "18:50",
-        time_2: "23:20",
+        time_1: "19:10",
+        time_2: "22:45",
       },
     },
     includes: [
@@ -998,9 +1010,11 @@ export default [
       },
     },
     flight_details: [
-      "10,24 Kasım – 15,29 Aralık uçuş detayları aşağıdaki gibidir;",
-      "İstanbul – Lizbon TK1755 – 08:15  – 10:20 Gidiş",
-      "Porto – İstanbul TK1450 – 11:00 – 18:40 Dönüş ",
+      [
+        "10,24 Kasım – 15,29 Aralık uçuş detayları aşağıdaki gibidir;",
+        "İstanbul – Lizbon TK1755 – 08:15  – 10:20 Gidiş",
+        "Porto – İstanbul TK1450 – 11:00 – 18:40 Dönüş ",
+      ],
     ],
     includes: [
       "THY ile İstanbul – Lizbon / Porto – İstanbul arası ekonomi sınıfı uçuş",

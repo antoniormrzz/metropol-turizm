@@ -115,7 +115,9 @@
           </div>
 
           <div v-if="selectedTour.hotels">
-            <h4 class="font-bold text-travelYellow uppercase mt-4 mb-2">OTELLER</h4>
+            <h4 class="font-bold text-travelYellow uppercase mt-4 mb-2">
+              OTELLER
+            </h4>
             <ul>
               <li class="flex" v-for="(hotel,index) in selectedTour.hotels">
                 <span class="md:w-44">{{ hotel.location }}</span>
@@ -128,9 +130,16 @@
             <h4 class="font-bold text-travelYellow uppercase mt-4 mb-2">
               UÇUŞ DETAYLARI
             </h4>
-            <ul>
-              <li v-for="(detail,index) in selectedTour.flight_details" class>
-                {{ detail }}
+            <ul
+              v-for="(detail,index) in selectedTour.flight_details"
+              :key="index"
+            >
+              <li
+                v-for="(dtl, i) in detail"
+                :key="dtl"
+                :class="{'font-bold': i === 0, 'mt-3': i === 0}"
+              >
+                {{ dtl }}
               </li>
             </ul>
           </div>
@@ -145,7 +154,7 @@
                 :key="index"
                 :class="{'font-bold': index % 2 === 0, 'bg-gray-100': index % 2 === 0}"
               >
-                <td v-for="(prc, index) in price" :key="index">
+                <td v-for="(prc, indx) in price" :key="indx">
                   {{ prc }}
                 </td>
               </tr>
