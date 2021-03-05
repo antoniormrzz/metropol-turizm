@@ -144,22 +144,25 @@
             </ul>
           </div>
 
-          <table
-            v-if="selectedTour.prices"
-            class="table-fixed border-table text-center w-full mt-10 mb-4"
-          >
-            <tbody>
-              <tr
-                v-for="(price, index) in selectedTour.prices"
-                :key="index"
-                :class="{'font-bold': index % 2 === 0, 'bg-gray-100': index % 2 === 0}"
-              >
-                <td v-for="(prc, indx) in price" :key="indx">
-                  {{ prc }}
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <template v-if="selectedTour.prices" class="mt-10">
+            <table
+              v-for="(priceObject, index) in selectedTour.prices"
+              class="table-fixed border-table text-center w-full mt-6 mb-4"
+            >
+              <tbody>
+                <tr class="bg-gray-100 font-bold">
+                  <td v-for="(title, indx) in priceObject.titles" :key="indx">
+                    {{ title }}
+                  </td>
+                </tr>
+                <tr>
+                  <td v-for="(prc, ind) in priceObject.prices" :key="ind">
+                    {{ prc }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </template>
 
           <div v-if="selectedTour.flight_infos" class="overflow-x-auto">
             <h4 class="font-bold text-travelYellow uppercase mt-4">

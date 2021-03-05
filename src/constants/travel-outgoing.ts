@@ -9,22 +9,26 @@ export default [
       "17,31 Temmuz – 14,28 Ağustos – 11 Eylül – 23 Ekim – 13 Kasım – 27 Aralık 2021",
     location: "Viyana (1) – Prag (2) – Krakow (2) – Varşova (1)",
     prices: [
-      [
-        "17,31 Temmuz – 14,28 Ağustos –   13 Kasım – 27 Aralık 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "999€", "1249€", "949€", "150€"],
-      [
-        "11 Eylül – 23 Ekim 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "949€", "1199€", "899€", "150€"],
+      {
+        titles: [
+          "17,31 Temmuz – 14,28 Ağustos –   13 Kasım – 27 Aralık 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "999€", "1249€", "949€", "150€"],
+      },
+      {
+        titles: [
+          "11 Eylül – 23 Ekim 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "949€", "1199€", "899€", "150€"],
+      },
     ],
     flight_details: [
       [
@@ -179,14 +183,16 @@ export default [
     dates: "14 Haziran – 19 Temmuz – 16 Ağustos 2021",
     location: "Tallinn (2) – Riga (2) – Vilnius (1)",
     prices: [
-      [
-        "14 Haziran – 19 Temmuz – 16 Ağustos 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "899 €", "250 €", "849 €", "200 €"],
+      {
+        titles: [
+          "14 Haziran – 19 Temmuz – 16 Ağustos 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "899 €", "250 €", "849 €", "200 €"],
+      },
     ],
     hotels: [
       {
@@ -333,14 +339,16 @@ export default [
     location:
       "Kazablanka (1) – Fes (2) – Erfoud (1) – Ouarzazate (1) – Marakeş (2)",
     prices: [
-      [
-        "16 Ekim – 13 Kasım – 26 Aralık 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "1369 USD", "250 USD", "1319 USD", "250 USD"],
+      {
+        titles: [
+          "16 Ekim – 13 Kasım – 26 Aralık 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "1369 USD", "250 USD", "1319 USD", "250 USD"],
+      },
     ],
     hotels: [
       {
@@ -524,14 +532,16 @@ export default [
       },
     ],
     prices: [
-      [
-        "17 Temmuz – 14 Ağustos – 18 Eylül – 16 Ekim 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4*-5* Oteller", "2499 USD", "350 USD", "2449 USD", "425 USD"],
+      {
+        titles: [
+          "17 Temmuz – 14 Ağustos – 18 Eylül – 16 Ekim 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4*-5* Oteller", "2499 USD", "350 USD", "2449 USD", "425 USD"],
+      },
     ],
 
     days: [
@@ -721,30 +731,54 @@ export default [
       "16 Temmuz – 06,20 Ağustos – 17 Eylül – 08,22 Ekim – 12,26 Kasım – 10,26 Aralık 2021",
     location: "Bangkok (2) – Chiang Rai (2) – Chiang Mai (3)",
     prices: [
-      [
-        "16 Temmuz – 06,20 Ağustos – 17 Eylül – 08,22 Ekim 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * - 5 * Oteller", "2649 USD", "550 USD", "2599 USD", "450 USD"],
-      [
-        "12,26 Kasım – 10 Aralık 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * - 5 * Oteller", "2699 USD", "550 USD", "2649 USD", "450 USD"],
-      [
-        "26 Aralık 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * - 5 * Oteller", "2749 USD", "550 USD", "2699 USD", "450 USD"],
+      {
+        titles: [
+          "16 Temmuz – 06,20 Ağustos – 17 Eylül – 08,22 Ekim 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: [
+          "4 * - 5 * Oteller",
+          "2649 USD",
+          "550 USD",
+          "2599 USD",
+          "450 USD",
+        ],
+      },
+      {
+        titles: [
+          "12,26 Kasım – 10 Aralık 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: [
+          "4 * - 5 * Oteller",
+          "2699 USD",
+          "550 USD",
+          "2649 USD",
+          "450 USD",
+        ],
+      },
+      {
+        titles: [
+          "26 Aralık 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: [
+          "4 * - 5 * Oteller",
+          "2749 USD",
+          "550 USD",
+          "2699 USD",
+          "450 USD",
+        ],
+      },
     ],
     hotels: [
       {
@@ -918,22 +952,26 @@ export default [
       "20 Temmuz – 11,25 Ağustos – 15 Eylül – 13,27 Ekim – 10,24 Kasım – 15,29 Aralık 2021",
     location: "Lizbon (2) – Porto (2)",
     prices: [
-      [
-        "20 Temmuz – 11,25 Ağustos – 10,24 Kasım – 15 Aralık 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "799 €", "250 €", "749 €", "250 €"],
-      [
-        "15 Eylül – 13,27 Ekim –29 Aralık 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "809 €", "250 €", "759 €", "250 €"],
+      {
+        titles: [
+          "20 Temmuz – 11,25 Ağustos – 10,24 Kasım – 15 Aralık 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "799 €", "250 €", "749 €", "250 €"],
+      },
+      {
+        titles: [
+          "15 Eylül – 13,27 Ekim –29 Aralık 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "809 €", "250 €", "759 €", "250 €"],
+      },
     ],
 
     days: [
@@ -1068,42 +1106,50 @@ export default [
     subTitles: ["Thy İle", "Vizesiz", "6 Gece 8 Gün"],
     tldr:
       "Hint Okyanusu’nda görkemli Budist tapınakları, muhteşem çay tarlaları ve doğal yaşantısı ile halen çözülememiş sırları barındıran mistik bir ülke Sri Lanka.",
-    dates: "16 Temmuz – 06,20 Ağustos – 17 Eylül – 08,22 Ekim – 19 Kasım 2021",
+    dates: "16 Temmuz – 07,20 Ağustos – 17 Eylül – 08,22 Ekim – 20 Kasım 2021",
     location:
       "Negombo (1) – Dambulla (2) – Kandy – Nuwara Eliya (1) – Yala (1) – Galle – Beruwala (1) – Kolombo ",
     prices: [
-      [
-        "17 Eylül – 22 Ekim 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "1849 USD", "300 USD", "1799 USD", "250 USD"],
-      [
-        "20 Kasım 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "1899 USD", "300 USD", "1849 USD", "250 USD"],
-      [
-        "16 Temmuz – 20 Ağustos – 08 Ekim 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "1949 USD", "300 USD", "1899 USD", "250 USD"],
-      [
-        "07 Ağustos 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "1999 USD", "300 USD", "1949 USD", "250 USD"],
+      {
+        titles: [
+          "17 Eylül – 22 Ekim 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "1849 USD", "300 USD", "1799 USD", "250 USD"],
+      },
+      {
+        titles: [
+          "20 Kasım 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "1899 USD", "300 USD", "1849 USD", "250 USD"],
+      },
+      {
+        titles: [
+          "16 Temmuz – 20 Ağustos – 08 Ekim 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "1949 USD", "300 USD", "1899 USD", "250 USD"],
+      },
+      {
+        titles: [
+          "07 Ağustos 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "1999 USD", "300 USD", "1949 USD", "250 USD"],
+      },
     ],
 
     days: [
@@ -1272,14 +1318,16 @@ export default [
       "17 Temmuz – 07,21 Ağustos – 18 Eylül – 09,23 Ekim – 06,20 Kasım – 26 Aralık 2021",
     location: "Lviv (2) – Rivne – Kiev (3) – Çernobil – Odessa (2)",
     prices: [
-      [
-        "17 Temmuz – 07,21 Ağustos – 18 Eylül – 09,23 Ekim – 06,20 Kasım – 26 Aralık 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "799 €", "200 €", "749 €", "150 €"],
+      {
+        titles: [
+          "17 Temmuz – 07,21 Ağustos – 18 Eylül – 09,23 Ekim – 06,20 Kasım – 26 Aralık 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "799 €", "200 €", "749 €", "150 €"],
+      },
     ],
 
     days: [
@@ -1441,14 +1489,16 @@ export default [
     location:
       "Akabe (1) – Bedevi Kampı (1) – Petra (1) – Ölü Deniz (1) – Amman (1)",
     prices: [
-      [
-        "20 Temmuz – 26 Ağustos – 22 Eylül – 13,27 Ekim – 29 Aralık 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4*-5* Otel", "1349 USD", "250 USD", "1299 USD", "150 USD"],
+      {
+        titles: [
+          "20 Temmuz – 26 Ağustos – 22 Eylül – 13,27 Ekim – 29 Aralık 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4*-5* Otel", "1349 USD", "250 USD", "1299 USD", "150 USD"],
+      },
     ],
 
     days: [
@@ -1581,14 +1631,16 @@ export default [
     location:
       "Saigon (Ho Chi Minh) (2) – Siem Reap (2) – Hanoi (2) – Lan Ha Bay / Cruise (1)",
     prices: [
-      [
-        "23 Ekim – 20 Kasım – 11 Aralık 2021",
-        "2-3 kişilik odada kişi başı",
-        "Tek kişilik oda farkı",
-        "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-      ],
-      ["4 * Oteller", "2549 USD", "350 USD", "2499 USD", "450 USD"],
+      {
+        titles: [
+          "23 Ekim – 20 Kasım – 11 Aralık 2021",
+          "2-3 kişilik odada kişi başı",
+          "Tek kişilik oda farkı",
+          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
+          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
+        ],
+        prices: ["4 * Oteller", "2549 USD", "350 USD", "2499 USD", "450 USD"],
+      },
     ],
 
     days: [
