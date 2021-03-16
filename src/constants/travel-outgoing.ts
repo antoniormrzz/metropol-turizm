@@ -1497,7 +1497,7 @@ export default [
           "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
           "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
         ],
-        prices: ["4*-5* Otel", "1349 USD", "250 USD", "1299 USD", "150 USD"],
+        prices: ["4*-5* Otel", "1449 USD", "250 USD", "1399 USD", "150 USD"],
       },
     ],
 
