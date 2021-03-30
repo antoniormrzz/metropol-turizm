@@ -954,23 +954,13 @@ export default [
     prices: [
       {
         titles: [
-          "20 Temmuz – 11,25 Ağustos – 10,24 Kasım – 15 Aralık 2021",
+          "20 Temmuz – 11,25 Ağustos – 15 Eylül – 13,27 Ekim – 10,24 Kasım – 15,29 Aralık 2021",
           "2-3 kişilik odada kişi başı",
           "Tek kişilik oda farkı",
           "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
           "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
         ],
-        prices: ["4 * Oteller", "799 €", "250 €", "749 €", "250 €"],
-      },
-      {
-        titles: [
-          "15 Eylül – 13,27 Ekim –29 Aralık 2021",
-          "2-3 kişilik odada kişi başı",
-          "Tek kişilik oda farkı",
-          "2-11,99 yaş çocuk (2 yetişkin ile aynı odada)",
-          "0-1,99 yaş çocuk (2 yetişkin ile aynı odada)",
-        ],
-        prices: ["4 * Oteller", "809 €", "250 €", "759 €", "250 €"],
+        prices: ["4 * Oteller", "899 €", "300 €", "849 €", "250 €"],
       },
     ],
 
