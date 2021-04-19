@@ -91,40 +91,40 @@ export default [
         dates: ["2 – 5 Eylül 2021", "9 – 12 Eylül 2021"],
       },
     ],
-    hotel_prices: [
-      {
-        title: "4 * Royal Inn Hotel ",
-        subtitles: ["Şehir Merkezi"],
-        link: "www.royalinn.rs",
-        double_room_price: "449 €",
-        single_room_price: "50 €",
-      },
-      {
-        title: "5* Hyatt Regency Belgrad ",
-        subtitles: ["Şehir Merkezine 2,5 Km"],
-        hotel_link: "www.hyatt.com/en-US/hotel/serbia/hyatt-regency-belgrade",
-        double_room_price: "499 €",
-        single_room_price: "60 €",
-      },
-    ],
-    flight_infos: {
-      row1: {
-        flight_no: "TK 1081",
-        airline: "THY",
-        airport_1: "İSTANBUL (IST)",
-        airport_2: "BELGRAD (BEG)",
-        time_1: "08.20",
-        time_2: "08.00",
-      },
-      row2: {
-        flight_no: "TK 1084",
-        airline: "THY",
-        airport_1: "BELGRAD (BEG)",
-        airport_2: "İSTANBUL (IST)",
-        time_1: "20.20",
-        time_2: "00.05 +1",
-      },
-    },
+    // hotel_prices: [
+    //   {
+    //     title: "4 * Royal Inn Hotel ",
+    //     subtitles: ["Şehir Merkezi"],
+    //     link: "www.royalinn.rs",
+    //     double_room_price: "449 €",
+    //     single_room_price: "50 €",
+    //   },
+    //   {
+    //     title: "5* Hyatt Regency Belgrad ",
+    //     subtitles: ["Şehir Merkezine 2,5 Km"],
+    //     hotel_link: "www.hyatt.com/en-US/hotel/serbia/hyatt-regency-belgrade",
+    //     double_room_price: "499 €",
+    //     single_room_price: "60 €",
+    //   },
+    // ],
+    // flight_infos: {
+    //   row1: {
+    //     flight_no: "TK 1081",
+    //     airline: "THY",
+    //     airport_1: "İSTANBUL (IST)",
+    //     airport_2: "BELGRAD (BEG)",
+    //     time_1: "08.20",
+    //     time_2: "08.00",
+    //   },
+    //   row2: {
+    //     flight_no: "TK 1084",
+    //     airline: "THY",
+    //     airport_1: "BELGRAD (BEG)",
+    //     airport_2: "İSTANBUL (IST)",
+    //     time_1: "20.20",
+    //     time_2: "00.05 +1",
+    //   },
+    // },
   },
   // 1 budva
   {
@@ -214,40 +214,40 @@ export default [
         dates: ["2 – 5 Eylül 2021", "9 – 12 Eylül 2021"],
       },
     ],
-    hotel_prices: [
-      {
-        title: "4 * Hotel Budva",
-        subtitles: ["Şehir Merkezi", "Plaja 50 m"],
-        link: "www.hotel-budva.me",
-        double_room_price: "549 €",
-        single_room_price: "90 €",
-      },
-      {
-        title: "5 * Hyatt Regency Belgrad ",
-        subtitles: ["Şehir Merkezine 1,4 Km", "Plaja 300 m"],
-        hotel_link: "www.slavijabudvahotel.com",
-        double_room_price: "579 €",
-        single_room_price: "100 €",
-      },
-    ],
-    flight_infos: {
-      row1: {
-        flight_no: "TK 1085",
-        airline: "THY",
-        airport_1: "İSTANBUL (IST)",
-        airport_2: "PODGORICA (TGD)",
-        time_1: "08.00",
-        time_2: "08.50",
-      },
-      row2: {
-        flight_no: "TK 1084",
-        airline: "THY",
-        airport_1: "PODGORICA (TGD)",
-        airport_2: "İSTANBUL (IST)",
-        time_1: "20.30",
-        time_2: "23.20",
-      },
-    },
+    // hotel_prices: [
+    //   {
+    //     title: "4 * Hotel Budva",
+    //     subtitles: ["Şehir Merkezi", "Plaja 50 m"],
+    //     link: "www.hotel-budva.me",
+    //     double_room_price: "549 €",
+    //     single_room_price: "90 €",
+    //   },
+    //   {
+    //     title: "5 * Hyatt Regency Belgrad ",
+    //     subtitles: ["Şehir Merkezine 1,4 Km", "Plaja 300 m"],
+    //     hotel_link: "www.slavijabudvahotel.com",
+    //     double_room_price: "579 €",
+    //     single_room_price: "100 €",
+    //   },
+    // ],
+    // flight_infos: {
+    //   row1: {
+    //     flight_no: "TK 1085",
+    //     airline: "THY",
+    //     airport_1: "İSTANBUL (IST)",
+    //     airport_2: "PODGORICA (TGD)",
+    //     time_1: "08.00",
+    //     time_2: "08.50",
+    //   },
+    //   row2: {
+    //     flight_no: "TK 1084",
+    //     airline: "THY",
+    //     airport_1: "PODGORICA (TGD)",
+    //     airport_2: "İSTANBUL (IST)",
+    //     time_1: "20.30",
+    //     time_2: "23.20",
+    //   },
+    // },
   },
   // 2 Saraybosna
 
@@ -339,40 +339,40 @@ export default [
         dates: ["2 – 5 Eylül 2021", "9 – 12 Eylül 2021"],
       },
     ],
-    hotel_prices: [
-      {
-        title: "4 * Hotel Hollywood",
-        subtitles: [],
-        link: "www.hotel-hollywood.ba",
-        double_room_price: "469 €",
-        single_room_price: "90 €",
-      },
-      {
-        title: "5 * Malak Regency Hotel",
-        subtitles: [],
-        hotel_link: "www.malakregency.com/ba",
-        double_room_price: "499 €",
-        single_room_price: "100 €",
-      },
-    ],
-    flight_infos: {
-      row1: {
-        flight_no: "TK 1021",
-        airline: "THY",
-        airport_1: "İSTANBUL (IST)",
-        airport_2: "SARAYBOSNA (SJJ)",
-        time_1: "07.05",
-        time_2: "08.10",
-      },
-      row2: {
-        flight_no: "TK 1024",
-        airline: "THY",
-        airport_1: "SARAYBOSNA (SJJ)",
-        airport_2: "İSTANBUL (IST)",
-        time_1: "14.15",
-        time_2: "17.10",
-      },
-    },
+    // hotel_prices: [
+    //   {
+    //     title: "4 * Hotel Hollywood",
+    //     subtitles: [],
+    //     link: "www.hotel-hollywood.ba",
+    //     double_room_price: "469 €",
+    //     single_room_price: "90 €",
+    //   },
+    //   {
+    //     title: "5 * Malak Regency Hotel",
+    //     subtitles: [],
+    //     hotel_link: "www.malakregency.com/ba",
+    //     double_room_price: "499 €",
+    //     single_room_price: "100 €",
+    //   },
+    // ],
+    // flight_infos: {
+    //   row1: {
+    //     flight_no: "TK 1021",
+    //     airline: "THY",
+    //     airport_1: "İSTANBUL (IST)",
+    //     airport_2: "SARAYBOSNA (SJJ)",
+    //     time_1: "07.05",
+    //     time_2: "08.10",
+    //   },
+    //   row2: {
+    //     flight_no: "TK 1024",
+    //     airline: "THY",
+    //     airport_1: "SARAYBOSNA (SJJ)",
+    //     airport_2: "İSTANBUL (IST)",
+    //     time_1: "14.15",
+    //     time_2: "17.10",
+    //   },
+    // },
   },
   // 3 uçaklı baştanbaşa balkanlar
   {
@@ -431,24 +431,24 @@ export default [
           "Sabah otelimizde alınacak kahvaltı sonrası otelimizden ayrılıyoruz ve Belgrad turumuza başlıyoruz. Panoramik Belgrad şehir turumuz sırasında Kale Meydanı, Askeri Müze, İstanbul Kapı, Saat Kulesi, Damat Ali Paşa Türbesi, Zindan Kapı, Leopoldov Kapı, Sokullu Mehmet Paşa Çeşmesi, Stefan Lazerevic Anıtı, Nebojsa Kulesi, Saborna Kilisesi, Cumhuriyet Meydanı, Terazi Meydanı ve Taş Meydan görülecek yerler arasındadır.  Kale içini surları, anıtları, Damat Ali Paşa türbesini, Sokullu çeşmesini ve diğer Osmanlı izlerini takip edip Tuna ve Sava’nın birleştiği noktadaki kente veda ediyoruz. Öğle yemeğini yerel bir restoranda alıyoruz. Turumuzun bitimi ile transfer saatimize bağlı olarak özel otobüslerimizle Belgrad havalimanına transfer. Bilet, bagaj ve pasaport işlemlerinin ardından, Türk Havayolları’nın TK 1084 sefer sayılı uçağı ile saat 20.20’de İstanbul’a hareket. Yerel saat ile 23.10’da varış ve turumuzun sonu.",
       },
     ],
-    flight_infos: {
-      row1: {
-        flight_no: "PC 351",
-        airline: "PEGASUS",
-        airport_1: "İSTANBUL (SAW)",
-        airport_2: "ÜSKÜP (SKP)",
-        time_1: "10.20",
-        time_2: "10.55",
-      },
-      row2: {
-        flight_no: "PC 374",
-        airline: "PEGASUS",
-        airport_1: "BELGRAD (BEG)",
-        airport_2: "İSTANBUL (SAW)",
-        time_1: "16.35",
-        time_2: "19.20",
-      },
-    },
+    // flight_infos: {
+    //   row1: {
+    //     flight_no: "PC 351",
+    //     airline: "PEGASUS",
+    //     airport_1: "İSTANBUL (SAW)",
+    //     airport_2: "ÜSKÜP (SKP)",
+    //     time_1: "10.20",
+    //     time_2: "10.55",
+    //   },
+    //   row2: {
+    //     flight_no: "PC 374",
+    //     airline: "PEGASUS",
+    //     airport_1: "BELGRAD (BEG)",
+    //     airport_2: "İSTANBUL (SAW)",
+    //     time_1: "16.35",
+    //     time_2: "19.20",
+    //   },
+    // },
     months: [
       {
         title: "Haziran",
@@ -464,15 +464,15 @@ export default [
       },
       { title: "Eylül", dates: ["6 – 13 Eylül 2021"] },
     ],
-    hotel_prices: [
-      {
-        title: "4*- 5* Oteller",
-        subtitles: [],
-        link: "",
-        double_room_price: "669 €",
-        single_room_price: "120 €",
-      },
-    ],
+    // hotel_prices: [
+    //   {
+    //     title: "4*- 5* Oteller",
+    //     subtitles: [],
+    //     link: "",
+    //     double_room_price: "669 €",
+    //     single_room_price: "120 €",
+    //   },
+    // ],
 
     covid_preventions: [
       "Tur boyunca kullanılacak olan araçlarımız günde 2 kez dezenfekte edilmektedir.",
